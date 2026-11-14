@@ -11,7 +11,7 @@ on:
         description: "propose, poll o mensual"
         default: "propose"
 concurrency: { group: brando-bot, cancel-in-progress: false }
-permissions: { contents: write }
+permissions: { contents: write, actions: write }
 jobs:
   agentes:
     runs-on: ubuntu-latest
@@ -40,3 +40,12 @@ jobs:
           git config user.name "brando-bot"; git config user.email "bot@users.noreply.github.com"
           git add content data/state.json
           git diff --cached --quiet || (git commit -m "Agentes: columna/estado" && git pull --rebase && git push)
+      - name: Encadenar el siguiente turno (escucha continua de 6 a. m. a 10 p. m.)
+        if: always() && (steps.modo.outputs.m == 'poll' || steps.modo.outputs.m == 'propose')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          h=$(TZ=America/Bogota date +%H)
+          if [ "$h" -ge 6 ] && [ "$h" -lt 22 ]; then
+            gh api -X POST repos/${{ github.repository }}/actions/workflows/agentes.yml/dispatches -f ref=main -f 'inputs[modo]=poll' || true
+          fi

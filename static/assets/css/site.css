@@ -95,13 +95,14 @@ a{color:inherit}
 /* ---------------- HERO (inicio) ---------------- */
 .hero{background:var(--black);color:#fff;min-height:100svh;padding-top:var(--nav);position:relative;overflow:hidden;display:grid}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:end;gap:0;min-height:calc(100svh - var(--nav))}
-.hero-copy{padding:clamp(40px,6vw,90px) 0 clamp(48px,7vw,96px);position:relative;z-index:2}
-.hero h1{margin:0;font-weight:900;font-stretch:125%;font-size:clamp(64px,10.4vw,176px);line-height:.84;letter-spacing:-.055em;text-transform:uppercase}
+.hero-copy{padding:clamp(40px,6vw,90px) 0 clamp(48px,7vw,96px);position:relative;z-index:2;min-width:0}
+/* El apellido (8 letras ≈ 5.6em de ancho) nunca debe superar el ancho disponible */
+.hero h1{margin:0;font-weight:900;font-stretch:125%;font-size:min(clamp(64px,10.4vw,176px),calc((100vw - 2*var(--gut)) / 6));line-height:.84;letter-spacing:-.055em;text-transform:uppercase}
 .hero h1 .ln{display:block;overflow:hidden;padding-bottom:.04em}
 .hero h1 .ln span{display:inline-block}
 .hero h1 .red{color:var(--red)}
 .hero .role{font-size:clamp(26px,3vw,44px);font-weight:800;font-stretch:108%;letter-spacing:-.015em;line-height:1.05;margin:30px 0 16px;max-width:18ch}
-.hero .sub{color:rgba(255,255,255,.72);font-size:clamp(17px,1.4vw,19px);max-width:46ch;margin:0 0 30px}
+.hero .sub{overflow-wrap:break-word;color:rgba(255,255,255,.72);font-size:clamp(17px,1.4vw,19px);max-width:46ch;margin:0 0 30px}
 .hero-photo{position:relative;height:100%;min-height:520px;align-self:stretch;margin-right:calc(-1 * var(--gut));cursor:none}
 .hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%}
 .hero-photo .bw{filter:grayscale(1) contrast(1.15) brightness(.82)}
@@ -114,7 +115,7 @@ a{color:inherit}
 .scroll-cue i::after{content:"";position:absolute;left:0;top:-28px;width:1px;height:28px;background:var(--red);animation:cue 1.8s var(--ease-io) infinite}
 @keyframes cue{to{top:28px}}
 @media (max-width:900px){
-  .hero-grid{grid-template-columns:1fr;align-items:start}
+  .hero-grid{grid-template-columns:minmax(0,1fr);align-items:start}
   .hero-photo{order:-1;min-height:58svh;margin:0 calc(-1 * var(--gut));cursor:auto}
   .hero-photo::after{background:linear-gradient(0deg,var(--black) 0%,rgba(10,10,10,0) 45%)}
   .hero-copy{margin-top:-120px;padding-top:0}

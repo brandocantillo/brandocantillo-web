@@ -89,6 +89,10 @@ def fecha(iso):
     d = datetime.fromisoformat(iso[:10]); return f"{d.day} de {MESES[d.month-1]} de {d.year}"
 
 # ---------------------------------------------------------------- plantillas
+import hashlib
+# Versión de CSS/JS: cambia cuando cambian los archivos, así los navegadores no usan copias viejas
+ASSET_V = hashlib.md5(b"".join((ROOT / "static/assets" / f).read_bytes() for f in ("css/site.css", "js/site.js"))).hexdigest()[:8]
+
 def render(tpl, **kw):
     s = TPL[tpl]
     for _ in range(2):  # permite parciales dentro de parciales
@@ -96,6 +100,7 @@ def render(tpl, **kw):
     from urllib.parse import quote as _q
     kw.setdefault("wa", f'https://wa.me/{CFG["whatsapp"]}?text=' + _q("Hola Brando, vengo de tu página web y quiero hablar contigo."))
     kw.setdefault("year", datetime.now().year)
+    kw.setdefault("v", ASSET_V)
     def rep(m):
         k = m.group(1)
         if k in kw: return str(kw[k])

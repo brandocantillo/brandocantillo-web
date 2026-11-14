@@ -37,27 +37,34 @@ def claude(prompt, system="", model="rapido", max_tokens=2000, web_search=0, tem
     for i in range(retries):
         try:
             res = json.loads(http("https://api.anthropic.com/v1/messages", json.dumps(body).encode(), headers, timeout=600))
-            break
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="ignore")[:500]
             if e.code in (429, 500, 502, 503, 529) and i < retries - 1:
                 log(f"Claude {e.code}, reintento…"); time.sleep(10 * (i + 1)); continue
             raise RuntimeError(f"Claude API {e.code}: {msg}")
-    u = res.get("usage", {})
-    COSTO["in"] += u.get("input_tokens", 0); COSTO["out"] += u.get("output_tokens", 0)
-    COSTO["searches"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)
-    text, sources = [], {}
-    for b in res.get("content", []):
-        if b.get("type") == "text": text.append(b["text"])
-        if b.get("type") == "web_search_tool_result" and isinstance(b.get("content"), list):
-            for r in b["content"]:
-                if r.get("url"): sources[r["url"]] = r.get("title", r["url"])
-    return "".join(text).strip(), [{"url": k, "title": v} for k, v in sources.items()]
+        u = res.get("usage", {})
+        COSTO["in"] += u.get("input_tokens", 0); COSTO["out"] += u.get("output_tokens", 0)
+        COSTO["searches"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)
+        text, sources = [], {}
+        for b in res.get("content", []):
+            if b.get("type") == "text": text.append(b["text"])
+            if b.get("type") == "web_search_tool_result" and isinstance(b.get("content"), list):
+                for r in b["content"]:
+                    if r.get("url"): sources[r["url"]] = r.get("title", r["url"])
+        out = "".join(text).strip()
+        if out: return out, [{"url": k, "title": v} for k, v in sources.items()]
+        # Respuesta vacía: registra el motivo y reintenta con más margen
+        log(f"Claude respondió vacío (modelo={body['model']}, stop_reason={res.get('stop_reason')}, "
+            f"bloques={[b.get('type') for b in res.get('content', [])]}), reintento {i + 1}/{retries}")
+        body["max_tokens"] = min(body["max_tokens"] * 2, 16000)
+        body["model"] = CFG["modelos"]["escritor"]  # si el modelo rápido falla, usa el escritor
+        time.sleep(3)
+    raise RuntimeError(f"Claude no devolvió texto tras {retries} intentos (stop_reason={res.get('stop_reason')}).")
 
 def as_json(text):
     """Extrae el primer objeto/lista JSON de una respuesta."""
     m = re.search(r"```(?:json)?\s*(.*?)```", text, re.S)
-    if m: text = m.group(1)
+    if m and m.group(1).strip(): text = m.group(1)
     start = min([i for i in (text.find("{"), text.find("[")) if i >= 0], default=-1)
     if start < 0: raise ValueError("La respuesta no trae JSON:\n" + text[:400])
     return json.JSONDecoder().raw_decode(text[start:])[0]

@@ -21,7 +21,11 @@ ICONOS = {"marketing-politico": "🗳", "comunicacion-politica": "🏛", "marca-
 
 def propose(state, pista="", solo=None):
     send("📡 Revisando noticias, tendencias y búsquedas de hoy…")
-    temas = equipo.curador(radar.noticias(), pista=pista, solo=solo)
+    try:
+        temas = equipo.curador(radar.noticias(), pista=pista, solo=solo)
+    except Exception as e:
+        send(f"⚠️ No pude preparar los temas esta vez ({esc(str(e)[:300])}). Lo intento de nuevo en el próximo turno; también puedes escribir /temas.")
+        raise
     state["proposal"] = {"temas": temas, "ts": time.time()}
     lineas, botones = ["<b>Temas propuestos para hoy</b>\n"], []
     for i, t in enumerate(temas):

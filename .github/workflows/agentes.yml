@@ -1,0 +1,42 @@
+name: Agentes Brando Cantillo
+on:
+  schedule:
+    - cron: "0 11 * * *"        # 6:00 a. m. Colombia: propuestas del día
+    - cron: "*/10 11-23 * * *"  # cada 10 min, 6 a. m. a 6:59 p. m.: revisar Telegram
+    - cron: "*/20 0-3 * * *"    # cada 20 min, 7 p. m. a 10:59 p. m.: revisar Telegram
+    - cron: "0 13 25 * *"       # día 25: columnas para medios regionales
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "propose, poll o mensual"
+        default: "propose"
+concurrency: { group: brando-bot, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  agentes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Elegir tarea
+        id: modo
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 11 * * *")  echo "m=propose" >> $GITHUB_OUTPUT ;;
+            "0 13 25 * *") echo "m=mensual" >> $GITHUB_OUTPUT ;;
+            "") echo "m=${{ github.event.inputs.modo || 'propose' }}" >> $GITHUB_OUTPUT ;;
+            *) echo "m=poll" >> $GITHUB_OUTPUT ;;
+          esac
+      - name: Ejecutar agentes
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m agents.bot ${{ steps.modo.outputs.m }}
+      - name: Guardar columnas y estado
+        run: |
+          git config user.name "brando-bot"; git config user.email "bot@users.noreply.github.com"
+          git add content data/state.json
+          git diff --cached --quiet || (git commit -m "Agentes: columna/estado" && git pull --rebase && git push)

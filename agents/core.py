@@ -26,11 +26,13 @@ COSTO = {"in": 0, "out": 0, "searches": 0}
 
 def claude(prompt, system="", model="rapido", max_tokens=2000, web_search=0, temperature=None, retries=3):
     """Llama a Claude. Devuelve (texto, fuentes[]). web_search = nº máx. de búsquedas permitidas."""
-    body = {"model": CFG["modelos"].get(model, model), "max_tokens": max_tokens,
+    # Los modelos 5.x piensan antes de responder y ese razonamiento consume max_tokens:
+    # damos margen amplio (solo se cobra lo que realmente se usa).
+    body = {"model": CFG["modelos"].get(model, model), "max_tokens": min(max(max_tokens * 4, 12000), 32000),
             "messages": [{"role": "user", "content": prompt}]}
     if system:  # cache del system prompt (la guía de voz se repite en cada llamada → más barato)
         body["system"] = [{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}]
-    if temperature is not None: body["temperature"] = temperature
+    # temperature se ignora: no es compatible con el razonamiento de los modelos 5.x
     if web_search:
         body["tools"] = [{"type": CFG["web_search_tool"], "name": "web_search", "max_uses": web_search}]
     headers = {"x-api-key": env("ANTHROPIC_API_KEY"), "anthropic-version": "2023-06-01", "content-type": "application/json"}
@@ -52,11 +54,11 @@ def claude(prompt, system="", model="rapido", max_tokens=2000, web_search=0, tem
                 for r in b["content"]:
                     if r.get("url"): sources[r["url"]] = r.get("title", r["url"])
         out = "".join(text).strip()
-        if out: return out, [{"url": k, "title": v} for k, v in sources.items()]
+        if out and res.get("stop_reason") != "max_tokens": return out, [{"url": k, "title": v} for k, v in sources.items()]
         # Respuesta vacía: registra el motivo y reintenta con más margen
-        log(f"Claude respondió vacío (modelo={body['model']}, stop_reason={res.get('stop_reason')}, "
+        log(f"Respuesta vacía o cortada (modelo={body['model']}, stop_reason={res.get('stop_reason')}, "
             f"bloques={[b.get('type') for b in res.get('content', [])]}), reintento {i + 1}/{retries}")
-        body["max_tokens"] = min(body["max_tokens"] * 2, 16000)
+        body["max_tokens"] = min(body["max_tokens"] * 2, 32000)
         body["model"] = CFG["modelos"]["escritor"]  # si el modelo rápido falla, usa el escritor
         time.sleep(3)
     raise RuntimeError(f"Claude no devolvió texto tras {retries} intentos (stop_reason={res.get('stop_reason')}).")

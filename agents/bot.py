@@ -68,14 +68,15 @@ def publicar(state):
     p = state["pending"]; meta = p["meta"]
     dest = ROOT / "content/posts" / f"{meta['date'][:10]}-{meta['slug']}.md"
     dest.write_text(_archivo(meta, p["body"]), encoding="utf-8")
+    state.setdefault("history", []).insert(0, meta["title"]); state["history"] = state["history"][:100]
+    state["pending"] = None; state["published"] = True; save_state(state)
     subprocess.run([sys.executable, str(ROOT / "build.py")], check=True, cwd=ROOT)
     if os.environ.get("GIT_PUSH") == "1":  # modo PC/servidor; en GitHub Actions el workflow hace el commit
         subprocess.run(["git", "add", "content", "data/state.json"], cwd=ROOT)
         subprocess.run(["git", "commit", "-m", f"Columna: {meta['title']}"], cwd=ROOT)
+        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=ROOT)
         subprocess.run(["git", "push"], cwd=ROOT)
     url = f"{SITE['url']}/columnas/{meta['slug']}/"
-    state.setdefault("history", []).insert(0, meta["title"]); state["history"] = state["history"][:100]
-    state["pending"] = None; state["published"] = True; save_state(state)
     send(f"✅ Publicada. En 1-3 minutos estará en línea:\n{url}\n\nPreparando piezas para redes…")
     try:
         d = equipo.distribuidor(meta, p["body"])

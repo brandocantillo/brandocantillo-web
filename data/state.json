@@ -1,6 +1,70 @@
 {
  "offset": 0,
- "proposal": null,
+ "proposal": {
+  "temas": [
+   {
+    "categoria": "marketing-politico",
+    "tipo_seo": "newsjacking",
+    "titulo": "Reed Latino 2026: qué hace que una consultora de campañas gane un premio internacional",
+    "angulo": "Los premios internacionales de comunicación política muestran qué criterios valoran hoy: resultados medibles, estrategia integral y coherencia del mensaje, no solo creatividad.",
+    "por_que_hoy": "La agencia Elemental Comunicación Estratégica ganó Mejor Agencia de Publicidad Política en los Reed Latino 2026, y una agencia poblana sumó dos reconocimientos en la misma edición. Hay interés de actualidad sobre quién está detrás de las campañas premiadas.",
+    "keyword": "consultor de campañas",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxMSkZSSFFGTjcta2ZHWW05V1ZhdnRacjBZZW5kQ2FpNXdhT2Y3LVh4WF8xTlVWQjB4LURKOHpLU2o3dm5LNXBnMXVITnpQRk9YNVhweTBWUmRkSlQwUE5MTHZsaV82WXl2LWVtZVB3MGh5YVY0WjR1QVdJLXBUczNzUFUtblBiQ09iRzl0NHNyZU9vRVdrUUFWa0IxMTgxWGRGNTN2a25BdWxwVm9KZ21zZG8wWFpBQnFTSjRBaGhuM2k0Nm1VcU9WX1J4d01SVGZiTHhMaXhEeDc?oc=5",
+     "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVGQzRFZmR2Vhd2hvNi1MYkJaTEhTY0NCYWZZSWY5TDN1VExGR0VyZWdlSmM4ZGI3dXpuWjI5RFg2cHBqVDZNREsxaVFPLTFwdWdzTEtvMUpVd1hVUDdWU0ZvcEMxOWpSYnBSTnhQTlRGbWRjVmxoR05LTnhGMGozV0FnTEYtZmc4NmYzbmhzdjlyZjBwcU04R2UydUMxWXRGcHFlZU04a2ZBX2IyWklWbmxqRElmRnNWaU83WjN2RHpGbjVCcndNQ1YyRdIB5gFBVV95cUxNX2VQRnlnLWEzQ05aM0w3TENMLXBfYVluVDVLeDNLbG5uRXNyYlU2dlU0RUxBd2gzNmJQT29VN0h5ZFhjNkpoN2JTb1VGTHI4Y1pfa1FVSzc3SGhNaUU0ZEF6YnJGdUtuNFlMQ3FGdWt0Wm1RV0tQUkplTmpEei1WMXJGRnhLN2VReXdoUzJTSHpReWFXcE5YbHFaaVBySk9mNUpqVl9GdTZ4YjZJVnFKbUxva1labDg3RjNCSFdlNldBLVl6YWo4ZVM1bXVnZHVFWTRybnJwbFczT244cjdEZFRjaWJyQQ?oc=5"
+    ]
+   },
+   {
+    "categoria": "marketing-politico",
+    "tipo_seo": "evergreen",
+    "titulo": "Estratega político en Colombia: qué hace, qué cobra y cómo saber si lo necesitas",
+    "angulo": "Un estratega político no es un diseñador ni un pauteador: es quien traduce el diagnóstico electoral en una ruta de decisiones, mensajes y canales. Explicar sus funciones reales ayuda a candidatos y equipos a contratar mejor.",
+    "por_que_hoy": "Con el calendario electoral territorial 2027 ya fijado y el auge de la campaña en España y América Latina, crece la búsqueda de quién planea una campaña antes de que empiece la carrera.",
+    "keyword": "estratega político en Colombia",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxQZWFlYWNhazlMdGpfeVFLMEo1MVdsQzBaV2J3ZEVMb0ExRDYtMXYtaUIzbFFnZ1hNUkIxSW1yV2RpSnJkdjlXbmRNUmFPcDJubUhQazNUZ3V4bXhTekhiUHJPN1lhTHVDQ3lTcDZ4eTNUeVU0UGZ0cW5fUVFfTzNLYmtVSnYtYm9wclFTdWpJUWVjVi04S0pVVmI2VEJrdw?oc=5",
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVN4M2VseXN5MDJUNmtqbGJsVFFlVVFDR1NuSUUzLW1qUTlVcWlSTmVVa3V3Snp5VWRESmtCSE82MERScjJrSUVFTFZtUlZGS2RoaTVXRE9wME11XzRsbHFWYzl1MTVrTmptbUxZelZYUFJnb193ZldsN0N5eTdFbnRTRHFhQXVkckdud0FDaVlLenZkUVFNbXVBY1AweUdPQjl3SHBpdnZOcHVZWEZadmhVUWhBVFp2R3ZQZQ?oc=5"
+    ]
+   },
+   {
+    "categoria": "marketing-politico",
+    "tipo_seo": "evergreen",
+    "titulo": "Marketing político en el Cesar: plan de campaña para alcaldía, concejo o gobernación 2027",
+    "angulo": "Una campaña territorial gana o pierde en el diagnóstico local: mapa de votantes, liderazgos barriales y calendario de activación. Guía práctica para candidatos del Cesar antes de la inscripción.",
+    "por_que_hoy": "La Registraduría fijó el calendario de las elecciones territoriales 2027 y medios regionales ya publican fechas y puestos de votación. Quien aspire en el Cesar necesita planear con antelación.",
+    "keyword": "marketing político en el Cesar",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxQZWFlYWNhazlMdGpfeVFLMEo1MVdsQzBaV2J3ZEVMb0ExRDYtMXYtaUIzbFFnZ1hNUkIxSW1yV2RpSnJkdjlXbmRNUmFPcDJubUhQazNUZ3V4bXhTekhiUHJPN1lhTHVDQ3lTcDZ4eTNUeVU0UGZ0cW5fUVFfTzNLYmtVSnYtYm9wclFTdWpJUWVjVi04S0pVVmI2VEJrdw?oc=5",
+     "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZUlWYWZxUWh3V3dHT0M0MldzM3ZCRXEzWlBSRjQyUEMxUjhXWjc4WUNhQ3N3UllPaTJldlNvN19kckFLQks2YV94M084ZlZpcm9pOXhySWxlUEZ4eURiSVlmTTR1NWxQWWVwcmxXVEJlYlVmYlAwSUpMSEo4bHIxRlgxc203Y2hTYm9qd29iaTdVTUNZcU40UkN3VE9nMlE1blBNaVlVdUwwT0VOY2c?oc=5"
+    ]
+   },
+   {
+    "categoria": "comunicacion-politica",
+    "tipo_seo": "newsjacking",
+    "titulo": "Del mitin al late night: por qué la política ya compite por atención, no solo por votos",
+    "angulo": "El 'politainment' no es frivolidad por sí mismo: es un cambio de canal que obliga a los equipos a decidir cuándo entretener, cuándo informar y cuándo explicar un programa de gobierno.",
+    "por_que_hoy": "Artículos recientes sobre el auge del politainment, los mítines que ya no bastan y la primera campaña sin publicidad política pagada en Meta y Google (29N, España) ponen el tema en la agenda.",
+    "keyword": "comunicación política en Colombia",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1RyTzFfSThxRDZaanBmZXJNcng0YUFsTW1scGJQWjVsT3FDdW5iRmF5b0lLTVBEMlVzd0xGSW5PVERuMGFRRDFkbEtRR0QwUDZnSVVNSUJzWVB4dUJCTFg1RFdjenNaSGdmZzlwbHRVSW5ZY1A2OERjRlEyUVdMUE1TcWtuMDdHMlhvMWlLamJXZHhsVThUX1J5eHYtMmJZM2RsaDdUaVA2bHB3amtwejlOTll6dF9B?oc=5",
+     "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2RzQXZ3WEo4WHFkaXFGN01vb01XNzVyZjVJUEhJQVo2ZktodGZZQTdKZEg5Z2pxMWV0M3NweHFIM3h6MFNfT2F1NEwzcWlodWRJRzVqdlVZbEZiWWhTTXlBSHVyckxXN1lOaXpjMHNkUkJFQVJxX0c1UVFqeDF0OXdRQVNjOVZ0ZjgzZ3NDS3ZUaWRaVC1JVGRiTnI2ZWhfalNiOFdrN1lYS3BBQy0tcXZNTQ?oc=5"
+    ]
+   },
+   {
+    "categoria": "ia-para-emprendedores",
+    "tipo_seo": "newsjacking",
+    "titulo": "Automatizar con IA desde US$1.000: cómo decide un emprendedor si le conviene",
+    "angulo": "Antes de contratar una herramienta o un proyecto de IA, el emprendedor debe medir el proceso que quiere automatizar, el retorno esperado y el costo de mantenerla. Un marco simple para decidir sin depender del vendedor.",
+    "por_que_hoy": "Medios de Latinoamérica y España publican precios de automatización con IA para pymes y ofertas de capacitación gratuita para comerciantes, lo que dispara la pregunta de cuánto cuesta y si vale la pena.",
+    "keyword": "inteligencia artificial para emprendedores",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMiggFBVV95cUxORExCMHJRSGVTbHl4RW9QZUVNbjRZdDREckJLUFQzM01vc0I3d19JUFVUUElTWHkxSVFibFBMS1pEUkozV3BUWDdjdDlVYnVNZWs3TGpTXzJxX043aFpHWUNBamo3b0l2QlA5YlMyaGZDcW9DS2I0LUs2XzJJMmtEZHh3?oc=5",
+     "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTTBPbFhnaDh0UFg2emEzOTFzN21hRi1yenRXSjlnRG84ckZfNGEwcVpBcm9hT2NCN3dTcTYydURSZmlxMEdlUWltVzRBQnNYUFBtNjJfb0luWDZLUEg1M3NXcHJmYzdrRjlpWjdiUTJNUHNXLU5hVUdqeVppcWtVVS0xUFdOMnh0YXUzbzdmMm95UkVTSnJYa0wzSnB6UXNocGxCNmNyRWEyb2UtUDhUREgtTEw5bWJxVzk2X1ZkUGVpRV9qR2pqbGpSVjhYQnlMQjg5WUtRTHN4bERocVRZajkyaGp3SFJW0gH8AUFVX3lxTE85WWswTEtOUXlNQlZCMUNBSWUycHpjQ2lxQ3NtdFlvZ2toZ0lHZ3ZsbDFSZXJQRzA5ZTB5eGdRVkRkYTU5NGl0UzUzTEdLVllIR0puZUU4U2t2OHplUW0wdkhfRkFKbFlNX2NaaUVfZWJqdWRtQ1BBbk4wSnQyQ3VOR3dGVXJLaFBzVTB2RThmWC11UEY0a3RsNmZ1VWRpQjRBS0hiNmd1NENJb3ZKUURYc195WlAzcXRiX1pYUDNEWUtBVnRiQlFXbEgzY1FOQWpQX0k2YnF0SC1sRVVSQ2FYYWJIQnVhSDRid253ZGZNeWpjZWx2LWVGRUdvUg?oc=5"
+    ]
+   }
+  ],
+  "ts": 1794688605.106334
+ },
  "pending": null,
  "history": [],
  "published": false

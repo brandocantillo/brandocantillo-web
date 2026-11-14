@@ -197,13 +197,22 @@ def handle_updates(state, timeout=0):
             on_text(state, u["message"]["text"])
     return len(updates)
 
+def escuchar(state, minutos):
+    """Escucha Telegram en vivo (long polling) durante unos minutos: respuestas casi instantáneas."""
+    fin = time.time() + minutos * 60
+    while time.time() < fin:
+        try: handle_updates(state, timeout=int(max(1, min(50, fin - time.time()))))
+        except Exception as e: log("Error escuchando:", e); time.sleep(5)
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "poll"
     state = load_state(); state["published"] = False
-    if cmd == "propose": propose(state)
+    if cmd == "propose":
+        propose(state)
+        escuchar(state, float(os.environ.get("MINUTOS_TRAS_PROPONER", 20)))
     elif cmd == "mensual": mensual(state)
     elif cmd == "poll":
-        while handle_updates(state): pass
+        escuchar(state, float(os.environ.get("MINUTOS_ESCUCHA", 9)))
     elif cmd == "loop":
         log("Bot encendido. Ctrl+C para detener.")
         while True:

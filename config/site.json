@@ -1,0 +1,57 @@
+{
+  "_nota": "Cambia todo lo que diga CAMBIAR. Esto alimenta la web, el SEO y los agentes.",
+  "name": "Brando Cantillo",
+  "url": "https://brandocantillo.com",
+  "locale": "es_CO",
+  "lang": "es-CO",
+  "title": "Brando Cantillo | Estratega político en Colombia y consultor de campañas",
+  "description": "Estratega político en Colombia y consultor de campañas con 10 años de experiencia: marketing político en el Cesar y el país, del concejo al Senado. Abogado y especialista en IA.",
+  "job_title": "Estratega político y consultor de campañas",
+  "short_bio": "Estratega político con 10 años en campañas en Colombia, abogado especialista en derechos de autor y nuevas tecnologías, y experto en IA y automatizaciones.",
+  "city": "Valledupar",
+  "region": "Cesar",
+  "country": "CO",
+  "email": "contacto@brandocantillo.com",
+  "whatsapp": "573175766901",
+  "form_endpoint": "",
+  "social": {
+    "x": "",
+    "instagram": "",
+    "linkedin": "",
+    "tiktok": "",
+    "youtube": ""
+  },
+  "knows_about": [
+    "Marketing político",
+    "Estrategia electoral",
+    "Comunicación política",
+    "Marca personal",
+    "Comunidades digitales",
+    "Formatos de contenido",
+    "Derechos de autor",
+    "Derecho de las nuevas tecnologías",
+    "Inteligencia artificial",
+    "Automatizaciones"
+  ],
+  "categories": {
+    "marketing-politico": {
+      "name": "Marketing político",
+      "description": "Estrategia electoral, posicionamiento de candidatos, campañas digitales y casos que funcionan en Colombia y el mundo."
+    },
+    "comunicacion-politica": {
+      "name": "Comunicación política",
+      "description": "Cómo comunican los gobiernos y líderes del mundo, y qué puede aplicar Colombia: narrativa, discurso, crisis y reputación."
+    },
+    "marca-personal": {
+      "name": "Marca personal y comunidades",
+      "description": "Formatos de contenido, creadores e influenciadores: cómo construir una comunidad digital desde cero."
+    },
+    "ia-para-emprendedores": {
+      "name": "IA para emprendedores",
+      "description": "Guía aplicada para usar inteligencia artificial y marketing en tu emprendimiento, con pasos concretos."
+    }
+  },
+  "google_site_verification": "",
+  "ga4_id": "",
+  "indexnow_key": "1686ca3839d7b930296fd87ba0ee5adb"
+}

@@ -1,0 +1,16 @@
+{{head}}
+<body>
+{{> _nav}}
+<main id="main">
+  <section class="page-head" data-dark>
+    <div class="wrap">
+      <h1>{{h1}}</h1>
+      <p class="lead">{{sub}}</p>
+      <nav class="filters" aria-label="Categorías">{{filters}}</nav>
+    </div>
+  </section>
+  <section class="wrap" style="padding:24px 0 120px">
+    <ul class="post-list">{{rows}}</ul>
+  </section>
+</main>
+{{> _footer}}

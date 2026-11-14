@@ -1,0 +1,39 @@
+{{head}}
+<body>
+{{> _nav}}
+<div class="progress" aria-hidden="true"></div>
+<main id="main">
+  <article>
+    <header class="article-head wrap">
+      <nav class="crumbs" aria-label="Ruta"><a href="/">Inicio</a><span aria-hidden="true">/</span><a href="{{cat_url}}">{{cat_name}}</a></nav>
+      <h1>{{title}}</h1>
+      <p class="dek">{{dek}}</p>
+      <div class="byline">
+        <img src="/assets/img/brando-cantillo-columnista-640.webp" alt="Brando Cantillo" width="48" height="48">
+        <div><strong>Brando Cantillo</strong><time datetime="{{date_iso}}">{{date}}</time> · {{minutes}} min de lectura</div>
+      </div>
+    </header>
+    <div class="article-layout wrap">
+      <aside class="toc" aria-label="En esta columna"><p>En esta columna</p><ol>{{toc}}</ol></aside>
+      <div>
+        <div class="prose">
+{{body}}
+{{faq}}
+{{sources}}
+        </div>
+        {{share}}
+        <div class="author-box">
+          <img src="/assets/img/brando-cantillo-columnista-640.webp" alt="Retrato de Brando Cantillo" width="96" height="96" loading="lazy">
+          <div><strong>Brando Cantillo</strong><p>{{cfg.short_bio}} <a href="/#contacto">Escríbele</a>.</p></div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <section class="sec on-paper">
+    <div class="wrap">
+      <h2 class="h2" style="font-size:clamp(36px,5vw,64px)">Más columnas</h2>
+      <ul class="post-list">{{related}}</ul>
+    </div>
+  </section>
+</main>
+{{> _footer}}

@@ -1,0 +1,58 @@
+{
+  "_nota": "Modelos: Haiku hace el trabajo mecánico (barato); Sonnet investiga y escribe (calidad). Cambia los IDs si Anthropic publica versiones nuevas.",
+  "modelos": {
+    "rapido": "claude-haiku-5-5",
+    "escritor": "claude-sonnet-5-5"
+  },
+  "web_search_tool": "web_search_20250305",
+  "busquedas_max_por_columna": 6,
+  "palabras_objetivo": 1800,
+  "palabras_minimas": 1600,
+  "temas_politica_por_dia": 3,
+  "temas_ia_por_dia": 2,
+  "zona_horaria": "America/Bogota",
+  "hora_publicacion": "07:00",
+  "mezcla_semanal": {
+    "_nota": "Columnas por semana de cada clúster (fase inicial).",
+    "marketing-politico": 3,
+    "comunicacion-politica": 2,
+    "marca-personal": 1,
+    "ia-para-emprendedores": 1
+  },
+  "citas_externas_minimas": 4,
+  "enlaces_internos_minimos": 3,
+  "paginas_pilar": {
+    "marketing-politico": [
+      "/",
+      "/#casos",
+      "/columnas/marketing-politico/"
+    ],
+    "comunicacion-politica": [
+      "/",
+      "/#trayectoria",
+      "/columnas/comunicacion-politica/"
+    ],
+    "marca-personal": [
+      "/marketing/",
+      "/marketing/#metodo",
+      "/columnas/marca-personal/"
+    ],
+    "ia-para-emprendedores": [
+      "/#ayuda",
+      "/columnas/ia-para-emprendedores/"
+    ]
+  },
+  "keywords_objetivo": [
+    "estratega político en Colombia",
+    "consultor de campañas",
+    "marketing político en el Cesar"
+  ],
+  "fase_inicial": {
+    "_nota": "Mientras haya menos de este número de columnas publicadas, el Curador concentra al menos 2 temas diarios en las keywords objetivo.",
+    "columnas": 20
+  },
+  "medios_regionales": [
+    "El Pilón",
+    "El Heraldo"
+  ]
+}

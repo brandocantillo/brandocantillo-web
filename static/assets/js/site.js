@@ -129,3 +129,12 @@
     });
   });
 })();
+
+/* Medición: cada clic en WhatsApp o correo cuenta como contacto (lead) en Google Analytics */
+document.addEventListener('click', e => {
+  const a = e.target.closest && e.target.closest('a[href]');
+  if (!a || typeof window.gtag !== 'function') return;
+  const h = a.getAttribute('href');
+  const metodo = /wa\.me|whatsapp/.test(h) ? 'whatsapp' : h.startsWith('mailto:') ? 'email' : null;
+  if (metodo) window.gtag('event', 'generate_lead', { method: metodo, link_text: (a.textContent || '').trim().slice(0, 60), page_path: location.pathname });
+}, { capture: true });

@@ -1,5 +1,5 @@
 {
- "offset": 851881580,
+ "offset": 851881581,
  "proposal": {
   "temas": [
    {
@@ -60,11 +60,25 @@
   ],
   "ts": 1794742278.8319032
  },
- "pending": null,
+ "pending": {
+  "topic": {
+   "categoria": "marketing-politico",
+   "tipo_seo": "newsjacking",
+   "titulo": "Sin pauta en Meta ni Google: cómo redistribuir el presupuesto digital de una campaña",
+   "angulo": "Cuando una plataforma cierra la publicidad política, la ventaja pasa a quien ya tiene comunidad, contenido orgánico y alianzas con medios, y el presupuesto debe moverse en consecuencia.",
+   "por_que_hoy": "La campaña del 29N arranca como la primera sin publicidad política en Meta y Google, un hecho que obliga a repensar la estrategia digital de cualquier candidato.",
+   "keyword": "consultor de campañas",
+   "fuentes": [
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2RzQXZ3WEo4WHFkaXFGN01vb01XNzVyZjVJUEhJQVo2ZktodGZZQTdKZEg5Z2pxMWV0M3NweHFIM3h6MFNfT2F1NEwzcWlodWRJRzVqdlVZbEZiWWhTTXlBSHVyckxXN1lOaXpjMHNkUkJFQVJxX0c1UVFqeDF0OXdRQVNjOVZ0ZjgzZ3NDS3ZUaWRaVC1JVGRiTnI2ZWhfalNiOFdrN1lYS3BBQy0tcXZNTQ?oc=5"
+   ]
+  },
+  "stage": "awaiting_note",
+  "note": ""
+ },
  "history": [
   "Sorteos en Instagram en Colombia: qué dice la ley tras la multa de $116 millones de Coljuegos",
   "Cuánto cuesta implementar IA en una pyme: presupuesto realista y cómo medir el retorno",
   "Marketing político en el Cesar: cómo armar un plan de campaña para alcaldía, concejo o gobernación 2027"
  ],
- "published": true
+ "published": false
 }

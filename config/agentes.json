@@ -44,10 +44,12 @@
   },
   "keywords_objetivo": [
     "estratega digital y político",
+    "estrategia digital para campañas políticas",
+    "marketing político digital",
+    "redes sociales para candidatos",
     "estratega político en Colombia",
     "comunicación política",
-    "marketing político en el Cesar",
-    "consultor de campañas"
+    "marketing político en el Cesar"
   ],
   "fase_inicial": {
     "_nota": "Mientras haya menos de este número de columnas publicadas, el Curador concentra al menos 2 temas diarios en las keywords objetivo.",
@@ -56,5 +58,6 @@
   "medios_regionales": [
     "El Pilón",
     "El Heraldo"
-  ]
+  ],
+  "enfoque_editorial": "Prioriza el ángulo DIGITAL: redes sociales, contenido, pauta, influenciadores, comunidades y datos aplicados a campañas y gobiernos. Cuando aporte, conecta lo digital con la experiencia de calle y territorio (cómo una estrategia en redes se convierte en votos)."
 }

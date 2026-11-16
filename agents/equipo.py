@@ -73,6 +73,7 @@ Propón {total} temas. Reglas:
 - Mezcla dos tipos: (a) NEWSJACKING: un hecho de hoy en un gobierno, campaña, marca o creador (de Colombia o del mundo) leído en clave de estrategia, para captar búsquedas de actualidad y Google Discover; (b) EVERGREEN: guías que la gente busca todo el año ("cómo hacer una campaña al concejo", "estrategia de redes para candidatos", "cómo crear una marca personal", etc.).
 - Cada tema apunta a una palabra clave con búsquedas reales en Colombia y a una intención clara.
 - Política: analiza estrategias de comunicación sin tomar partido.
+- ENFOQUE: {CFG.get("enfoque_editorial", "")}
 {regla_kw}
 Responde SOLO JSON:
 {{"temas":[{{"categoria":"una de {list(cats)}","tipo_seo":"newsjacking|evergreen","titulo":"titular atractivo, máx 90 caracteres","angulo":"la tesis en una frase","por_que_hoy":"qué noticia o búsqueda lo dispara","keyword":"palabra clave principal","fuentes":["url1","url2"]}}]}}"""

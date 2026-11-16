@@ -155,12 +155,12 @@ def build():
 
     # Home
     faq_home = [
-        ("¿Qué hace un estratega político?", "Diseña cómo se comunica un candidato, un gobierno o un partido: qué dice, a quién, por qué canal y en qué momento. Une investigación del territorio, mensaje, contenido digital, pauta y medición."),
+        ("¿Qué hace un estratega digital y político?", "Diseña cómo se comunica un candidato, un gobierno o un partido, dentro y fuera de las redes: qué dice, a quién, por qué canal y en qué momento. Une investigación del territorio, mensaje, comunicación política, contenido digital, pauta y medición."),
         ("¿Qué hace un consultor de campañas?", "Acompaña al candidato desde el diagnóstico hasta el día de la elección: estrategia, mensaje, plan de medios, campaña digital, equipo territorial y seguimiento de resultados."),
         ("¿Quién hace marketing político en el Cesar?", "Brando Cantillo ha liderado la comunicación de campañas en el Cesar para la Gobernación, la Cámara de Representantes, el Senado y alcaldías como Agustín Codazzi, y trabaja con candidatos de todo Colombia."),
         ("¿Dónde puedo leer las columnas de Brando Cantillo?", "En la sección Columnas de este sitio, con análisis diarios sobre marketing político, comunicación política, marca personal e IA para emprendedores."),
     ]
-    ld_home = [{"@type": "ProfessionalService", "@id": URL + "/#servicio", "name": f'{CFG["name"]} — Estrategia y marketing político', "url": URL + "/",
+    ld_home = [{"@type": "ProfessionalService", "@id": URL + "/#servicio", "name": f'{CFG["name"]} — Estrategia digital, comunicación y marketing político', "url": URL + "/",
                 "image": URL + "/assets/img/og-brando-cantillo.jpg", "founder": {"@id": URL + "/#brando"}, "areaServed": {"@type": "Country", "name": "Colombia"},
                 "serviceType": ["Consultoría política", "Estrategia electoral", "Comunicación de gobierno", "Reputación digital"]},
                {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq_home]}]

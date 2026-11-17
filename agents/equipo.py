@@ -8,6 +8,7 @@
   Columnista (Sonnet)    → corrige solo si el editor encontró problemas
   Distribuidor (Haiku)   → hilo para X, post de LinkedIn y texto para WhatsApp
   Relacionista (Haiku)   → pitches a periodistas, columna invitada y artículo LinkedIn para ganar enlaces de medios grandes
+  Guionista (Sonnet)     → guion de 60-90 s para grabar el video de la columna (llega al bot de videos)
 """
 import json, re
 from datetime import datetime
@@ -238,6 +239,35 @@ Entrega SOLO JSON:
  "respuesta_experta":"un párrafo de 60-80 palabras que Brando puede usar para responder solicitudes de periodistas o foros sobre este tema, con el enlace"}}
 Máximo 3 pitches. Tono profesional, sin exagerar credenciales."""
     txt, _ = claude(prompt, model="rapido", max_tokens=2500)
+    return as_json(txt)
+
+# ------------------------------------------------------------------ 8b. Guionista (video corto a partir de la columna)
+def guionista(meta, cuerpo):
+    """Guion para grabar hablando a cámara. Está pensado para el editor de video:
+    cada cifra dicha en voz alta se vuelve una pantalla animada, cada cita una tarjeta,
+    cada enumeración una lista y la pregunta final la pantalla de cierre."""
+    url = f"{SITE['url']}/columnas/{meta['slug']}/"
+    prompt = f"""Convierte esta columna en un guion para un video vertical de 60 a 90 segundos (150-220 palabras habladas) que Brando Cantillo graba hablando a cámara.
+TÍTULO: {meta['title']}
+URL: {url}
+COLUMNA:
+{cuerpo[:9000]}
+
+Reglas del guion:
+- Primera frase: la idea más fuerte de la columna, afirmación directa, sin saludo ni "hoy les quiero hablar de".
+- Di las cifras en voz alta y completas ("el 70 %", "5 de cada 100"). Usa SOLO cifras que estén en la columna; no inventes ninguna.
+- Si la columna cita a alguien, incluye una cita textual corta con atribución ("como dijo …: «…»").
+- Si hay pasos o razones, enuméralas: "primero…, segundo…, tercero…".
+- Frases cortas, para decir de corrido. Sin emojis, sin hashtags, sin acotaciones entre paréntesis.
+- Cierra con una pregunta al público.
+Responde SOLO JSON:
+{{"titulo":"título del video, máx 60 caracteres",
+ "gancho":"la primera frase, tal cual",
+ "guion":"el texto completo a decir, en párrafos cortos separados por \\n\\n",
+ "cifras":["cifras que se dicen, tal cual"],
+ "nota_editor":"1-2 líneas para el director de edición: qué enfatizar en pantalla (cifra, cita, lista)",
+ "pie":"pie de foto para redes, 2-4 líneas, con la URL al final"}}"""
+    txt, _ = claude(prompt, system=VOZ, model="escritor", max_tokens=2500)
     return as_json(txt)
 
 # ------------------------------------------------------------------ 9. Columna mensual exclusiva para medios regionales

@@ -63,6 +63,7 @@ Cada vez que el bot publique una columna, Cloudflare reconstruye la web solo.
    - `ANTHROPIC_API_KEY`
    - `TELEGRAM_BOT_TOKEN`
    - `TELEGRAM_CHAT_ID`
+   - `TELEGRAM_VIDEO_BOT_TOKEN` (opcional): el token del bot de videos del editor. Con él, cada columna publicada te manda su guion para grabar al bot de videos.
 4. Ve a la pestaña **Actions** → activa los workflows → abre **Propuestas del día** → **Run workflow**. En 1–2 minutos te llegan los temas a Telegram.
 
 Con esto queda automático: propuestas a las 6:00 a. m. y el bot revisa tus respuestas cada 10 minutos (6 a. m.–7 p. m.) y cada 20 minutos (7–11 p. m.).
@@ -79,6 +80,9 @@ Este modo publica haciendo `git push` desde tu PC. Si lo usas, desactiva el work
 
 ## Columna mensual en medios regionales
 El día 25 de cada mes el bot te envía una columna inédita (700–850 palabras) para cada medio de `medios_regionales` en `config/agentes.json`. No se publica en tu web, para respetar la exclusividad. También puedes pedirla cuando quieras con `/mensual` o `/mensual El Pilón`.
+
+## Guion para video
+Cuando apruebas y se publica una columna, el Guionista escribe un guion de 60-90 segundos para grabarlo hablando a cámara: abre con la idea más fuerte, dice en voz alta solo las cifras que están en la columna, enumera y cierra con una pregunta. Te llega al **bot de videos** con el botón **📌 Usar en mi próxima grabación**: el editor de video lo usa como guía al editar lo próximo que copies a 1-Entrada. Si no configuras `TELEGRAM_VIDEO_BOT_TOKEN`, el guion llega al bot de columnas sin el botón.
 
 ## Comandos del bot
 | Comando | Qué hace |

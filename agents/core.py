@@ -106,6 +106,20 @@ def send_document(path, caption=""):
     url = f"https://api.telegram.org/bot{env('TELEGRAM_BOT_TOKEN')}/sendDocument"
     return json.loads(http(url, b"".join(parts), {"content-type": f"multipart/form-data; boundary={boundary}"}))
 
+def send_video_bot(text, buttons=None):
+    """Envía por el bot de VIDEOS (TELEGRAM_VIDEO_BOT_TOKEN). Este programa solo le escribe, nunca lee sus
+    mensajes: esos los atiende el editor de video en el Mac. Si no hay token, usa el bot de columnas."""
+    token = env("TELEGRAM_VIDEO_BOT_TOKEN", required=False)
+    if not token:
+        return send(text)  # sin botones: el bot de columnas no sabría qué hacer con ellos
+    p = {"chat_id": chat_id(), "text": text[:4000], "parse_mode": "HTML", "disable_web_page_preview": True}
+    if buttons:
+        p["reply_markup"] = {"inline_keyboard": [[{"text": t, "callback_data": d} for t, d in row] for row in buttons]}
+    res = json.loads(http(f"https://api.telegram.org/bot{token}/sendMessage", json.dumps(p).encode(),
+                          {"content-type": "application/json"}, timeout=70))
+    if not res.get("ok"): raise RuntimeError(f"Telegram (bot de videos): {res}")
+    return res["result"]
+
 # ------------------------------------------------------------------ Estado
 def load_state():
     if STATE_FILE.exists(): return json.loads(STATE_FILE.read_text(encoding="utf-8"))

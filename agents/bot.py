@@ -6,7 +6,7 @@
 """
 import json, os, subprocess, sys, time, traceback
 from . import radar, equipo
-from .core import ROOT, DATA, SITE, CFG, COSTO, tg, send, send_document, esc, load_state, save_state, chat_id, log
+from .core import ROOT, DATA, SITE, CFG, COSTO, tg, send, send_document, send_video_bot, env, esc, load_state, save_state, chat_id, log
 
 AYUDA = ("<b>Comandos</b>\n/temas — proponer temas ahora\n/tema &lt;texto&gt; — escribir sobre tu propio tema\n"
          "/marketing — solo marketing político\n/comunicacion — solo comunicación política\n/marca — solo marca personal y comunidades\n"
@@ -78,6 +78,7 @@ def publicar(state):
         subprocess.run(["git", "push"], cwd=ROOT)
     url = f"{SITE['url']}/columnas/{meta['slug']}/"
     send(f"✅ Publicada. En 1-3 minutos estará en línea:\n{url}\n\nPreparando piezas para redes…")
+    guion_video(meta, p["body"])
     try:
         d = equipo.distribuidor(meta, p["body"])
         hilo = "\n\n".join(f"{i+1}/ {esc(t)}" for i, t in enumerate(d.get("hilo_x", [])))
@@ -100,6 +101,26 @@ def publicar(state):
     indexnow(url)
     if state.get("proposal"):
         send("¿Quieres escribir otro de los temas propuestos hoy? Usa los botones del mensaje de temas o /temas.")
+
+def guion_video(meta, cuerpo):
+    """Guion para grabar el video de la columna. Llega al bot de videos con un botón que se lo pasa al editor."""
+    try:
+        g = equipo.guionista(meta, cuerpo)
+    except Exception as e:
+        log("Guionista falló:", e); send(f"⚠️ No pude preparar el guion del video ({esc(str(e)[:200])})."); return
+    cifras = ", ".join(g.get("cifras", [])) or "—"
+    texto = (f"🎬 <b>Guion para video</b> · columna «{esc(meta['title'])}»\n\n"
+             f"<b>{esc(g.get('titulo', ''))}</b>\n\n{esc(g.get('guion', ''))}\n\n"
+             f"Cifras que dices: {esc(cifras)}\n"
+             f"Nota para el editor: {esc(g.get('nota_editor', ''))}\n\n"
+             f"Pie sugerido:\n{esc(g.get('pie', ''))}")
+    boton = [[("📌 Usar en mi próxima grabación", f"guion:{meta['slug'][:50]}")]]
+    try:
+        send_video_bot(texto, boton)
+        if env("TELEGRAM_VIDEO_BOT_TOKEN", required=False):
+            send("🎬 El guion para grabar el video de esta columna te llegó al bot de videos.")
+    except Exception as e:
+        log("Envío del guion falló:", e); send(texto)
 
 def mensual(state, medio=""):
     medios = CFG.get("medios_regionales", ["un medio regional"])

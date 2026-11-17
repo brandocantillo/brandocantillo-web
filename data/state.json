@@ -1,5 +1,5 @@
 {
- "offset": 851881590,
+ "offset": 851881592,
  "proposal": {
   "temas": [
    {
@@ -60,7 +60,18 @@
   ],
   "ts": 1794917578.5794842
  },
- "pending": null,
+ "pending": {
+  "topic": {
+   "categoria": "marca-personal",
+   "tipo_seo": "",
+   "titulo": "La creación de formatos de contenido que convierten likes en comunidad",
+   "angulo": "La creación de formatos de contenido que convierten likes en comunidad",
+   "keyword": "",
+   "fuentes": []
+  },
+  "stage": "awaiting_note",
+  "note": ""
+ },
  "history": [
   "Confianza, la moneda de los creadores: cómo crear una marca personal que venda",
   "Calendario electoral 2027 en Colombia: cuándo arrancar tu campaña al concejo o la alcaldía",

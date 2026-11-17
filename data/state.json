@@ -1,37 +1,35 @@
 {
- "offset": 851881589,
+ "offset": 851881590,
  "proposal": {
   "temas": [
    {
     "categoria": "comunicacion-politica",
     "tipo_seo": "newsjacking",
     "titulo": "Del mitin al late night: qué enseña el 'politainment' a la comunicación política de hoy",
-    "angulo": "Los candidatos que llegan al público en programas de entretenimiento y pódcast ganan atención, pero necesitan un mensaje propio para convertirla en voto.",
-    "por_que_hoy": "The Conversation publica que el 'politainment' se impone en la campaña, y EL PAÍS discute cómo la política se traslada al entretenimiento y deja fuera a votantes mayores y mujeres.",
+    "angulo": "La conversación política se mueve del mitin y el discurso a formatos de entretenimiento; los equipos de campaña que entienden esa lógica ganan atención sin perder su mensaje.",
+    "por_que_hoy": "Con la campaña del 29N y el debate sobre la política que se pasa al entretenimiento (El País, The Conversation), crece la búsqueda de qué significa el politainment y cómo afecta la comunicación política.",
     "keyword": "comunicación política",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMXliLWpHd1lEcXlsdjFFOF9WeDJfTnJrSHlNYTRHbG5NTkdScGxzbWNnb0ZuWGRNeDVQeTB1bFUzNE1VaTdtQzNpaV9fdENpV3dxd2llVVRKWnJDSWNoNFFFRWxzWVk4ZDhwX1NjbVBYdUpyajdjQUNlTUdsNDV4S2t2VmEyLWxzdHRvUDR6Ty12ZW93WjRvZWtCeHQ1eFRyTHg2RmFFLVZ6RkV4Z3hoX0M5WU5aU0tq?oc=5",
-     "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOazJkd1ptWmExNTRGaVBQRDN5NUM2UnNFQjFQYnVBWDRLWnNXQzJnSS01T1ZMbW5TYXctYWVocEFXajNHUmZEUWZNX0F4Zm1NVzVjemdHWEJKRGlLUENNUXZJaTZvaXRPQTBtSEx0N0xUQk51dnlGQlY4VzVyVDRUVkxSTjZteE50OGZ6YXhPZHYyTURFNWhtdWJYRHFYR0dPQUh6aC10QXhzdnRvYlNQekxnUkJkQ09oTjUxY1luSjgxN2w3dEJHUElieUp1VEVBSXV3cjB2UzFTdExHYzlSQS1UX1lSQWEwZ2RzV2IzcDZhLWItZVHSAYoCQVVfeXFMT1FwQ3ZFb1Rmd2Q4bEpIWmJMX0E3MHRBdVhRLWYtUS1RYmt0Q21XSThMTzZmY2hQam5DM240WjBfMXdTZ0VRYlhkakV3WkhDUXRjcHZFb2Vyc2Q2bWt0NWw2Yk40NGtqMndSXzFLRkNtX3pMYmRCdUdOd1RQTlV4b3BFVWZ2LVluQ1dUc3p0X2xJdUJQY1dzbG1BTFFJZ2dSaUpJUl9IYmdldG9KaGFTN3VTUGNLTzh2VmhfODZEWHlXN1UzYklJb0hyR3FwcUJid3RZdF9RTFhmS0xscjYxc05va05XUWlyenR2bGVaVVBuRExEaFdtbVFSS3E4ZGlnMTE0eG83M2hBMGc?oc=5"
+     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMXliLWpHd1lEcXlsdjFFOF9WeDJfTnJrSHlNYTRHbG5NTkdScGxzbWNnb0ZuWGRNeDVQeTB1bFUzNE1VaTdtQzNpaV9fdENpV3dxd2llVVRKWnJDSWNoNFFFRWxzWVk4ZDhwX1NjbVBYdUpyajdjQUNlTUdsNDV4S2t2VmEyLWxzdHRvUDR6Ty12ZW93WjRvZWtCeHQ1eFRyTHg2RmFFLVZ6RkV4Z3hoX0M5WU5aU0tq?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
     "tipo_seo": "evergreen",
     "titulo": "Marketing político digital: el plan de redes que convierte seguidores en votos",
-    "angulo": "Una campaña necesita un plan por fases (diagnóstico, contenido, pauta, comunidad y medición) que conecte cada publicación con una acción concreta en el territorio.",
-    "por_que_hoy": "La búsqueda de marketing político digital crece en plena temporada electoral, y la campaña en YouTube, pódcast y medios digitales confirma que el cambio de canal es real.",
+    "angulo": "Un seguidor no es un votante: el plan de redes debe definir audiencias, formatos por plataforma, calendario y métricas que conecten lo digital con el voto y con la presencia en territorio.",
+    "por_que_hoy": "Las campañas están apostando por YouTube, pódcast y medios digitales, y crece la búsqueda de cómo planear redes para una campaña sin quedarse en el número de seguidores.",
     "keyword": "marketing político digital",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMDlCSHBiQlp3T1VDNzI3QUtJRkFsOTEwTHluSjZweFZ1dUs2WjNFb1lFWXN5OXhhbHd6MThRS0ZySEFucUVvREdyWUNSaWJfQzNPd1IwWTFQSld3QldhNkVXcjJseUJwWEdrRVVnckRzalFaTFdXMzdQMFRZbFE0T0tmN0VKY2FNS0VJVjNiMXRKSDRjNDJ1cFln?oc=5",
-     "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVN4M2VseXN5MDJUNmtqbGJsVFFlVVFDR1NuSUUzLW1qUTlVcWlSTmVVa3V3Snp5VWRESmtCSE82MERScjJrSUVFTFZtUlZGS2RoaTVXRE9wME11XzRsbHFWYzl1MTVrTmptbUxZelZYUFJnb193ZldsN0N5eTdFbnRTRHFhQXVkckdud0FDaVlLenZkUVFNbXVBY1AweUdPQjl3SHBpdnZOcHVZWEZadmhVUWhBVFp2R3ZQZQ?oc=5"
+     "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMDlCSHBiQlp3T1VDNzI3QUtJRkFsOTEwTHluSjZweFZ1dUs2WjNFb1lFWXN5OXhhbHd6MThRS0ZySEFucUVvREdyWUNSaWJfQzNPd1IwWTFQSld3QldhNkVXcjJseUJwWEdrRVVnckRzalFaTFdXMzdQMFRZbFE0T0tmN0VKY2FNS0VJVjNiMXRKSDRjNDJ1cFln?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
-    "tipo_seo": "evergreen",
+    "tipo_seo": "newsjacking",
     "titulo": "Estratega digital y político: qué hace, cuánto cobra y cómo elegir uno en Colombia",
-    "angulo": "Un buen estratega no solo publica en redes: diseña la estrategia de mensaje, define la pauta y mide cómo lo digital se traduce en apoyo en el territorio.",
-    "por_que_hoy": "Las búsquedas de 'estratega digital y político' y 'estratega político en Colombia' se intensifican mientras los candidatos del 2027 arman sus equipos y el debate sobre la influencia digital en la política gana espacio.",
+    "angulo": "Contratar un estratega no es pagar por publicaciones: hay que evaluar su capacidad de diagnóstico, su manejo de datos y pauta, y su experiencia en territorio, con criterios claros para comparar propuestas.",
+    "por_que_hoy": "El debate sobre las agencias de marketing político que operan detrás de medios digitales y el arranque del calendario electoral territorial 2027 disparan las búsquedas sobre quién es un estratega político y cuánto cuesta.",
     "keyword": "estratega digital y político",
     "fuentes": [
      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVN4M2VseXN5MDJUNmtqbGJsVFFlVVFDR1NuSUUzLW1qUTlVcWlSTmVVa3V3Snp5VWRESmtCSE82MERScjJrSUVFTFZtUlZGS2RoaTVXRE9wME11XzRsbHFWYzl1MTVrTmptbUxZelZYUFJnb193ZldsN0N5eTdFbnRTRHFhQXVkckdud0FDaVlLenZkUVFNbXVBY1AweUdPQjl3SHBpdnZOcHVZWEZadmhVUWhBVFp2R3ZQZQ?oc=5"
@@ -41,8 +39,8 @@
     "categoria": "ia-para-emprendedores",
     "tipo_seo": "evergreen",
     "titulo": "Agentes de IA para pymes: qué son y cómo empezar sin saber programar",
-    "angulo": "Un agente de IA automatiza tareas repetitivas como responder clientes, hacer seguimiento y generar contenido, y una pyme puede empezar con herramientas sin código.",
-    "por_que_hoy": "Las noticias sobre el oficio de crear agentes de IA para pymes y el avance de capacitaciones gratuitas en IA para emprendedores en Latinoamérica disparan búsquedas sobre cómo empezar.",
+    "angulo": "Un agente de IA es un asistente que ejecuta tareas repetitivas (responder clientes, organizar pedidos, hacer seguimiento) y se puede empezar con herramientas sin código y un proceso bien definido.",
+    "por_que_hoy": "Medios como El Ecosistema Startup destacan el auge de los agentes de IA para pymes como nuevo oficio, lo que dispara búsquedas de emprendedores que quieren empezar sin conocimientos técnicos.",
     "keyword": "agentes de IA para pymes",
     "fuentes": [
      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMVhuTVZKa09CQV84RVhsS0I4LWV3TEFJUHdxNDB3RDl1NmY1TnViVjZWYnk3VkpoQnpIenM4UmVuSEZGRk93WEo2bl9BUWttaG9UUkx4MlQ3R2FxY2c4dHphbGV1dGV2cGVPNzFHSWRldkJOTGtaVURpcTVrYTZBU2M5RThsbkhHNElB?oc=5"
@@ -52,15 +50,15 @@
     "categoria": "marca-personal",
     "tipo_seo": "newsjacking",
     "titulo": "Cómo lograr que ChatGPT recomiende tu marca: guía de visibilidad en IA para candidatos",
-    "angulo": "Si la gente pregunta a la IA por un candidato o un creador, lo que ella encuentra sobre esa persona define su reputación; hay que construir presencia verificable y consistente.",
-    "por_que_hoy": "Circula el debate sobre cómo las campañas buscan que ChatGPT hable bien de sus candidatos, lo que muestra que la IA ya es una fuente de información política y de marca personal.",
-    "keyword": "marca personal en inteligencia artificial",
+    "angulo": "Los asistentes de IA ya influyen en lo que la gente pregunta sobre personas y marcas; la visibilidad se construye con contenido claro, fuentes verificables y presencia constante en medios y redes, no con trucos.",
+    "por_que_hoy": "Circulan artículos sobre cómo hacer campaña para que ChatGPT hable bien de un candidato y herramientas como Polity AI Atlas que miden el uso de IA en comunicación política; crece la pregunta de cómo aparecer en las respuestas de la IA.",
+    "keyword": "cómo lograr que ChatGPT recomiende mi marca",
     "fuentes": [
      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWFpsWlVDU0k5MVNnVUExWWh2UXJGTXRFZ3JIY05nWmtOZ0NJRjh6S19jYzFza25tQ1hsNWxFTU5xVjkxd3JLejgzVWZDbjBxYkcxVHd2d1FVcXdZUUZ6T0xORHFMVWNqbGVDSUZFX05iOThvcTNpYnBvT1JabTNIWGlQamkxQldMenVjUU4tYkZ5R2xTdlFRUXpVSktaZlNXeGxJRktBM3p0eEVXN0pN?oc=5"
     ]
    }
   ],
-  "ts": 1794915815.3179822
+  "ts": 1794917578.5794842
  },
  "pending": null,
  "history": [

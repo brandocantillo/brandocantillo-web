@@ -5,64 +5,62 @@
    {
     "categoria": "comunicacion-politica",
     "tipo_seo": "newsjacking",
-    "titulo": "Del late night al voto: qué enseña el efecto Jordi Wild sobre comunicación política",
-    "angulo": "El entretenimiento político capta atención joven, pero una estrategia de comunicación política debe convertir esa atención en intención de voto y no quedarse en el alcance.",
-    "por_que_hoy": "La cobertura sobre el 'efecto Wild' y el 'politainment' en la campaña española está en auge, y las búsquedas sobre comunicación política aumentan con la actualidad electoral.",
+    "titulo": "Del mitin al late night: qué enseña el 'politainment' a la comunicación política de hoy",
+    "angulo": "Los candidatos que llegan al público en programas de entretenimiento y pódcast ganan atención, pero necesitan un mensaje propio para convertirla en voto.",
+    "por_que_hoy": "The Conversation publica que el 'politainment' se impone en la campaña, y EL PAÍS discute cómo la política se traslada al entretenimiento y deja fuera a votantes mayores y mujeres.",
     "keyword": "comunicación política",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOazJkd1ptWmExNTRGaVBQRDN5NUM2UnNFQjFQYnVBWDRLWnNXQzJnSS01T1ZMbW5TYXctYWVocEFXajNHUmZEUWZNX0F4Zm1NVzVjemdHWEJKRGlLUENNUXZJaTZvaXRPQTBtSEx0N0xUQk51dnlGQlY4VzVyVDRUVkxSTjZteE50OGZ6YXhPZHYyTURFNWhtdWJYRHFYR0dPQUh6aC10QXhzdnRvYlNQekxnUkJkQ09oTjUxY1luSjgxN2w3dEJHUElieUp1VEVBSXV3cjB2UzFTdExHYzlSQS1UX1lSQWEwZ2RzV2IzcDZhLWItZVHSAYoCQVVfeXFMT1FwQ3ZFb1Rmd2Q4bEpIWmJMX0E3MHRBdVhRLWYtUS1RYmt0Q21XSThMTzZmY2hQam5DM240WjBfMXdTZ0VRYlhkakV3WkhDUXRjcHZFb2Vyc2Q2bWt0NWw2Yk40NGtqMndSXzFLRkNtX3pMYmRCdUdOd1RQTlV4b3BFVWZ2LVluQ1dUc3p0X2xJdUJQY1dzbG1BTFFJZ2dSaUpJUl9IYmdldG9KaGFTN3VTUGNLTzh2VmhfODZEWHlXN1UzYklJb0hyR3FwcUJid3RZdF9RTFhmS0xscjYxc05va05XUWlyenR2bGVaVVBuRExEaFdtbVFSS3E4ZGlnMTE0eG83M2hBMGc?oc=5",
-     "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV2dmV2dGQU1ZczhmQ1pCcDdqbWFxZlphVU8tSGJvc0FPTm9GR1FEdTY4VjBSSmNvNGtDVml6c3ZLU01remlIdTlkaDhWQm5rdE1lRGxZVDJPdzZ3WkF1Qmg2S0R4cUtzb3RaVHp5c1RUWGVQd2lnN3UyQW5aZjBmbGJSQkpBWHFScWVxQUZrMkZEQzM3MTlvOGRkcVBrZHc2alJmdzZDMlVfVno2TUVma0hSOFZ3R1Z2WEE?oc=5"
+     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMXliLWpHd1lEcXlsdjFFOF9WeDJfTnJrSHlNYTRHbG5NTkdScGxzbWNnb0ZuWGRNeDVQeTB1bFUzNE1VaTdtQzNpaV9fdENpV3dxd2llVVRKWnJDSWNoNFFFRWxzWVk4ZDhwX1NjbVBYdUpyajdjQUNlTUdsNDV4S2t2VmEyLWxzdHRvUDR6Ty12ZW93WjRvZWtCeHQ1eFRyTHg2RmFFLVZ6RkV4Z3hoX0M5WU5aU0tq?oc=5",
+     "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOazJkd1ptWmExNTRGaVBQRDN5NUM2UnNFQjFQYnVBWDRLWnNXQzJnSS01T1ZMbW5TYXctYWVocEFXajNHUmZEUWZNX0F4Zm1NVzVjemdHWEJKRGlLUENNUXZJaTZvaXRPQTBtSEx0N0xUQk51dnlGQlY4VzVyVDRUVkxSTjZteE50OGZ6YXhPZHYyTURFNWhtdWJYRHFYR0dPQUh6aC10QXhzdnRvYlNQekxnUkJkQ09oTjUxY1luSjgxN2w3dEJHUElieUp1VEVBSXV3cjB2UzFTdExHYzlSQS1UX1lSQWEwZ2RzV2IzcDZhLWItZVHSAYoCQVVfeXFMT1FwQ3ZFb1Rmd2Q4bEpIWmJMX0E3MHRBdVhRLWYtUS1RYmt0Q21XSThMTzZmY2hQam5DM240WjBfMXdTZ0VRYlhkakV3WkhDUXRjcHZFb2Vyc2Q2bWt0NWw2Yk40NGtqMndSXzFLRkNtX3pMYmRCdUdOd1RQTlV4b3BFVWZ2LVluQ1dUc3p0X2xJdUJQY1dzbG1BTFFJZ2dSaUpJUl9IYmdldG9KaGFTN3VTUGNLTzh2VmhfODZEWHlXN1UzYklJb0hyR3FwcUJid3RZdF9RTFhmS0xscjYxc05va05XUWlyenR2bGVaVVBuRExEaFdtbVFSS3E4ZGlnMTE0eG83M2hBMGc?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
     "tipo_seo": "evergreen",
-    "titulo": "Estrategia digital para campañas políticas: del post al voto en 90 días",
-    "angulo": "Una campaña digital funciona como un sistema con objetivos, contenido, pauta, datos y comunidad conectados al territorio, no como una suma de publicaciones.",
-    "por_que_hoy": "Con el calendario de elecciones territoriales 2027 ya fijado, crecen las búsquedas de candidatos y equipos que necesitan un plan digital para arrancar.",
-    "keyword": "estrategia digital para campañas políticas",
+    "titulo": "Marketing político digital: el plan de redes que convierte seguidores en votos",
+    "angulo": "Una campaña necesita un plan por fases (diagnóstico, contenido, pauta, comunidad y medición) que conecte cada publicación con una acción concreta en el territorio.",
+    "por_que_hoy": "La búsqueda de marketing político digital crece en plena temporada electoral, y la campaña en YouTube, pódcast y medios digitales confirma que el cambio de canal es real.",
+    "keyword": "marketing político digital",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZFV3VUZFendWNG1BMkZDSHdpYUh4RFp3Uy1qQUwwTEdRaHZyalJLdDR2X0thTmRQMFNHMGRVRy1XS0NRQWJTeEdoNVBOSzVqR0xkNU1wSUtKTmh6SnhlMng4YWc4Z0duazQxdG80RUNTM3dfVU11cFNleGQ4Z3J4ZDJtcFlSY0s5ZGZmdGlmeHVsSUQxVHA3cGFhallQSVZ2TVYwV2FxbWNpWXpubll2UmNpWnlPTkRWbVVEb3pBbDRCQlpSUDBBSWNvQUVnTVBqUjYxaDgwZ1pUbUhjdFE?oc=5",
-     "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMEh4aG9xQ0F3b3VJcFN6WW92N2N3bHZNMURfREpJaEp3bTN2VldOQl96ZnlUZE41OEVldGlnd0lLWnR6UTBNdVpUdHlWWS1JNm83dWlyUzl6MWpkT214d1dSZG9jQ2VmdGp4VkFuRDNGMHI3MnJjYk9MOXcxRGZUTVQ5NlY0Snh4SmVaV3ZlbllGSEl3TlVTSDMzMHl5Zl9rSzFIRnUydXdlWnJRRUk4c2gwNERBZEJYUFJTTg?oc=5"
+     "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMDlCSHBiQlp3T1VDNzI3QUtJRkFsOTEwTHluSjZweFZ1dUs2WjNFb1lFWXN5OXhhbHd6MThRS0ZySEFucUVvREdyWUNSaWJfQzNPd1IwWTFQSld3QldhNkVXcjJseUJwWEdrRVVnckRzalFaTFdXMzdQMFRZbFE0T0tmN0VKY2FNS0VJVjNiMXRKSDRjNDJ1cFln?oc=5",
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVN4M2VseXN5MDJUNmtqbGJsVFFlVVFDR1NuSUUzLW1qUTlVcWlSTmVVa3V3Snp5VWRESmtCSE82MERScjJrSUVFTFZtUlZGS2RoaTVXRE9wME11XzRsbHFWYzl1MTVrTmptbUxZelZYUFJnb193ZldsN0N5eTdFbnRTRHFhQXVkckdud0FDaVlLenZkUVFNbXVBY1AweUdPQjl3SHBpdnZOcHVZWEZadmhVUWhBVFp2R3ZQZQ?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
-    "tipo_seo": "newsjacking",
-    "titulo": "Estratega político en Colombia: cómo leer la pugna por la narrativa oficial en redes",
-    "angulo": "Cuando un gobierno intenta fijar su versión de un hecho, el estratega analiza encuadres, tiempos y audiencias en redes para anticipar qué narrativa se impone, sin tomar partido.",
-    "por_que_hoy": "La cobertura sobre la disputa por la narrativa oficial de la toma del Palacio de Justicia y los primeros 100 días del gobierno De la Espriella mantiene alto el interés por la estrategia política en Colombia.",
-    "keyword": "estratega político en Colombia",
+    "tipo_seo": "evergreen",
+    "titulo": "Estratega digital y político: qué hace, cuánto cobra y cómo elegir uno en Colombia",
+    "angulo": "Un buen estratega no solo publica en redes: diseña la estrategia de mensaje, define la pauta y mide cómo lo digital se traduce en apoyo en el territorio.",
+    "por_que_hoy": "Las búsquedas de 'estratega digital y político' y 'estratega político en Colombia' se intensifican mientras los candidatos del 2027 arman sus equipos y el debate sobre la influencia digital en la política gana espacio.",
+    "keyword": "estratega digital y político",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS0dIZWFsY0NVTGo5ODgyMnpmNmRHLTNlaUFfTjJNSmc5QjAxUmszVThtQXdLQk9rNkdmWVRFNGVJS200emRFUDBkZWFWdnk1NGNYR0QxSEVaUlVBbjdBWUd6anJDNkNrb1J4TFFzNVRfT3hIaHFpVWRVLUlvUUl4UDRJMVIybjlrRGZQazdaekNtakxpcDVEbDV1VnJKMXNRenB6YVk2UTJfeWU0TWg5SC05dDFldUlsYUhnbTlUVDFOdGVTd2l6TzJ1Z1ZGN19XeTRDVE5SUmp5UDFXVVJsdmlEbWhoOEhTRXc4aNIBgAJBVV95cUxOWE5BOTJlUDh6R1RBQ0lDaFV5NE5xcXBac1dOOGI0OHFzVlNBbmFMdXpHTDNKaUN6UjN1WFZXeHRZdjBicjBZamRfbE9KVzVrZk5reFVQWGxRVmU1THBRUVZKdlVuM1BXSnp6WmJZWWJUdWhCbXh0aklPd2l1dF9TZEZMYnlFWTl3Z3I4b1lFRFJBQlZpY0lCQU1SOTZucTJyS183Ulk1Z09XcDJyOXNYVWxiM05TMGpfeFFDVGd0OVlXLTRNUzJGZWVmS3dtNF9kUmVDaDMxaWpVcVFnLWtxaFpEVzdOTkpmWGhucjZfZzh0WmxSalN2Wk5TOExOQXl5?oc=5"
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVN4M2VseXN5MDJUNmtqbGJsVFFlVVFDR1NuSUUzLW1qUTlVcWlSTmVVa3V3Snp5VWRESmtCSE82MERScjJrSUVFTFZtUlZGS2RoaTVXRE9wME11XzRsbHFWYzl1MTVrTmptbUxZelZYUFJnb193ZldsN0N5eTdFbnRTRHFhQXVkckdud0FDaVlLenZkUVFNbXVBY1AweUdPQjl3SHBpdnZOcHVZWEZadmhVUWhBVFp2R3ZQZQ?oc=5"
     ]
    },
    {
     "categoria": "ia-para-emprendedores",
     "tipo_seo": "evergreen",
-    "titulo": "Agentes de IA para pymes: cómo elegir uno y configurarlo sin saber programar",
-    "angulo": "Un agente de IA bien definido (función, datos, límites y métrica) atiende clientes y ordena procesos en una pyme; sin pautas internas, el riesgo supera al beneficio.",
-    "por_que_hoy": "Los reportes sobre pymes que ya contratan agentes de IA y el hecho de que muchas empresas carecen de pautas internas disparan búsquedas prácticas sobre el tema.",
+    "titulo": "Agentes de IA para pymes: qué son y cómo empezar sin saber programar",
+    "angulo": "Un agente de IA automatiza tareas repetitivas como responder clientes, hacer seguimiento y generar contenido, y una pyme puede empezar con herramientas sin código.",
+    "por_que_hoy": "Las noticias sobre el oficio de crear agentes de IA para pymes y el avance de capacitaciones gratuitas en IA para emprendedores en Latinoamérica disparan búsquedas sobre cómo empezar.",
     "keyword": "agentes de IA para pymes",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMVhuTVZKa09CQV84RVhsS0I4LWV3TEFJUHdxNDB3RDl1NmY1TnViVjZWYnk3VkpoQnpIenM4UmVuSEZGRk93WEo2bl9BUWttaG9UUkx4MlQ3R2FxY2c4dHphbGV1dGV2cGVPNzFHSWRldkJOTGtaVURpcTVrYTZBU2M5RThsbkhHNElB?oc=5",
-     "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbGp5VENlZVl3MHlFNTFFTlZNQ1liNG0yT3daSkp6cGhaQlFGMTI3YXNyS0xkeGUtbjJLSFFWMExVZFh1V2QzaFdnWHNjR3pvWFBaX0VRUDc5bjRpNlJnNzJDZUhocFdFRGFrUDhJTklKenNLdlF2aDdtWlBDOVV3RDVrYWFmMWMwOHhwdGxfMUI0MFFOV3YzdU9EVkFQNDlrRVNKSmJYMFRvcXp6S3hzNG9WdEsxTzlIaWdCQ1hB?oc=5"
+     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMVhuTVZKa09CQV84RVhsS0I4LWV3TEFJUHdxNDB3RDl1NmY1TnViVjZWYnk3VkpoQnpIenM4UmVuSEZGRk93WEo2bl9BUWttaG9UUkx4MlQ3R2FxY2c4dHphbGV1dGV2cGVPNzFHSWRldkJOTGtaVURpcTVrYTZBU2M5RThsbkhHNElB?oc=5"
     ]
    },
    {
     "categoria": "marca-personal",
     "tipo_seo": "newsjacking",
-    "titulo": "Confianza, la moneda de los creadores: cómo crear una marca personal que venda",
-    "angulo": "En una economía de creadores donde la IA genera contenido en masa, la confianza y la coherencia de una persona pública se convierten en el activo que decide quién gana la atención y la compra.",
-    "por_que_hoy": "Los reportes sobre creadores que impulsan compras navideñas y sobre cómo la IA redefine la economía de creadores ponen el tema en la agenda de marca personal.",
-    "keyword": "cómo crear una marca personal",
+    "titulo": "Cómo lograr que ChatGPT recomiende tu marca: guía de visibilidad en IA para candidatos",
+    "angulo": "Si la gente pregunta a la IA por un candidato o un creador, lo que ella encuentra sobre esa persona define su reputación; hay que construir presencia verificable y consistente.",
+    "por_que_hoy": "Circula el debate sobre cómo las campañas buscan que ChatGPT hable bien de sus candidatos, lo que muestra que la IA ya es una fuente de información política y de marca personal.",
+    "keyword": "marca personal en inteligencia artificial",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUhDMDBHX2U1V3EtZmZ2Qkt6MExMaEhyT2pWc2c0dV9aYTdCVkFWeE5zRmlHNmhuMGN5NElMZ3k3bXN0RTBoalItV1VaWEstWmlmMEpyS3pnZmdCaXNEMU14MUdHbzRIU1hXYkh5LVZCUnRKcFhsTDBRNERCMGNfUkdXTnJPRFdOMUtINzZOZU1UWWtsaEk4VFRQa1dPZGNjRFMwSQ?oc=5",
-     "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaDR3V2lGX3pYb0s4d1p4OUR4MjdVMURUWEFwN2VRN3Y2X2JoNlp6NU1kZHI0WjdSZW01cVg3cU5uOW45SXp6OWE2Yk9tWC1TMkhudmp2LU1OOFM0N0JsaGdRcnQ4YjhaN2hqZFB1anZ2UEJIRE5NTWh3NThobDBaWTVLaUFRUjdkX1NnYVcwbnc5VzRodnVhZThsZw?oc=5"
+     "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWFpsWlVDU0k5MVNnVUExWWh2UXJGTXRFZ3JIY05nWmtOZ0NJRjh6S19jYzFza25tQ1hsNWxFTU5xVjkxd3JLejgzVWZDbjBxYkcxVHd2d1FVcXdZUUZ6T0xORHFMVWNqbGVDSUZFX05iOThvcTNpYnBvT1JabTNIWGlQamkxQldMenVjUU4tYkZ5R2xTdlFRUXpVSktaZlNXeGxJRktBM3p0eEVXN0pN?oc=5"
     ]
    }
   ],
-  "ts": 1794884779.775342
+  "ts": 1794915815.3179822
  },
  "pending": null,
  "history": [

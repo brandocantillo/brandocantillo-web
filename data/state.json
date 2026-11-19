@@ -1,5 +1,5 @@
 {
- "offset": 851881597,
+ "offset": 851881598,
  "proposal": {
   "temas": [
    {
@@ -61,7 +61,21 @@
   ],
   "ts": 1795089075.4426718
  },
- "pending": null,
+ "pending": {
+  "topic": {
+   "categoria": "ia-para-emprendedores",
+   "tipo_seo": "newsjacking",
+   "titulo": "Meta abre 5.000 cupos de certificación digital: la ruta de IA para emprendedores en redes",
+   "angulo": "La formación gratuita en herramientas digitales e IA es una oportunidad para que emprendedores y equipos de campaña profesionalicen su contenido, su pauta y su análisis de datos sin depender de agencias costosas.",
+   "por_que_hoy": "Infobae informa que Meta abrirá 5.000 cupos anuales de certificación digital en Colombia tras un acuerdo con el Gobierno. La noticia coincide con el aumento de búsquedas sobre IA para pymes y emprendedores.",
+   "keyword": "inteligencia artificial para emprendedores en Colombia",
+   "fuentes": [
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUmlhQW13UVdLdC13ems1QWJwQ2V5LXhZOV9RMjcxOGJwaVBuam9yTnJUZ0ltbkc4bER0dzByX2pwaElxd2lEWHdFbmNZX0RqOEZraklKY09rMFZVV01ONUFaS2V0ZURLbWxJeEdtOGZUSHlweEF5bDlMNWJ3V1BLNTZHek1FTE83eWZoYWpIeDV3anQ4ZllEVW9BNDNUYzZvOHk5RlJybEdacnk2RmljQVRtODk1RW5EY05TUGRtb2pXZy1fUVJiTTBZTmVManFKb1RZZlA4Uk7SAfMBQVVfeXFMTWNCLUJ3c0ZjOTJTWXBYSG10ZWtPbm5ac2FSLTY2YXI4MnpzRXF5MHQzQi1ycW1TNF8xS3JOVHUtWFl0NVk1VWszX0NIbEFXeDZEdHlOY0dRSWpNSFV6c1RBZ28ydk5ESUlCOS1oZ3diMVI5SWVzWm9PYlBuZWlWSUJac2x4YVF6aE9VNWNweVQ1UlMxVU5wVDRwWlJnRUN5MzNIZkNDbE0tNWJEUTZPNkxqSjNRNUdzQVhtUUZYVHlTMXMzaHM5aXhqbktNcm8xOUJuUzRNUmQtWFNsM0lOXzdEcGhOd3FFeHRYd09BNjdBSFZJ?oc=5"
+   ]
+  },
+  "stage": "awaiting_note",
+  "note": ""
+ },
  "history": [
   "Deepfakes en campañas políticas en Colombia: el protocolo que todo candidato necesita hoy",
   "Formatos de contenido que convierten likes en comunidad (y cómo elegir el tuyo)",

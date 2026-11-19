@@ -133,11 +133,12 @@ def virales(state, pista=""):
     state["virales"] = (state.get("virales", []) + [{"tema": t["tema"], "fecha": time.strftime("%Y-%m-%d")} for t in temas])[-60:]
     save_state(state)
     destino = send_video_bot if env("TELEGRAM_VIDEO_BOT_TOKEN", required=False) else send
-    destino(f"🔥 <b>Temas de actualidad para video</b> · {time.strftime('%d/%m')}\nOrdenados por urgencia. Graba primero los de «graba hoy».")
+    destino(f"🔥 <b>Temas de actualidad para video</b> · {time.strftime('%d/%m')}\nPriorizados por DEBATE. Graba primero los de «graba hoy».")
     for i, t in enumerate(temas, 1):
         fuentes = "\n".join(esc(u) for u in t.get("fuentes", [])[:2])
         destino(f"<b>{i}. {esc(t.get('tema', ''))}</b>\n"
-                f"⏱ {esc(t.get('urgencia', ''))} · alcance {esc(t.get('alcance', ''))}\n"
+                f"⏱ {esc(t.get('urgencia', ''))} · debate {esc(t.get('debate', ''))} · alcance {esc(t.get('alcance', ''))}\n"
+                f"⚔️ {esc(t.get('bandos', ''))}\n"
                 f"📈 {esc(t.get('por_que_ahora', ''))}\n"
                 f"🎯 {esc(t.get('angulo', ''))}\n\n"
                 f"<b>Gancho:</b> {esc(t.get('gancho', ''))}\n\n"

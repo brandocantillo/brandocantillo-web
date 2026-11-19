@@ -329,25 +329,30 @@ MATERIAL DE HOY (búsquedas en alza en Google y titulares de las últimas 24 h):
 {bloques}
 
 Primero usa la búsqueda web para confirmar qué está explotando HOY en Colombia y Latinoamérica en redes (tendencias de X, TikTok,
-Instagram, YouTube) y qué dudas tiene la gente. Luego elige 5 temas que pasen este filtro:
-1. MASIVO: le interesa o afecta a mucha gente fuera del nicho (usuarios de una app, consumidores, votantes, creadores, emprendedores).
-   Prioriza: caídas o cambios de plataformas, bloqueos y baneos, estafas virales, nuevas funciones de IA que todos están probando,
-   polémicas de influencers o marcas, videos de políticos que se volvieron virales, leyes o fallos que afectan lo que la gente publica.
-2. PUENTE: Brando tiene autoridad real para explicarlo (redes y plataformas, IA, comunicación política, derechos de autor y tecnología, marca personal).
-3. VENTANA: está pasando ahora; si se graba en 1-2 días todavía sirve.
-4. SALIDA PRÁCTICA: el video le deja a la gente algo que hacer o entender.
-Política: analiza la estrategia de comunicación, nunca tomes partido ni ataques a nadie. No inventes datos: solo lo que confirmaste.
-Evita tragedias, muertes, víctimas y temas que expongan a personas privadas.
+Instagram, YouTube) y DE QUÉ SE ESTÁ PELEANDO LA GENTE. Luego elige 5 temas. PRIORIDAD NÚMERO UNO: QUE GENERE DEBATE.
+Brando lo pidió así: lo que divida opiniones y llene los comentarios, sin importar el tema (farándula, deporte, política,
+influencers, marcas, tecnología, consumo, cultura). Filtro:
+1. DEBATE: hay dos bandos claros y la gente ya está discutiendo (comentarios, citas, respuestas). Es lo más importante.
+2. MASIVO: le interesa a gente fuera de su nicho.
+3. PUENTE: Brando lo lee desde lo que sabe (comunicación, estrategia, redes, reputación, IA, derecho y derechos de autor, marca personal).
+   Casi cualquier tema sirve si se pregunta "¿qué estrategia hay detrás?" o "¿quién ganó y quién perdió en la conversación?".
+4. VENTANA: está pasando ahora; si se graba en 1-2 días todavía sirve.
+El video debe tomar una POSTURA clara y defendible sobre la estrategia o la comunicación (no tibia) y cerrar con una pregunta
+que obligue a la gente a tomar bando en los comentarios.
+Límites que no se negocian: en política partidista Brando opina sobre la ESTRATEGIA y la comunicación, no pide votos ni ataca
+a candidatos como persona; nada de tragedias, muertes o víctimas; nada que exponga a personas privadas; no afirmes delitos ni
+hechos que no confirmaste (sin difamación). No inventes datos: solo lo que confirmaste.
 {('Temas ya propuestos o hechos (no repetir): ' + '; '.join(ya)) if ya else ''}
 {('Indicación de Brando: ' + pista) if pista else ''}
 
 Responde SOLO JSON:
 {{"temas":[{{"tema":"de qué se trata, máx 80 caracteres",
  "por_que_ahora":"la evidencia de que está viral hoy (volumen de búsquedas, tendencia, noticia)",
- "alcance":"alto|medio","urgencia":"graba hoy|graba mañana|esta semana",
- "angulo":"la lectura de Brando en una frase (lo que nadie más está diciendo)",
+ "debate":"alto|medio","alcance":"alto|medio","urgencia":"graba hoy|graba mañana|esta semana",
+ "bandos":"cuáles son las dos posturas que se están peleando",
+ "angulo":"la postura de Brando en una frase (clara, defendible, que divida)",
  "gancho":"primera frase del video, directa, sin saludo (máx 15 palabras)",
- "guion":"guion de 45-70 s (110-170 palabras) para decir a cámara, en párrafos cortos separados por \\n\\n; cierra con una pregunta",
+ "guion":"guion de 45-70 s (110-170 palabras) para decir a cámara, en párrafos cortos separados por \\n\\n; cierra con una pregunta que obligue a tomar bando",
  "portada":"TITULAR DE PORTADA en máx 7 palabras que se lea como una frase completa",
  "fuentes":["url"]}}]}}"""
     txt, fuentes = claude(prompt, system=VOZ, model="escritor", max_tokens=5000, web_search=5)

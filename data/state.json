@@ -71,5 +71,27 @@
   "Cuánto cuesta implementar IA en una pyme: presupuesto realista y cómo medir el retorno",
   "Marketing político en el Cesar: cómo armar un plan de campaña para alcaldía, concejo o gobernación 2027"
  ],
- "published": false
+ "published": false,
+ "virales": [
+  {
+   "tema": "Estafas con GTA 6 que roban tus claves y tus redes",
+   "fecha": "2026-11-19"
+  },
+  {
+   "tema": "Alertas por robo de WhatsApp: bonos falsos y códigos de verificación",
+   "fecha": "2026-11-19"
+  },
+  {
+   "tema": "Crisis de hoja de vida: Universidad Nacional y título de una congresista",
+   "fecha": "2026-11-19"
+  },
+  {
+   "tema": "Meta lanza Direct: los mensajes de Instagram en otra app, sin cuenta",
+   "fecha": "2026-11-19"
+  },
+  {
+   "tema": "WhatsApp prepara su propia nube para tus copias de seguridad",
+   "fecha": "2026-11-19"
+  }
+ ]
 }

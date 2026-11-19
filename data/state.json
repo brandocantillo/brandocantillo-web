@@ -5,60 +5,61 @@
    {
     "categoria": "comunicacion-politica",
     "tipo_seo": "newsjacking",
-    "titulo": "Cuentas oficiales en campaña: cuándo la comunicación de gobierno se vuelve propaganda",
-    "angulo": "Las cuentas oficiales son un activo de gestión, pero cuando se usan para atacar a la oposición en plena campaña pasan a ser un riesgo reputacional y legal. Un estratega debe definir reglas claras para separar informar de confrontar.",
-    "por_que_hoy": "El Colombiano publica hoy que cuestionan el uso de cuentas oficiales para criticar a la oposición. La búsqueda de 'comunicación política' se mueve con la campaña del 29N y con el debate sobre la neutralidad institucional en redes.",
+    "titulo": "Repetir un mensaje no lo vuelve verdad: la ciencia detrás de la repetición en campañas",
+    "angulo": "La repetición genera familiaridad, pero en campaña solo convierte si el mensaje se adapta a cada plataforma y a cada público del territorio; repetir sin estrategia cansa y desgasta la credibilidad.",
+    "por_que_hoy": "Diario AS publica hoy a psicólogos que cuestionan una de las estrategias más usadas en campaña electoral: repetir una opinión no la vuelve más cierta. Es un debate activo y con alta curiosidad en el contexto electoral colombiano de 2026-2027.",
     "keyword": "comunicación política",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMirgFBVV95cUxMV29mb1VmOVVWRUVVQ2llN3JYcEZNdjd4aGlLTkRfRDh6cVN6VU1jbkZxQUFYTEJpX2tfcUNHZUo4cGpBNWRYQVdpeXF5NUh6OWJCYm5LdTJPQWlLWEZSZ3ZwRG5POF9fU0E1QkNuVWp3c2ZnY2swSy1mbUNwak5vR3hlVTVFQU42UDh6TjF3NGlGc2Z3MjRoZVVIaTZZSXVfUDNlWDZkekRmck1Qd1HSAbMBQVVfeXFMTmtPc2ZJTnNSUFdycGYxU3JJeU1uT0VjZUxtcFpEWVVhQ1pPNDlZSC02SjhfeWJaaXJsVWJLN2lqc051OUlhdjdLUlQ3b1JCdThfUkloV0liUFhKSjBwQWN0a3Q3aHM3TmppNFVRSlFlTEpETzBzWEdzS3RjZnlzSVQ5LWl0VjJEajdVX2lLcjAycDNpM1Y5SFlKOXJCMlNENS1nNGNMZXRzTlNSSWpWNWVBUXc?oc=5"
+     "https://news.google.com/rss/articles/CBMijgJBVV95cUxPN3FqajBHTzRjNm9LSjA4dzJmalQxVHZsSERqQWtlVzZYNW01eUtzQ0RUR3Fvbkxpem5ZRGt6eU1PSTZoQzVLdE1lSFRvaWFfUjhDYThYZnpzeUFaVEZSZFlJbWZHNmxLdkNfSFc1WlQ4TEZMZURuN0F3Y2h3MHpCdzdRU3J6U1FPeEp2QWNJbUVoMU05V1FwSEhzNDZhWXB5Ny1lNm9YZFQtazZMTXBicWlMa1BoYkRRMmJkMjNVZS1nNHhSOWQ0VngxdHk3VGljOVpodlQ0QmwxM2xMN3BxU3JwV1FiSURuM3FOX1loSTJrb2xkeFhjVzlBVmVfVEFtRWtBUXNEMGEtYTNGakHSAaICQVVfeXFMT2FDMXRtazBRQlo3OGVyQW1vTVVyMC1jbzYxUmFOZDRKUFhFcklLLTBpVlVSelNLWnYxYnY0MjB6RjljT0poZlVNZG1fQWZGVTFtRW1zUEZtZkZrOXdkN3ZrRUFQU1V1anBTSjk3UURjM0wtZWZJajhDWk5zRFBlc0xQSk05T0ZaeFhKX25Ba0publRickh1MjhFdmllTVZvSDFSOE4xQjYxQ085UGlBQS1ZMWJzZ2FQc2xMcTYyc3F5MXhfSUxiSWlSYTlaWGprOEctQjdfclJxQXdMS3M2RmoydDd4N2hnaW1LcEVlRVdDVlptTU1JT1dKZUR4Sy1sSHRrMUp2cjZ5eWxQZmpuSVQ2RG90NUJFMkxXUGZQQjhfaUE?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
     "tipo_seo": "newsjacking",
-    "titulo": "Deepfakes en campaña 2027: el protocolo digital que todo candidato debe tener hoy",
-    "angulo": "La IA ya puede fabricar audios y videos falsos de un candidato en minutos. La ventaja la tiene quien prepara un protocolo de respuesta en redes antes de que aparezca la falsificación: monitoreo, verificación, canal oficial y tiempos de reacción.",
-    "por_que_hoy": "Circulan análisis sobre riesgos electorales por inteligencia artificial en Colombia, en plena antesala de la campaña territorial 2027. Las búsquedas sobre IA y campañas crecen con cada nota de desinformación electoral.",
-    "keyword": "inteligencia artificial en campañas políticas Colombia",
-    "fuentes": [
-     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR3JzT2hsZ2s0Ni1VZ2lta3QyVUhrYXc3WDEyMjFrVUxXYUFVdmU0U3lMWHdIMjJ0UExUT0lDRlR3WXJ0N1RhUEwzRWJfV3lXbFoxWG9qVHVRNTNFRjI3Y0x1M3VGQmtiSGNkYkhGbmhUdWctbllOaHRiYVNaRVBTc2VXcHdUcFVsZ3RTRjc3bVBTVnJRQjNpbzFXTG5hWUNoYXBGb3FUTHVtMWhCemtnWmdnbXBNV2dFZXltdE9ZZ00?oc=5"
-    ]
-   },
-   {
-    "categoria": "marketing-politico",
-    "tipo_seo": "evergreen",
-    "titulo": "Estratega digital y político: qué hace, qué herramientas domina y cómo contratarlo",
-    "angulo": "Un buen estratega digital para campañas no solo publica contenido: diseña el embudo de la campaña, mide su impacto en territorio y traduce los datos en decisiones de pauta. Esta guía explica el perfil, los entregables y las señales para elegir uno.",
-    "por_que_hoy": "La campaña del 29N y la antesala de las elecciones territoriales 2027 llevan a candidatos y equipos a buscar perfiles que combinen estrategia política y ejecución digital. Las búsquedas de 'estratega digital y político' y 'estratega político en Colombia' son de intención comercial alta.",
-    "keyword": "estratega digital y político",
-    "fuentes": [
-     "https://news.google.com/rss/articles/CBMixgFBVV95cUxOajJSeV9Ga2dmaHZncW9Va3NyblBaUEUxQVNkVDV6a1UzMnBzMG1sWGxRN1lraXRIM0lGdi1QTGJiczBTS0pLTEx0ZkV1d1FseEhVTEtiUzNjS0NGRFRYcUtBRTc0T25Jb3drZnNfUFlHSGZTbTNoT0Vpd2gwcG4ySEhMcllTaE1mZW5VWWQ1UnFXVEFrZHRHVGxwS2MyUVlQUGstTWR3eGd1UDMzZ2UzZnZNZkZ1MmJkRWlOekdhYW9UbUdwSXfSAdoBQVVfeXFMTlh6R3ZCbkNyRG1NX0RVWWUzMEdFVDhkelNYdklkX3NqaG5LUmF3dEhydTBkcmZJOWJqd2RYMDVTU1U2aHI1VlFzbDM2TmoyYWZoYjJTSGU0Yk1ieWF1RDAzdE1QYXJiRVVWV1ktaHlrRHlTOTBickVnRllVbmZBYnB4WkdmcFVaMUR5YzRwc3BHYXNLRWt1djRoRUZRQms1Ti1BR1hwQkdYclMzSnlBSi05dlZPd2hyTzJkMlVzbDJZeWNGZTJxdkQ3c3E5TDc3MzNFZlYzQ3I4OFE?oc=5"
-    ]
-   },
-   {
-    "categoria": "marketing-politico",
-    "tipo_seo": "evergreen",
-    "titulo": "Redes sociales para candidatos: micro-creadores locales contra el influencer nacional",
-    "angulo": "Para una campaña territorial, un grupo de creadores locales con comunidades reales vale más que una celebridad nacional. La estrategia consiste en elegir por afinidad con el territorio, medir interacciones reales y convertir el contenido en conversación cara a cara.",
-    "por_que_hoy": "Unilever reporta que su red de creadores pasó de 75.000 a 500.000 en dos años, mientras la economía de creadores se vuelve el canal central de la comunicación. Los equipos de campaña preguntan cómo usar redes sociales para candidatos sin depender de pauta masiva.",
+    "titulo": "Janones y la movilización en redes: de seguidores a voluntarios en la calle",
+    "angulo": "Un candidato gana cuando su comunidad digital se convierte en red de voluntarios territoriales; el reto es diseñar contenido que empuje a la acción offline (reuniones, puerta a puerta, registro de votantes) y medir esa conversión.",
+    "por_que_hoy": "Claridad publica hoy un análisis sobre la reinvención de la movilización política en redes a partir de André Janones, mientras la conversación sobre estrategias digitales para candidatos crece de cara a las elecciones territoriales de 2027.",
     "keyword": "redes sociales para candidatos",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUZkV2ljTTNQR05XMXVaV1QzZFgxRE4tb18yWUZUMnYxVmxXbGotWjFMak0ydkNjc18xRnQyNWdad1JxclBFWmk5VjJvVVpKZ3VCQ2JibXBwWGQzTk1PdjF2bndRcXZVTllyaFdTTGhXVURpWWZ2LVhnZkc4UnNQcXpMMVBOaWFlSjlxY3RTUEFNZHcwTTA4eDhJbllCcHdkNE9YOWRUbjc2UQ?oc=5"
+     "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQmtoWHRwZE80UWZKVHZLLWtSczdFeUZ2WGYwS21OR1BzNWV6ZVRKM2Q4Z21ORlpXT1Bqc3Q4RWFOcVNYcDdINE04VnQ1TVN3SUdSZ2NXQlo5a2NFRnZBRGViSnFPeHFhZTFkMkhuUDZ0MEdoSl9lUkNvOFFGZFpfUHViWGZkSHkxM2ZHZTFjSW5BZ2N4UU1FU0EzTnJEV3hsWC1Vd3FB?oc=5"
+    ]
+   },
+   {
+    "categoria": "marketing-politico",
+    "tipo_seo": "evergreen",
+    "titulo": "Qué hace un estratega digital y político en Colombia y cuánto cuesta contratarlo",
+    "angulo": "El estratega digital no es solo el que publica: diseña la estrategia de redes, la pauta, la escucha y el análisis de datos, y debe conectar cada métrica digital con un objetivo electoral real en el territorio.",
+    "por_que_hoy": "Artículo 14 analiza quién está detrás de la estrategia viral del PP, lo que reabre la pregunta de qué perfil profesional hay detrás de las campañas digitales. Es una búsqueda constante de candidatos y equipos antes de cada calendario electoral.",
+    "keyword": "estratega digital y político",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRmZYVUYtNldEbzA2cnF2NEdERlBsS3ozcWpyUVFuR1B1WVNrZVYwUi1KODRDTjB4UWQ4WFJ1Z1JQVkxvejdhYlJQME5BajlCVVhfU1VILWJqQ2Vkd2E1MmdTTEw1YlBaZ2czVzNZNzVuMXgwTEZsQnR1Yk93clFYZ2ZaaU10bk5pcmhBdHMwOURtRnVoUm1lSl9Qbmd2bTBSb3lqS0lpYm5WUWVBaXJxSlFlQ29wVTV3VHZNTg?oc=5"
+    ]
+   },
+   {
+    "categoria": "marca-personal",
+    "tipo_seo": "newsjacking",
+    "titulo": "La economía de creadores llega a 116.000 millones: cómo volver tu audiencia una marca",
+    "angulo": "El dinero de la economía de creadores se concentra en quienes pasan de contenido a un negocio con oferta clara; la marca personal rentable se construye con confianza, nicho definido y un modelo de ingresos diversificado.",
+    "por_que_hoy": "Hello Partner publica un pronóstico de gasto en creadores de 116.000 millones de dólares, con comisiones de afiliados incluidas, y Agency Reporter aborda la transición de creador a CEO. Hay interés creciente en cómo monetizar una marca personal.",
+    "keyword": "cómo crear una marca personal",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQXpCVXdtYnBTdVlxTzBUNEVCYVZ1MTcxTUJ1SlFGNG8teGhQOHZtcUI0LWkzZkJqek5XOWZPUjZ6bzc2YnlUYUdMY00wZGZBWTlfaE1XOEtnNkJfR01hZV9MMXBCN0tlN3dWWFlHdU5KUlgtQXFKLUNfQW1pdDRucFlrbV84WUJfa2k3LXF3WEVLdw?oc=5",
+     "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNkxqXzZWSFQwZ3ZYZXVqUktMUUFmVWxnQjdDbWNtTFRXWGZ5XzNwLTNCNDl3SjU2RFFvVVlHX2FIb0dxSzV0a1Y2V3lPM0RZRWZrNDRCU1JPcEFIdG9ZdFRiVFgtMWZIVkprUTlsbjczMG9ycEhNMkZ4bXdMc3ljVDFkck15OF9tNnpGZTBPNVJnNVk?oc=5"
     ]
    },
    {
     "categoria": "ia-para-emprendedores",
     "tipo_seo": "newsjacking",
-    "titulo": "Meta abre 5.000 cupos de certificación digital: cómo aprovecharlos si tienes una pyme",
-    "angulo": "La formación gratuita en herramientas digitales e IA es una oportunidad concreta para pymes y emprendedores que aún no saben por dónde empezar. Aprovechar el cupo implica elegir un caso de uso (contenido, atención al cliente o pauta) y medir el resultado desde el primer mes.",
-    "por_que_hoy": "Infobae publica que Meta abrirá 5.000 cupos anuales de certificación digital en Colombia tras un acuerdo con el Gobierno. Las búsquedas de cursos de IA para pymes y de certificaciones digitales gratuitas suben cuando se anuncian cupos nuevos.",
-    "keyword": "certificación digital Meta Colombia",
+    "titulo": "Meta abre 5.000 cupos de certificación digital: la ruta de IA para emprendedores en redes",
+    "angulo": "La formación gratuita en herramientas digitales e IA es una oportunidad para que emprendedores y equipos de campaña profesionalicen su contenido, su pauta y su análisis de datos sin depender de agencias costosas.",
+    "por_que_hoy": "Infobae informa que Meta abrirá 5.000 cupos anuales de certificación digital en Colombia tras un acuerdo con el Gobierno. La noticia coincide con el aumento de búsquedas sobre IA para pymes y emprendedores.",
+    "keyword": "inteligencia artificial para emprendedores en Colombia",
     "fuentes": [
      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUmlhQW13UVdLdC13ems1QWJwQ2V5LXhZOV9RMjcxOGJwaVBuam9yTnJUZ0ltbkc4bER0dzByX2pwaElxd2lEWHdFbmNZX0RqOEZraklKY09rMFZVV01ONUFaS2V0ZURLbWxJeEdtOGZUSHlweEF5bDlMNWJ3V1BLNTZHek1FTE83eWZoYWpIeDV3anQ4ZllEVW9BNDNUYzZvOHk5RlJybEdacnk2RmljQVRtODk1RW5EY05TUGRtb2pXZy1fUVJiTTBZTmVManFKb1RZZlA4Uk7SAfMBQVVfeXFMTWNCLUJ3c0ZjOTJTWXBYSG10ZWtPbm5ac2FSLTY2YXI4MnpzRXF5MHQzQi1ycW1TNF8xS3JOVHUtWFl0NVk1VWszX0NIbEFXeDZEdHlOY0dRSWpNSFV6c1RBZ28ydk5ESUlCOS1oZ3diMVI5SWVzWm9PYlBuZWlWSUJac2x4YVF6aE9VNWNweVQ1UlMxVU5wVDRwWlJnRUN5MzNIZkNDbE0tNWJEUTZPNkxqSjNRNUdzQVhtUUZYVHlTMXMzaHM5aXhqbktNcm8xOUJuUzRNUmQtWFNsM0lOXzdEcGhOd3FFeHRYd09BNjdBSFZJ?oc=5"
     ]
    }
   ],
-  "ts": 1795002757.2849452
+  "ts": 1795089075.4426718
  },
  "pending": null,
  "history": [

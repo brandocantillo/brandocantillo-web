@@ -329,7 +329,14 @@ MATERIAL DE HOY (búsquedas en alza en Google y titulares de las últimas 24 h):
 {bloques}
 
 Primero usa la búsqueda web para confirmar qué está explotando HOY en Colombia y Latinoamérica en redes (tendencias de X, TikTok,
-Instagram, YouTube) y DE QUÉ SE ESTÁ PELEANDO LA GENTE. Luego elige 5 temas. PRIORIDAD NÚMERO UNO: QUE GENERE DEBATE.
+Instagram, YouTube) y DE QUÉ SE ESTÁ PELEANDO LA GENTE. Luego elige 5 temas de DOS TIPOS:
+- 3 de tipo "debate" (las reglas de abajo).
+- 2 de tipo "tip": consejos prácticos para que la gente mejore y potencie SUS redes (Instagram, TikTok, WhatsApp Business, LinkedIn,
+  YouTube, marca personal, uso de IA para crear contenido). Mejor si salen de algo de HOY (función nueva, cambio de algoritmo,
+  error que muchos están cometiendo); si no, un tip que todo el mundo debería aplicar. Deben ser concretos y aplicables en 5 minutos
+  ("activa esto", "deja de hacer esto", "haz esto antes de publicar"), con 3 pasos máximo. Nada de consejos genéricos tipo "sé constante".
+  Su gancho promete un resultado o señala un error ("Si tu Instagram no crece, revisa esto").
+Para los de tipo "debate", PRIORIDAD NÚMERO UNO: QUE GENERE DEBATE.
 Brando lo pidió así: lo que divida opiniones y llene los comentarios, sin importar el tema (farándula, deporte, política,
 influencers, marcas, tecnología, consumo, cultura). Filtro:
 1. DEBATE: hay dos bandos claros y la gente ya está discutiendo (comentarios, citas, respuestas). Es lo más importante.
@@ -346,13 +353,13 @@ hechos que no confirmaste (sin difamación). No inventes datos: solo lo que conf
 {('Indicación de Brando: ' + pista) if pista else ''}
 
 Responde SOLO JSON:
-{{"temas":[{{"tema":"de qué se trata, máx 80 caracteres",
+{{"temas":[{{"tipo":"debate|tip","tema":"de qué se trata, máx 80 caracteres",
  "por_que_ahora":"la evidencia de que está viral hoy (volumen de búsquedas, tendencia, noticia)",
  "debate":"alto|medio","alcance":"alto|medio","urgencia":"graba hoy|graba mañana|esta semana",
- "bandos":"cuáles son las dos posturas que se están peleando",
+ "bandos":"(debate) las dos posturas que se están peleando; (tip) el error que comete la gente",
  "angulo":"la postura de Brando en una frase (clara, defendible, que divida)",
  "gancho":"primera frase del video, directa, sin saludo (máx 15 palabras)",
- "guion":"guion de 45-70 s (110-170 palabras) para decir a cámara, en párrafos cortos separados por \\n\\n; cierra con una pregunta que obligue a tomar bando",
+ "guion":"guion de 45-70 s (110-170 palabras) para decir a cámara, en párrafos cortos separados por \\n\\n; en debate cierra con una pregunta que obligue a tomar bando; en tip, con una pregunta tipo "¿cuál vas a aplicar hoy?" o invitando a guardar el video",
  "portada":"TITULAR DE PORTADA en máx 7 palabras que se lea como una frase completa",
  "fuentes":["url"]}}]}}"""
     txt, fuentes = claude(prompt, system=VOZ, model="escritor", max_tokens=5000, web_search=5)

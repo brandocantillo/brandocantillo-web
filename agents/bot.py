@@ -8,7 +8,7 @@ import json, os, subprocess, sys, time, traceback
 from . import radar, equipo
 from .core import ROOT, DATA, SITE, CFG, COSTO, tg, send, send_document, send_video_bot, env, esc, load_state, save_state, chat_id, log
 
-AYUDA = ("<b>Comandos</b>\n/temas — proponer temas ahora\n/tema &lt;texto&gt; — escribir sobre tu propio tema\n"
+AYUDA = ("<b>Comandos</b>\n/temas — proponer temas ahora\n/virales — temas de actualidad para VIDEO (llegan al bot de videos)\n/tema &lt;texto&gt; — escribir sobre tu propio tema\n"
          "/marketing — solo marketing político\n/comunicacion — solo comunicación política\n/marca — solo marca personal y comunidades\n"
          "/ia — solo IA para emprendedores\n/mensual — columna inédita para tu espacio en medios regionales\n/estado — qué está pasando\n/cancelar — descartar lo pendiente")
 SOLO = {"/marketing": "marketing-politico", "/comunicacion": "comunicacion-politica", "/marca": "marca-personal", "/ia": "ia-para-emprendedores"}
@@ -122,6 +122,30 @@ def guion_video(meta, cuerpo):
     except Exception as e:
         log("Envío del guion falló:", e); send(texto)
 
+def virales(state, pista=""):
+    """Temas de actualidad para video. Llegan al bot de videos, cada uno con su gancho y guion listos para grabar."""
+    from . import radar
+    try:
+        ya = [t["tema"] for t in state.get("virales", [])][-40:]
+        temas, _ = equipo.cazador_virales(radar.virales(), ya=ya, pista=pista)
+    except Exception as e:
+        log("Cazador de virales falló:", e); send(f"⚠️ No pude preparar los temas virales ({esc(str(e)[:200])}). Prueba /virales más tarde."); return
+    state["virales"] = (state.get("virales", []) + [{"tema": t["tema"], "fecha": time.strftime("%Y-%m-%d")} for t in temas])[-60:]
+    save_state(state)
+    destino = send_video_bot if env("TELEGRAM_VIDEO_BOT_TOKEN", required=False) else send
+    destino(f"🔥 <b>Temas de actualidad para video</b> · {time.strftime('%d/%m')}\nOrdenados por urgencia. Graba primero los de «graba hoy».")
+    for i, t in enumerate(temas, 1):
+        fuentes = "\n".join(esc(u) for u in t.get("fuentes", [])[:2])
+        destino(f"<b>{i}. {esc(t.get('tema', ''))}</b>\n"
+                f"⏱ {esc(t.get('urgencia', ''))} · alcance {esc(t.get('alcance', ''))}\n"
+                f"📈 {esc(t.get('por_que_ahora', ''))}\n"
+                f"🎯 {esc(t.get('angulo', ''))}\n\n"
+                f"<b>Gancho:</b> {esc(t.get('gancho', ''))}\n\n"
+                f"<b>Guion:</b>\n{esc(t.get('guion', ''))}\n\n"
+                f"<b>Portada:</b> {esc(t.get('portada', ''))}\n{fuentes}")
+    if destino is send_video_bot:
+        send("🔥 Te llegaron los temas virales del día al bot de videos.")
+
 def mensual(state, medio=""):
     medios = CFG.get("medios_regionales", ["un medio regional"])
     for m in ([medio] if medio else medios):
@@ -176,6 +200,7 @@ def on_text(state, text):
     t = text.strip()
     if t.startswith("/start") or t.startswith("/ayuda"): send(AYUDA); return
     if t.startswith("/temas"): propose(state); return
+    if t.startswith("/virales"): send("🔥 Buscando lo que está explotando hoy…"); virales(state, t[8:].strip()); return
     if t.startswith("/mensual"): mensual(state, t[8:].strip()); return
     for cmd, cat in SOLO.items():
         if t.startswith(cmd): propose(state, solo=cat); return
@@ -233,6 +258,7 @@ def main():
         propose(state)
         escuchar(state, float(os.environ.get("MINUTOS_TRAS_PROPONER", 20)))
     elif cmd == "mensual": mensual(state)
+    elif cmd == "virales": virales(state)
     elif cmd == "poll":
         escuchar(state, float(os.environ.get("MINUTOS_ESCUCHA", 9)))
     elif cmd == "loop":

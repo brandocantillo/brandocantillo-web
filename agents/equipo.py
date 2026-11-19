@@ -9,6 +9,7 @@
   Distribuidor (Haiku)   → hilo para X, post de LinkedIn y texto para WhatsApp
   Relacionista (Haiku)   → pitches a periodistas, columna invitada y artículo LinkedIn para ganar enlaces de medios grandes
   Guionista (Sonnet)     → guion de 60-90 s para grabar el video de la columna (llega al bot de videos)
+  Cazador de virales (Sonnet + web) → cada mañana, 5 temas de actualidad para VIDEO que pueden explotar
 """
 import json, re
 from datetime import datetime
@@ -311,3 +312,44 @@ def escribir(tema, nota="", avisar=lambda m: None):
             "seo_type": tema.get("tipo_seo", ""), "quote": seo.get("frase_citable", ""),
             "keywords": [seo["keyword"]] + seo.get("secundarias", []), "faq": seo.get("faq", []), "sources": usados}
     return meta, cuerpo, dossier
+
+
+# ------------------------------------------------------------------ 10. Cazador de virales (videos)
+def cazador_virales(material, ya=(), pista=""):
+    """Elige temas de ACTUALIDAD para video con la fórmula del video del baneo de Instagram:
+    algo que le está pasando a MUCHA gente hoy + Brando como el experto que lo explica y da la salida."""
+    bloques = json.dumps(material, ensure_ascii=False)[:14000]
+    prompt = f"""Hoy es {FECHA()}. Eres el productor de contenido de Brando Cantillo, estratega digital y político colombiano, abogado
+especialista en derechos de autor y nuevas tecnologías, experto en IA, redes sociales y marca personal.
+
+Su video más exitoso fue sobre el BANEO MASIVO DE CUENTAS DE INSTAGRAM: un tema que estaba afectando a miles de personas ESE día,
+explicado por alguien que sabe, con la salida práctica ("qué hacer si te pasó"). Queremos repetir esa fórmula todos los días.
+
+MATERIAL DE HOY (búsquedas en alza en Google y titulares de las últimas 24 h):
+{bloques}
+
+Primero usa la búsqueda web para confirmar qué está explotando HOY en Colombia y Latinoamérica en redes (tendencias de X, TikTok,
+Instagram, YouTube) y qué dudas tiene la gente. Luego elige 5 temas que pasen este filtro:
+1. MASIVO: le interesa o afecta a mucha gente fuera del nicho (usuarios de una app, consumidores, votantes, creadores, emprendedores).
+   Prioriza: caídas o cambios de plataformas, bloqueos y baneos, estafas virales, nuevas funciones de IA que todos están probando,
+   polémicas de influencers o marcas, videos de políticos que se volvieron virales, leyes o fallos que afectan lo que la gente publica.
+2. PUENTE: Brando tiene autoridad real para explicarlo (redes y plataformas, IA, comunicación política, derechos de autor y tecnología, marca personal).
+3. VENTANA: está pasando ahora; si se graba en 1-2 días todavía sirve.
+4. SALIDA PRÁCTICA: el video le deja a la gente algo que hacer o entender.
+Política: analiza la estrategia de comunicación, nunca tomes partido ni ataques a nadie. No inventes datos: solo lo que confirmaste.
+Evita tragedias, muertes, víctimas y temas que expongan a personas privadas.
+{('Temas ya propuestos o hechos (no repetir): ' + '; '.join(ya)) if ya else ''}
+{('Indicación de Brando: ' + pista) if pista else ''}
+
+Responde SOLO JSON:
+{{"temas":[{{"tema":"de qué se trata, máx 80 caracteres",
+ "por_que_ahora":"la evidencia de que está viral hoy (volumen de búsquedas, tendencia, noticia)",
+ "alcance":"alto|medio","urgencia":"graba hoy|graba mañana|esta semana",
+ "angulo":"la lectura de Brando en una frase (lo que nadie más está diciendo)",
+ "gancho":"primera frase del video, directa, sin saludo (máx 15 palabras)",
+ "guion":"guion de 45-70 s (110-170 palabras) para decir a cámara, en párrafos cortos separados por \\n\\n; cierra con una pregunta",
+ "portada":"TITULAR DE PORTADA en máx 7 palabras que se lea como una frase completa",
+ "fuentes":["url"]}}]}}"""
+    txt, fuentes = claude(prompt, system=VOZ, model="escritor", max_tokens=5000, web_search=5)
+    temas = as_json(txt)["temas"]
+    return temas, fuentes

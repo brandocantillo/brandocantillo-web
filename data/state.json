@@ -3,58 +3,66 @@
  "proposal": {
   "temas": [
    {
+    "categoria": "marketing-politico",
+    "tipo_seo": "evergreen",
+    "titulo": "Estratega digital y político: qué hace, cuánto cobra y qué debe exigir un candidato",
+    "angulo": "Un candidato al concejo o a la alcaldía necesita un estratega que conecte redes, datos y territorio, y debe saber qué entregables, indicadores y presupuesto pedirle antes de contratarlo.",
+    "por_que_hoy": "La Registraduría fijó el calendario de las elecciones territoriales de 2027 y los partidos ya definen estrategias y procesos internos, así que crece la búsqueda de quién debe llevar la campaña digital.",
+    "keyword": "estratega digital y político",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZjlSXzRlc3pJQVhNWVhtNjJhSDFDTDdvYmVlME5EN2JEc09wMHg3bnpmUWV0WTRRUFVlejFTVnp5SE9tRG0xNlJ5OXo3ZmVpV1k5SjRNNjFaWlVCZmNCVjBBNmF2UGxXZHJRUzI4Y0dWVnJPR3l6Mml0dnBiYW1qOWlSUU82cFBoSUtsWm5zTzdkYk1HU3pFMU44NVItN2x4SzY0eG5DVk5nOU5KUGF3?oc=5",
+     "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ19oOTJVMmNkSVVpaHlVNWdhTDYwWXB5LURnU3BEdFB5WTZEU3NzdndmUV9aQ1dveU9sSHlhekdYR252R1RsNms2Q2JpS3VyV3h4aVRoQVcxUjVGYm56TEtxNVZaelF0eF80UHUwdm81c1BRTVJ4RmoybjVqYmFBUU9ZaWlGT3pmM0g0VkhnQmJpaklrTVBF?oc=5"
+    ]
+   },
+   {
     "categoria": "comunicacion-politica",
     "tipo_seo": "newsjacking",
-    "titulo": "Reels en campaña: cómo usar formatos cortos sin caer en el ruido que tanto critican",
-    "angulo": "Los formatos cortos ganan alcance, pero la campaña que los usa bien convierte el clip viral en una propuesta verificable y en un vínculo con el territorio, no en espectáculo.",
-    "por_que_hoy": "Ex-ante publica hoy el debate sobre si los Reels en campaña son comunicación política o degradación del debate público, y la conversación sobre formatos cortos en las elecciones de 2027 se intensifica.",
-    "keyword": "redes sociales para candidatos",
+    "titulo": "Cara a cara Sánchez-Feijóo: qué enseña su tono sobre la comunicación política",
+    "angulo": "El debate muestra que el tono (contenido, combativo o pedagógico) se evalúa más por su clip de 30 segundos en redes que por el discurso completo; un estratega debe diseñar esos momentos antes del evento.",
+    "por_que_hoy": "La resaca del debate (PP celebrando, PSOE explicando el tono 'contenido' de Sánchez) y las explicaciones sobre la 'refutación con altura' están generando búsquedas sobre cómo funciona el debate político.",
+    "keyword": "comunicación política",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWMEtzYVpjRjdTektYU29MOHk1Y0VMOV96SGtqTzQ2cE1KcUw3cE5SNXdPbjY5MVJXYmtieVFlSTRodWRkMWFLajVhWGxBWndZTmdVLXpnTjFfdG1OVTlMSnJENmRRSlhXcjlhakdnSzM4Mm5Pa3RiMm5KTWE2Rnc?oc=5"
+     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPR3NrSjBQWklXVlZad01MSTIyREFkOHJSbG9mUnJMcml5R2s5X2JacGY4eF9DTTVtSW50ZzFGQVhiTmFWTnBvLUtIOVBKcjM3TktSTmNtbUFBSU5ISzdOTTNYa0tFYnlqcExDUzNoZ2E2TlQ2VUJYNDdmaXFuVmthckFrT0x1TWtkUUp4U1F0WjFZazJERDJHYlNFbE8xbDMwSFI2WWo4a05BMUIySU5RV0pkVXdjZ0tpZ3R0cE93ZEpMWjBFYmY4V0J6Mm45Sk5uZVljR0tocTh0Q1HSAeABQVVfeXFMUDM4QUpFMDZwdG41UF95YnIzS3RPTHRLVjFHRnE5UndxWTBubWVubWo2NHg5Z0lkMVJwXzFHdjJPREVyOUh0WjB2RVZZWVc1RmtDa2NjVVo5dlFUUHVqTFNxbUpiME9jTEl1NTZxZjR3YVpLcjhRUTZlQXZHWUprNkVuX2UzWjNKZVlkQW1JdW5uMFdaRl9XdHhJOEVWMjdSd096RktUYmhndF9POHlKTk1uNzZlZktzbEZpT3ZRV1ZfUUNmQk1SN3hEM2pqeHhaQmIzcWRaWmpYOTNrX09lZ1c?oc=5",
+     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQb2dEcnYzREtxRFlGbkdFd3A4RnBDanlKZk1DbUVCc1dDajZGb045ZV9XVGpNV09SOHd2X19kZUF1aEJJbkEyVDR4Y1NMbjAwNkl4SktXSGtYMW84X0Zna25rZml6VHo3a1Brdng5emNxR2ltSk1uQXNBTzYtYXBRTkJOOWtkWHY5VXdlcl84Q0N5SDFVSXhSckQ5VTQwNTV2THNRVUNRS0xXSUFHbF9BS2Jud3A4NGpLaUxWQ0pvZ25qNUZBQ1pFWWJ6cUdiZG5OODRSbzZSTVE5X3pFd2hJ?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
-    "tipo_seo": "evergreen",
-    "titulo": "Estratega digital y político en Colombia: qué hace, cuánto cobra y cómo elegir uno",
-    "angulo": "Un buen estratega digital y político no es quien más publica, sino quien conecta datos, pauta, contenido y trabajo de territorio con una meta electoral medible.",
-    "por_que_hoy": "Búsquedas recurrentes de perfiles y honorarios de estrategas a medida que se acerca el calendario electoral 2027 y los equipos de campaña empiezan a contratar.",
-    "keyword": "estratega digital y político",
-    "fuentes": []
-   },
-   {
-    "categoria": "marketing-politico",
-    "tipo_seo": "evergreen",
-    "titulo": "Estrategia digital para campañas políticas: del WhatsApp al TikTok, con datos y territorio",
-    "angulo": "Cada canal tiene una función distinta en una campaña local: WhatsApp moviliza, TikTok descubre y Facebook sostiene; el mapa solo sirve si se cruza con el territorio donde vive el votante.",
-    "por_que_hoy": "El calendario electoral 2027 activó las búsquedas de candidatos a concejo, alcaldía y gobernación que necesitan definir su estrategia digital antes de salir a campaña.",
-    "keyword": "estrategia digital para campañas políticas",
-    "fuentes": []
+    "tipo_seo": "newsjacking",
+    "titulo": "Feijóo, Sánchez y los youtubers: cómo elegir un influenciador para tu campaña",
+    "angulo": "Cuando los líderes nacionales salen a grabar con creadores para captar voto joven, un candidato local debe decidir con datos (audiencia real, comunidad, territorio) si un influenciador suma votos o solo visualizaciones.",
+    "por_que_hoy": "Feijóo grabará con el youtuber Plex para captar voto joven y Sánchez ya hizo lo mismo con Jordi Wild, mientras RTVE publica que los jóvenes indecisos ven su primer voto como una oportunidad.",
+    "keyword": "redes sociales para candidatos",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUzQzU0VseFNOd3VfYVRoOHh1YXU1Y1VBNHpUQkx2X3B5WTByaGREbllkbGMzM3JLZVRFQ3ZCdU83c0k5Xy12MGNYRDVkaG9INmJsRGE4VlFuM1hSd2REcHFqcDR6R05rRE9iRkRJODZCRFhUVVZwV29nNHI4YWxIX21VQXY4VlJTRnpMcW9DckZUemI4cERoTVE0RFh5ZWJLcVUxam1VUEI4VUNaOE5mM2lNUU15OThpS3VKdDdNOUx3UTdKUExQU0lqYmd0a0tXUFZHTTFTWEdZUmEydktBeEtleklrNTdFUmfSAYQCQVVfeXFMUGY4UzVIRDFZQ05FYzJSWGowTnVaYjRta3VGN3RmaHNoQWk1WlNoT2FYNXZNYjNSNlA4RGpncWEzTDJwc2NuQ3FXakM2dzR6V0dJckpWc2puYjZvaXpLdlp1bzRNYTNScUxmMVgzaXNRd1BRc1Z2VWRVMlZsVjhrX1UwVDJORkF3a2pCYmtFZHZGMmdRQ0p2TGJEejZ1eFNSQVN3bzRMSGVvQmVOdjZfamhLMjlXc0wwOTJRV0VrN2ZWTW5LbDdpcUgwSzhJR3llc0hER2tJbDR2bU90UHVUZXp3a1hUVGhhOHlzYWFheHROeXpHbXFkUkhlNTNEdEFtQ0M4YUU?oc=5",
+     "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ19oOTJVMmNkSVVpaHlVNWdhTDYwWXB5LURnU3BEdFB5WTZEU3NzdndmUV9aQ1dveU9sSHlhekdYR252R1RsNms2Q2JpS3VyV3h4aVRoQVcxUjVGYm56TEtxNVZaelF0eF80UHUwdm81c1BRTVJ4RmoybjVqYmFBUU9ZaWlGT3pmM0g0VkhnQmJpaklrTVBF?oc=5"
+    ]
    },
    {
     "categoria": "marca-personal",
     "tipo_seo": "newsjacking",
-    "titulo": "Influenciadores en campañas: cómo elegir creadores locales sin comprar seguidores",
-    "angulo": "Cuando un político quiere ser influenciador, el reto es real: la credibilidad de un creador depende de su comunidad auténtica, y elegirlo por métricas infladas es el error más caro.",
-    "por_que_hoy": "Revista Merca2.0 publica hoy que 'el candidato quiere ser influencer', y la tendencia de candidatos que buscan audiencias en redes crece a medida que se acercan las elecciones.",
-    "keyword": "influenciadores para campañas políticas",
+    "titulo": "Cuando el creador se apaga: plan de crisis y seguridad para tu marca personal",
+    "angulo": "Un creador que desaparece de redes por amenazas pierde alcance y confianza; tener un protocolo de comunicación, respaldo de comunidad y control de datos personales es parte de la marca personal.",
+    "por_que_hoy": "Julioprofe reveló que no ha vuelto a redes por amenazas contra él y su familia, y otros creadores colombianos han sido víctimas de ataques, lo que dispara búsquedas sobre seguridad de influencers.",
+    "keyword": "marca personal en crisis",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KTE9TcnpyTkQ4NkJBZkRKY0dxZFpENjl0WmFMQVllY2U3THFTREJLVWNnLTNtNzAzV2NBNHY1T0FwNXhCbWtGdTNidTd4dFpQSmFfUnpXM0dRTFpwcDYwU3poSVU1cS1ZYVl3?oc=5"
+     "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMWJWV1VBS2VZUUE3WlJOUW5FNFpMQTJHMFZ0bkIyaVROOVRIRUt5TVNpOGJFOEFXRU9uWXhGakxha0F2NDZwbmpYaWo1Nm1hVHU0NjY5YTZLSWliNlAycDJpbjRRQl9sM29pWjd3QnlzMDU4aENWcmM0dGhpRUFFY29YSE5UdkhXOUtDTXVxTTBUWFJsQ0g4NzZOQdIBoAFBVV95cUxObDZsUUZDd0lrSzkzRUhmZHJWcXVFN2hVTVRDZ3hCaEY2REcxNkdaMFlaMk1KZFg5Qy1jbFlEQWhkWlFDbjl6WDdrTmtoOTRHa29nMW5wNGNMdlg4NDBhQ0RwcVAwUmlPTTVEX2p2V3hlVGotNnljSmJGX1lMTXExV2t3b09pb0JlM3BRbTJsMG9hTHpmYmNqX0NZaTVKaGJN?oc=5"
     ]
    },
    {
     "categoria": "ia-para-emprendedores",
-    "tipo_seo": "newsjacking",
-    "titulo": "Mozart, la IA colombiana para emprendedores: qué tareas automatizar primero en tu negocio",
-    "angulo": "Antes de comprar cualquier herramienta de IA, el emprendedor debe identificar las tareas repetitivas que más tiempo le cuestan y automatizar una sola a la vez para medir el impacto.",
-    "por_que_hoy": "Revista Semana destaca hoy a emprendedores colombianos que crearon 'Mozart', un dispositivo de IA que ejecuta tareas empresariales, lo que despierta interés por soluciones locales.",
-    "keyword": "herramientas de IA para emprendedores Colombia",
+    "tipo_seo": "evergreen",
+    "titulo": "IA para responder clientes por WhatsApp e Instagram: guía práctica para tu pyme",
+    "angulo": "Un emprendedor puede usar IA para responder preguntas frecuentes, calificar prospectos y pasar a humano las conversaciones delicadas, con reglas claras de tono y un tablero simple para medir tiempo de respuesta y ventas.",
+    "por_que_hoy": "MinTIC anunció capacitaciones para que emprendedores fortalezcan sus negocios con IA y marketing digital, y una pyme colombiana podrá recibir formación gratuita en IA e innovación durante dos días.",
+    "keyword": "inteligencia artificial para emprendedores",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZEtXX3VSNnFWUk82QWxaUWhLeFlpX01KX3AxUkVBSUpiQmxTMFZIRzMyazB2dmUtZWhYdV9aV3gxQnA5WGRtbURUZEpFOHNMZWdwWXkybUxwMURaOXFReGNDckFGUXVpREMwbElHdldKNUN4SXk5TGozcEhCd3Y0SUFSc0laSUViLUstMGZWeDllNVlqYVVfNUxJbld6NEhqTElfcmFsMmxOd2dYU0dZZ0o5M0VsQkFJYnJYZGwxQnJuTkVYVzljNXhxU1ZtS01DRGNWWmdrZlhodDU0M2pvREU4eTTSAeoBQVVfeXFMTXExcEdxYldJZnJyUlh2SmF2N0hmVXgwUF90Rk5pbmtleUFkd1Q5OUt5RGVkNFFLNWlvSDkxdVpfeWEtMFpFYlBiNkZrZ2VVcGc0YWRHNnFCMUNZZ3pJMXBaVWFHeFBUUVBCdmVGOUU0Y1REam1tTHhGNTVYR05raENuN0RTdFhUSFdGY0tybXV0LVhqR2xiUzdXWG1xUWZVV1hVMTVqMjc0RGdHbkNOZjNHeFlWVGtnZExQcmdtYkJjV2Fnc3FMbVZBdU5ST0otOG5iMkJ4bnJHcUpIOTN6cFVJNkcyZmRXM05R?oc=5"
+     "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcGROSFFicVZVdkpMUDRtYnoxR3B5YXEtSWVyeDRGUk1NUlNqUnI3a0REMl9sQkQ4emsyT2g1Y2xwM3ZTa1JiYS1uN1dnVkZ3czNRMWk5Y2VLN2EySnhkU0VqcVYwS1B4OTg4bU56OU5JS18zSHEwZlhWRmNRUzlWR3lteFhDOWlXYWhlWFFhWFRXVDdFUXFmZWkxVnkwX3R3ZHJRMVpIY3ZCZzd0TE5HRnBWUEtmX2o1TVFacV81MGNJWFBaeHRZWjlLNnRPLU1DeTB4WTNMOGREaVhnVlRXSmpDcXlta1k0aGNvVFNTdjdzOTJ5VGxkT0Z3U2ZnM2l3YkE?oc=5",
+     "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUVdxWHRYZlBlTTd1ZENRMW1zYnJOdEtNbm84N01LMGNUbWZ5QmE3d3JEVzI0Y0l0bFhzbWRfSndYbUxmSmFNd1RhYk52bW1LRkhaUVQtT1R6elFvYVZwVVZTeVZhcUpNMFJQUHNUOUwybFlDanFsQmVHMlpIYVJrdEN4YWdlSjcyNFVFS2oxLXdpZVhzTzBlcW9PRkRRanZzbHpDZ2lRX19vaFA3d0xoMDNPUjNWS0RSMHBqX1d6U09kR18yd00zMy1lbE5jUkN4aGVwNTJ3?oc=5"
     ]
    }
   ],
-  "ts": 1795175414.2705371
+  "ts": 1795261094.2942402
  },
  "pending": {
   "topic": {

@@ -1,11 +1,10 @@
 name: Agentes Brando Cantillo
 on:
   schedule:
-    - cron: "0 11 * * *"        # 6:00 a. m. Colombia: propuestas del día
+    - cron: "0 11 * * *"        # 6:00 a. m. Colombia: propuestas del día + temas virales para video
     - cron: "*/10 11-23 * * *"  # cada 10 min, 6 a. m. a 6:59 p. m.: revisar Telegram
     - cron: "*/20 0-3 * * *"    # cada 20 min, 7 p. m. a 10:59 p. m.: revisar Telegram
     - cron: "0 13 25 * *"       # día 25: columnas para medios regionales
-    - cron: "30 11 * * *"       # 6:30 a. m. Colombia: temas virales para video
   workflow_dispatch:
     inputs:
       modo:
@@ -27,7 +26,6 @@ jobs:
           case "${{ github.event.schedule }}" in
             "0 11 * * *")  echo "m=propose" >> $GITHUB_OUTPUT ;;
             "0 13 25 * *") echo "m=mensual" >> $GITHUB_OUTPUT ;;
-            "30 11 * * *") echo "m=virales" >> $GITHUB_OUTPUT ;;
             "") echo "m=${{ github.event.inputs.modo || 'propose' }}" >> $GITHUB_OUTPUT ;;
             *) echo "m=poll" >> $GITHUB_OUTPUT ;;
           esac

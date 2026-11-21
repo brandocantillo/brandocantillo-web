@@ -258,6 +258,7 @@ def main():
     state = load_state(); state["published"] = False
     if cmd == "propose":
         propose(state)
+        virales(state)  # van en el mismo turno: una tarea aparte la cancelaba GitHub por chocar con la escucha de Telegram
         escuchar(state, float(os.environ.get("MINUTOS_TRAS_PROPONER", 20)))
     elif cmd == "mensual": mensual(state)
     elif cmd == "virales": virales(state)

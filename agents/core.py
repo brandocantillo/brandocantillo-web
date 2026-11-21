@@ -127,3 +127,29 @@ def load_state():
 
 def save_state(s):
     STATE_FILE.write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def publicar_texto(x=None, linkedin=None):
+    """Publica texto en X y LinkedIn por Upload-Post (las cuentas ya conectadas allá).
+    Devuelve {"x": "ok"|error, "linkedin": ...}. Sin UPLOAD_POST_API_KEY no hace nada."""
+    key = env("UPLOAD_POST_API_KEY", required=False)
+    if not key:
+        return None
+    user = env("UPLOAD_POST_USER", required=False) or "default"
+    out = {}
+    for red, texto in (("x", x), ("linkedin", linkedin)):
+        if not texto:
+            continue
+        cuerpo = {"user": user, "platform": [red], "title": texto}
+        if red == "linkedin":
+            cuerpo["linkedin_description"] = texto
+        try:
+            res = json.loads(http("https://api.upload-post.com/api/upload_text", json.dumps(cuerpo).encode(),
+                                  {"Authorization": f"Apikey {key}", "Content-Type": "application/json"}, timeout=120))
+            r = (res.get("results") or {}).get(red) or {}
+            out[red] = "ok" if res.get("success") and r.get("success", True) else str(r.get("error") or res)[:200]
+        except urllib.error.HTTPError as e:
+            out[red] = f"HTTP {e.code}: {e.read().decode(errors='ignore')[:200]}"
+        except Exception as e:
+            out[red] = str(e)[:200]
+    return out

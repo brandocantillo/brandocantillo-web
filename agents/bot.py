@@ -6,7 +6,7 @@
 """
 import json, os, subprocess, sys, time, traceback
 from . import radar, equipo
-from .core import ROOT, DATA, SITE, CFG, COSTO, tg, send, send_document, send_video_bot, env, esc, load_state, save_state, chat_id, log
+from .core import ROOT, DATA, SITE, CFG, COSTO, tg, send, send_document, send_video_bot, env, esc, load_state, save_state, chat_id, log, publicar_texto
 
 AYUDA = ("<b>Comandos</b>\n/temas — proponer temas ahora\n/virales — temas de actualidad para VIDEO (llegan al bot de videos)\n/tema &lt;texto&gt; — escribir sobre tu propio tema\n"
          "/marketing — solo marketing político\n/comunicacion — solo comunicación política\n/marca — solo marca personal y comunidades\n"
@@ -81,23 +81,18 @@ def publicar(state):
     guion_video(meta, p["body"])
     try:
         d = equipo.distribuidor(meta, p["body"])
-        hilo = "\n\n".join(f"{i+1}/ {esc(t)}" for i, t in enumerate(d.get("hilo_x", [])))
-        send(f"<b>Hilo para X</b>\n\n{hilo}")
-        send(f"<b>LinkedIn</b>\n\n{esc(d.get('linkedin',''))}")
-        send(f"<b>WhatsApp</b>\n\n{esc(d.get('whatsapp',''))}")
+        hilo = "\n\n".join(d.get("hilo_x", []))
+        res = publicar_texto(x=hilo, linkedin=d.get("linkedin", ""))
+        if res is None:  # sin clave de Upload-Post: te mando los textos para publicarlos tú
+            send(f"<b>Hilo para X</b>\n\n{esc(hilo)}")
+            send(f"<b>LinkedIn</b>\n\n{esc(d.get('linkedin',''))}")
+        else:
+            estado = " · ".join(f"{'✅' if v == 'ok' else '⚠️'} {k.upper() if k == 'x' else 'LinkedIn'}" + ("" if v == "ok" else f" ({esc(v)})")
+                                for k, v in res.items())
+            send(f"📣 Publicado en redes: {estado}")
+        send(f"<b>WhatsApp</b> (para tus estados y listas)\n\n{esc(d.get('whatsapp',''))}")
     except Exception as e:
         log("Distribuidor falló:", e)
-    try:
-        pr = equipo.relacionista(meta, p["body"], meta.get("quote", ""))
-        send("<b>📰 Kit de relaciones públicas</b>\nObjetivo: que medios grandes te citen y enlacen tu web. Revisa, ajusta y envía tú mismo.")
-        for x in pr.get("pitch_periodistas", []):
-            send(f"<b>Para: {esc(x.get('medio',''))}</b> ({esc(x.get('seccion',''))})\nAsunto: {esc(x.get('asunto',''))}\n\n{esc(x.get('cuerpo',''))}")
-        ci = pr.get("columna_invitada", {})
-        send(f"<b>Columna invitada</b>\nMedios: {esc(', '.join(ci.get('medios_sugeridos', [])))}\nTítulo: {esc(ci.get('titulo',''))}\n\n{esc(ci.get('entrada',''))}")
-        send(f"<b>Artículo de LinkedIn</b>\n\n{esc(pr.get('linkedin_articulo',''))}")
-        send(f"<b>Respuesta experta (foros y periodistas)</b>\n\n{esc(pr.get('respuesta_experta',''))}")
-    except Exception as e:
-        log("Relacionista falló:", e)
     indexnow(url)
     if state.get("proposal"):
         send("¿Quieres escribir otro de los temas propuestos hoy? Usa los botones del mensaje de temas o /temas.")

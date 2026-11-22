@@ -126,7 +126,7 @@ Diseña el plan SEO. Responde SOLO JSON:
  "description":"meta description 140-155 caracteres, con la keyword y un motivo para hacer clic",
  "dek":"subtítulo de 1-2 frases con la voz de Brando",
  "slug":"slug-corto-con-keyword",
- "h2":["5-7 subtítulos H2 que respondan a lo que se busca; al menos 2 en forma de pregunta real"],
+ "h2":["{formato(tema)['h2']} subtítulos H2 que respondan a lo que se busca; al menos 1 en forma de pregunta real"],
  "faq":[{{"q":"pregunta real de búsqueda","a":"respuesta de 2-3 frases"}}],
  "enlaces_internos":[{{"texto":"ancla descriptiva con palabra clave","url":"/columnas/... o página pilar"}}],
  "frase_citable":"una frase de Brando, de máx 25 palabras, que un periodista pueda citar textualmente",
@@ -135,6 +135,18 @@ Máximo 4 preguntas FAQ (las que la gente busca en "Otras preguntas de los usuar
 Títulos: el seo_title debe ganar el clic (número, año, "cómo", "guía" o contraste), sin clickbait."""
     txt, _ = claude(prompt, model="rapido", max_tokens=2000)
     return as_json(txt)
+
+# ------------------------------------------------------------------ Extensión según el tipo de columna
+def formato(tema):
+    """Actualidad/opinión: corta y al grano. Guía permanente: práctica, sin relleno (decisión de Brando, 22 nov 2026)."""
+    if tema.get("tipo_seo") == "evergreen":
+        return {"min": 1050, "obj": 1200, "max": 1350, "h2": "4-5", "citas": CFG["citas_externas_minimas"],
+                "enfoque": ("GUÍA PRÁCTICA: céntrate en LO QUE HAY QUE HACER. Pasos concretos, en orden, con ejemplos colombianos. "
+                            "Nada de introducciones largas, historia del tema ni párrafos que repitan la idea. Cada sección debe dejar una acción.")}
+    return {"min": 600, "obj": 700, "max": 800, "h2": "2-3", "citas": 3,
+            "enfoque": ("COLUMNA DE ACTUALIDAD/OPINIÓN: explica QUÉ ESTÁ PASANDO y POR QUÉ HAY QUE PRESTARLE ATENCIÓN. "
+                        "Arranca con el hecho, da tu lectura estratégica y cierra con lo que viene o lo que debería hacer el lector. "
+                        "Corta y directa: nada de contexto que no sea imprescindible.")}
 
 # ------------------------------------------------------------------ 5. Columnista
 SISTEMA_COLUMNISTA = f"""Eres Brando Cantillo escribiendo tu columna diaria. Escribes en español de Colombia, en primera persona.
@@ -149,6 +161,7 @@ Reglas de oro:
 - Formato markdown: párrafos y subtítulos con '## '. Sin H1, sin título al inicio, sin emojis, sin tablas. Listas solo si de verdad son pasos."""
 
 def columnista(tema, dossier, seo, nota=""):
+    f = formato(tema)
     prompt = f"""Escribe la columna completa.
 TÍTULO (no lo repitas en el texto): {seo['titulo']}
 CLÚSTER: {SITE['categories'][tema['categoria']]['name']}
@@ -158,18 +171,20 @@ SUBTÍTULOS H2 A USAR (puedes ajustar la redacción para que suenen a ti): {json
 ENTIDADES QUE DEBEN APARECER: {', '.join(seo.get('entidades', []))}
 ENLACES INTERNOS (inclúyelos TODOS de forma natural, con el ancla indicada): {json.dumps(seo.get('enlaces_internos', []), ensure_ascii=False)}
 FRASE CITABLE (inclúyela tal cual, en un párrafo propio o como cita destacada con '> '): {seo.get('frase_citable','')}
-CITAS A MEDIOS: cita y enlaza al menos {CFG['citas_externas_minimas']} medios o estudios distintos del dossier, con atribución natural: "como publicó [El Tiempo](url)", "según un análisis de [La Silla Vacía](url)". Nunca copies párrafos de esos medios: resume con tus palabras y aporta tu lectura estratégica.
+CITAS A MEDIOS: cita y enlaza al menos {f['citas']} medios o estudios distintos del dossier, con atribución natural: "como publicó [El Tiempo](url)", "según un análisis de [La Silla Vacía](url)". Nunca copies párrafos de esos medios: resume con tus palabras y aporta tu lectura estratégica.
 NOTA DE BRANDO (su opinión o experiencia, úsala como eje si existe): {nota or '— sin nota —'}
 
 DOSSIER DE INVESTIGACIÓN:
 {dossier}
 
-Extensión: alrededor de {CFG['palabras_objetivo']} palabras (mínimo {CFG['palabras_minimas']}). Entrega solo el cuerpo en markdown."""
-    txt, _ = claude(prompt, system=SISTEMA_COLUMNISTA, model="escritor", max_tokens=7000, temperature=0.9)
+ENFOQUE: {f["enfoque"]}
+Extensión: entre {f["min"]} y {f["max"]} palabras (ideal {f["obj"]}). No rellenes para llegar: si sobra, recorta. Entrega solo el cuerpo en markdown."""
+    txt, _ = claude(prompt, system=SISTEMA_COLUMNISTA, model="escritor", max_tokens=5000, temperature=0.9)
     return txt.strip()
 
 # ------------------------------------------------------------------ 6. Editor
-def editor(cuerpo, dossier):
+def editor(cuerpo, dossier, tema=None):
+    f = formato(tema or {})
     palabras = len(re.findall(r"\w+", cuerpo))
     prompt = f"""Eres el editor de estilo y verificador de Brando Cantillo. Revisa esta columna ({palabras} palabras).
 GUÍA DE VOZ:
@@ -179,7 +194,7 @@ DOSSIER (lo único verificado):
 COLUMNA:
 {cuerpo}
 
-Busca: (a) muletillas o fórmulas típicas de texto generado por IA y frases prohibidas por la guía; (b) estructuras repetidas (todas las secciones abren igual, tríadas, cierres moralizantes); (c) datos, cifras, citas o anécdotas que NO estén en el dossier ni en una nota de Brando; (d) párrafos de relleno; (e) si tiene menos de {CFG['palabras_minimas']} palabras.
+Busca: (a) muletillas o fórmulas típicas de texto generado por IA y frases prohibidas por la guía; (b) estructuras repetidas (todas las secciones abren igual, tríadas, cierres moralizantes); (c) datos, cifras, citas o anécdotas que NO estén en el dossier ni en una nota de Brando; (d) párrafos de relleno o que repiten una idea (márcalos para borrar); (e) si se sale del rango de {f['min']} a {f['max']} palabras.
 Responde SOLO JSON: {{"aprobada": true|false, "problemas": ["instrucción concreta de corrección, citando el fragmento"], "puntaje_voz": 1-10}}
 Aprueba solo si no hay datos sin respaldo y el puntaje de voz es 8 o más."""
     txt, _ = claude(prompt, model="rapido", max_tokens=1500)
@@ -187,12 +202,14 @@ Aprueba solo si no hay datos sin respaldo y el puntaje de voz es 8 o más."""
     links = re.findall(r"\]\((\S+?)\)", cuerpo)
     externos = {re.sub(r"^https?://(www\.)?", "", u).split("/")[0] for u in links if u.startswith("http") and SITE["url"].split("//")[1] not in u}
     internos = [u for u in links if u.startswith("/") or SITE["url"].split("//")[1] in u]
-    if len(externos) < CFG["citas_externas_minimas"]:
-        r["aprobada"] = False; r.setdefault("problemas", []).append(f"Cita y enlaza al menos {CFG['citas_externas_minimas']} medios distintos del dossier (hoy hay {len(externos)}).")
+    if len(externos) < f["citas"]:
+        r["aprobada"] = False; r.setdefault("problemas", []).append(f"Cita y enlaza al menos {f['citas']} medios distintos del dossier (hoy hay {len(externos)}).")
     if len(internos) < CFG["enlaces_internos_minimos"]:
         r["aprobada"] = False; r.setdefault("problemas", []).append(f"Incluye al menos {CFG['enlaces_internos_minimos']} enlaces internos a columnas o páginas pilar (hoy hay {len(internos)}).")
-    if palabras < CFG["palabras_minimas"]:
-        r["aprobada"] = False; r.setdefault("problemas", []).append(f"Amplía a {CFG['palabras_objetivo']} palabras con análisis y ejemplos aplicados a Colombia (hoy tiene {palabras}).")
+    if palabras < f["min"]:
+        r["aprobada"] = False; r.setdefault("problemas", []).append(f"Amplía a unas {f['obj']} palabras con análisis útil, sin relleno (hoy tiene {palabras}).")
+    if palabras > f["max"] + 80:
+        r["aprobada"] = False; r.setdefault("problemas", []).append(f"Recorta a unas {f['obj']} palabras: quita contexto accesorio, repeticiones y párrafos de relleno (hoy tiene {palabras}).")
     return r
 
 def revisar(cuerpo, instrucciones, dossier=""):
@@ -301,7 +318,7 @@ def escribir(tema, nota="", avisar=lambda m: None):
     avisar("✍️ Escribiendo la columna…")
     cuerpo = columnista(tema, dossier, seo, nota)
     for ronda in range(2):
-        rev = editor(cuerpo, dossier)
+        rev = editor(cuerpo, dossier, tema)
         log(f"Editor ronda {ronda+1}: aprobada={rev.get('aprobada')} voz={rev.get('puntaje_voz')} problemas={len(rev.get('problemas', []))}")
         if rev.get("aprobada"): break
         avisar(f"🧹 El editor pidió {len(rev.get('problemas', []))} ajustes, corrigiendo…")

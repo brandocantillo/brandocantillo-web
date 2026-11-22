@@ -4,11 +4,11 @@
   python -m agents.bot poll      → revisa tus respuestas una vez (para GitHub Actions)
   python -m agents.bot loop      → bot siempre encendido, respuesta inmediata (para tu PC o un servidor)
 """
-import json, os, subprocess, sys, time, traceback
+import json, os, re, subprocess, sys, time, traceback
 from . import radar, equipo
 from .core import ROOT, DATA, SITE, CFG, COSTO, tg, send, send_document, send_video_bot, env, esc, load_state, save_state, chat_id, log, publicar_texto
 
-AYUDA = ("<b>Comandos</b>\n/temas — proponer temas ahora\n/virales — temas de actualidad para VIDEO (llegan al bot de videos)\n/tema &lt;texto&gt; — escribir sobre tu propio tema\n"
+AYUDA = ("<b>Comandos</b>\n/temas — proponer temas ahora\n/virales — temas de actualidad para VIDEO (llegan al bot de videos)\n/redes — publicar en X y LinkedIn la última columna\n/tema &lt;texto&gt; — escribir sobre tu propio tema\n"
          "/marketing — solo marketing político\n/comunicacion — solo comunicación política\n/marca — solo marca personal y comunidades\n"
          "/ia — solo IA para emprendedores\n/mensual — columna inédita para tu espacio en medios regionales\n/estado — qué está pasando\n/cancelar — descartar lo pendiente")
 SOLO = {"/marketing": "marketing-politico", "/comunicacion": "comunicacion-politica", "/marca": "marca-personal", "/ia": "ia-para-emprendedores"}
@@ -117,6 +117,23 @@ def guion_video(meta, cuerpo):
     except Exception as e:
         log("Envío del guion falló:", e); send(texto)
 
+def redes_ultima(state):
+    """Publica en X y LinkedIn la última columna publicada (por si falló la publicación automática)."""
+    posts = sorted((ROOT / "content/posts").glob("*.md"))
+    if not posts:
+        send("No encontré columnas publicadas."); return
+    txt = posts[-1].read_text(encoding="utf-8")
+    m = re.match(r"^---json\s*\n(.*?)\n---\s*\n(.*)$", txt, re.S)
+    if not m:
+        send("No pude leer la última columna."); return
+    meta, cuerpo = json.loads(m.group(1)), m.group(2)
+    send(f"📣 Publicando en X y LinkedIn: «{esc(meta.get('title', ''))}»…")
+    d = equipo.distribuidor(meta, cuerpo)
+    res = publicar_texto(x="\n\n".join(d.get("hilo_x", [])), linkedin=d.get("linkedin", ""))
+    if res is None:
+        send("⚠️ Falta la clave UPLOAD_POST_API_KEY en GitHub."); return
+    send("📣 " + " · ".join(f"{'✅' if v == 'ok' else '⚠️'} {'X' if k == 'x' else 'LinkedIn'}" + ("" if v == "ok" else f" ({esc(v)})") for k, v in res.items()))
+
 def virales(state, pista=""):
     """Temas de actualidad para video. Llegan al bot de videos, cada uno con su gancho y guion listos para grabar."""
     from . import radar
@@ -197,6 +214,7 @@ def on_text(state, text):
     t = text.strip()
     if t.startswith("/start") or t.startswith("/ayuda"): send(AYUDA); return
     if t.startswith("/temas"): propose(state); return
+    if t.startswith("/redes"): redes_ultima(state); return
     if t.startswith("/virales"): send("🔥 Buscando lo que está explotando hoy…"); virales(state, t[8:].strip()); return
     if t.startswith("/mensual"): mensual(state, t[8:].strip()); return
     for cmd, cat in SOLO.items():

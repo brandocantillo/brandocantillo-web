@@ -140,12 +140,19 @@ def publicar_texto(x=None, linkedin=None):
     for red, texto in (("x", x), ("linkedin", linkedin)):
         if not texto:
             continue
-        cuerpo = {"user": user, "platform": [red], "title": texto}
+        campos = [("user", user), ("platform[]", red), ("title", texto)]
         if red == "linkedin":
-            cuerpo["linkedin_description"] = texto
+            campos.append(("linkedin_description", texto))
+        # Upload-Post exige formulario multipart (con JSON responde "Username required in form data")
+        limite = "----brando" + uuid.uuid4().hex
+        partes = []
+        for k, v in campos:
+            partes.append(f'--{limite}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n')
+        datos = ("".join(partes) + f"--{limite}--\r\n").encode("utf-8")
         try:
-            res = json.loads(http("https://api.upload-post.com/api/upload_text", json.dumps(cuerpo).encode(),
-                                  {"Authorization": f"Apikey {key}", "Content-Type": "application/json"}, timeout=120))
+            res = json.loads(http("https://api.upload-post.com/api/upload_text", datos,
+                                  {"Authorization": f"Apikey {key}", "Content-Type": f"multipart/form-data; boundary={limite}"},
+                                  timeout=120))
             r = (res.get("results") or {}).get(red) or {}
             out[red] = "ok" if res.get("success") and r.get("success", True) else str(r.get("error") or res)[:200]
         except urllib.error.HTTPError as e:

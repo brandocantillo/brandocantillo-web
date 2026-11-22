@@ -3,66 +3,63 @@
  "proposal": {
   "temas": [
    {
-    "categoria": "marketing-politico",
-    "tipo_seo": "evergreen",
-    "titulo": "Estratega digital y político: qué hace, cuánto cobra y qué debe exigir un candidato",
-    "angulo": "Un candidato al concejo o a la alcaldía necesita un estratega que conecte redes, datos y territorio, y debe saber qué entregables, indicadores y presupuesto pedirle antes de contratarlo.",
-    "por_que_hoy": "La Registraduría fijó el calendario de las elecciones territoriales de 2027 y los partidos ya definen estrategias y procesos internos, así que crece la búsqueda de quién debe llevar la campaña digital.",
-    "keyword": "estratega digital y político",
-    "fuentes": [
-     "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZjlSXzRlc3pJQVhNWVhtNjJhSDFDTDdvYmVlME5EN2JEc09wMHg3bnpmUWV0WTRRUFVlejFTVnp5SE9tRG0xNlJ5OXo3ZmVpV1k5SjRNNjFaWlVCZmNCVjBBNmF2UGxXZHJRUzI4Y0dWVnJPR3l6Mml0dnBiYW1qOWlSUU82cFBoSUtsWm5zTzdkYk1HU3pFMU44NVItN2x4SzY0eG5DVk5nOU5KUGF3?oc=5",
-     "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ19oOTJVMmNkSVVpaHlVNWdhTDYwWXB5LURnU3BEdFB5WTZEU3NzdndmUV9aQ1dveU9sSHlhekdYR252R1RsNms2Q2JpS3VyV3h4aVRoQVcxUjVGYm56TEtxNVZaelF0eF80UHUwdm81c1BRTVJ4RmoybjVqYmFBUU9ZaWlGT3pmM0g0VkhnQmJpaklrTVBF?oc=5"
-    ]
-   },
-   {
     "categoria": "comunicacion-politica",
     "tipo_seo": "newsjacking",
-    "titulo": "Cara a cara Sánchez-Feijóo: qué enseña su tono sobre la comunicación política",
-    "angulo": "El debate muestra que el tono (contenido, combativo o pedagógico) se evalúa más por su clip de 30 segundos en redes que por el discurso completo; un estratega debe diseñar esos momentos antes del evento.",
-    "por_que_hoy": "La resaca del debate (PP celebrando, PSOE explicando el tono 'contenido' de Sánchez) y las explicaciones sobre la 'refutación con altura' están generando búsquedas sobre cómo funciona el debate político.",
+    "titulo": "Sin pauta oficial: cómo un gobierno comunica directo en redes sin depender de los medios",
+    "angulo": "Cuando un gobierno retira la pauta a medios, su comunicación se traslada a redes propias, video directo y voceros digitales; analizar qué gana y qué arriesga esa estrategia.",
+    "por_que_hoy": "El presidente De la Espriella advirtió a ministros y medios que no habrá pauta oficial, lo que abre el debate sobre cómo se reemplaza esa comunicación en el ecosistema digital.",
     "keyword": "comunicación política",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPR3NrSjBQWklXVlZad01MSTIyREFkOHJSbG9mUnJMcml5R2s5X2JacGY4eF9DTTVtSW50ZzFGQVhiTmFWTnBvLUtIOVBKcjM3TktSTmNtbUFBSU5ISzdOTTNYa0tFYnlqcExDUzNoZ2E2TlQ2VUJYNDdmaXFuVmthckFrT0x1TWtkUUp4U1F0WjFZazJERDJHYlNFbE8xbDMwSFI2WWo4a05BMUIySU5RV0pkVXdjZ0tpZ3R0cE93ZEpMWjBFYmY4V0J6Mm45Sk5uZVljR0tocTh0Q1HSAeABQVVfeXFMUDM4QUpFMDZwdG41UF95YnIzS3RPTHRLVjFHRnE5UndxWTBubWVubWo2NHg5Z0lkMVJwXzFHdjJPREVyOUh0WjB2RVZZWVc1RmtDa2NjVVo5dlFUUHVqTFNxbUpiME9jTEl1NTZxZjR3YVpLcjhRUTZlQXZHWUprNkVuX2UzWjNKZVlkQW1JdW5uMFdaRl9XdHhJOEVWMjdSd096RktUYmhndF9POHlKTk1uNzZlZktzbEZpT3ZRV1ZfUUNmQk1SN3hEM2pqeHhaQmIzcWRaWmpYOTNrX09lZ1c?oc=5",
-     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQb2dEcnYzREtxRFlGbkdFd3A4RnBDanlKZk1DbUVCc1dDajZGb045ZV9XVGpNV09SOHd2X19kZUF1aEJJbkEyVDR4Y1NMbjAwNkl4SktXSGtYMW84X0Zna25rZml6VHo3a1Brdng5emNxR2ltSk1uQXNBTzYtYXBRTkJOOWtkWHY5VXdlcl84Q0N5SDFVSXhSckQ5VTQwNTV2THNRVUNRS0xXSUFHbF9BS2Jud3A4NGpLaUxWQ0pvZ25qNUZBQ1pFWWJ6cUdiZG5OODRSbzZSTVE5X3pFd2hJ?oc=5"
+     "https://news.google.com/rss/articles/CBMimAJBVV95cUxPRXc0WklCX243WkFYMXZ4RHhiVExXTmFaUXdSMFQzRFFYclR4NFFneTA0ZGtnenVFV3JCZU1TaVZyNGw1TlZGQ1lSNFZWNVNuOXJKcFl2aHBZVjZfejYtYXV2Y2prb2Z3R3dRY2xJU3huVjNBQmkzcWsyUkdzeEc1NWFTZXpUZ1NRWElNNjQ5dUY4VHFjNTJja1dJYV9IVEhIR2VJYlVnUTAwcndvc3B6UzZsUlc4bDN3Wi01bmEzZFpGbHp2ZXRaOFAtVGg4RUNTWnNuN18takR5VTh4VFFMY3pNeVczRW04VjlrbzlPUTNsMVBYOWI5TTd2YThEM0lDWTRnelVXVGZMSkJZTjctaXI0YVFoek5X?oc=5",
+     "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZjlSXzRlc3pJQVhNWVhtNjJhSDFDTDdvYmVlME5EN2JEc09wMHg3bnpmUWV0WTRRUFVlejFTVnp5SE9tRG0xNlJ5OXo3ZmVpV1k5SjRNNjFaWlVCZmNCVjBBNmF2UGxXZHJRUzI4Y0dWVnJPR3l6Mml0dnBiYW1qOWlSUU82cFBoSUtsWm5zTzdkYk1HU3pFMU44NVItN2x4SzY0eG5DVk5nOU5KUGF3?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
-    "tipo_seo": "newsjacking",
-    "titulo": "Feijóo, Sánchez y los youtubers: cómo elegir un influenciador para tu campaña",
-    "angulo": "Cuando los líderes nacionales salen a grabar con creadores para captar voto joven, un candidato local debe decidir con datos (audiencia real, comunidad, territorio) si un influenciador suma votos o solo visualizaciones.",
-    "por_que_hoy": "Feijóo grabará con el youtuber Plex para captar voto joven y Sánchez ya hizo lo mismo con Jordi Wild, mientras RTVE publica que los jóvenes indecisos ven su primer voto como una oportunidad.",
-    "keyword": "redes sociales para candidatos",
+    "tipo_seo": "evergreen",
+    "titulo": "Estrategia digital para campañas políticas: el plan en 90 días que conecta redes con votos",
+    "angulo": "Una guía por fases (diagnóstico de audiencias, contenido, pauta, comunidades de WhatsApp y validación en territorio) que muestra cómo traducir el alcance digital en votos reales.",
+    "por_que_hoy": "Con las elecciones territoriales de 2027 ya con calendario fijado por la Registraduría, los candidatos buscan cómo organizar su estrategia digital desde ahora.",
+    "keyword": "estrategia digital para campañas políticas",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUzQzU0VseFNOd3VfYVRoOHh1YXU1Y1VBNHpUQkx2X3B5WTByaGREbllkbGMzM3JLZVRFQ3ZCdU83c0k5Xy12MGNYRDVkaG9INmJsRGE4VlFuM1hSd2REcHFqcDR6R05rRE9iRkRJODZCRFhUVVZwV29nNHI4YWxIX21VQXY4VlJTRnpMcW9DckZUemI4cERoTVE0RFh5ZWJLcVUxam1VUEI4VUNaOE5mM2lNUU15OThpS3VKdDdNOUx3UTdKUExQU0lqYmd0a0tXUFZHTTFTWEdZUmEydktBeEtleklrNTdFUmfSAYQCQVVfeXFMUGY4UzVIRDFZQ05FYzJSWGowTnVaYjRta3VGN3RmaHNoQWk1WlNoT2FYNXZNYjNSNlA4RGpncWEzTDJwc2NuQ3FXakM2dzR6V0dJckpWc2puYjZvaXpLdlp1bzRNYTNScUxmMVgzaXNRd1BRc1Z2VWRVMlZsVjhrX1UwVDJORkF3a2pCYmtFZHZGMmdRQ0p2TGJEejZ1eFNSQVN3bzRMSGVvQmVOdjZfamhLMjlXc0wwOTJRV0VrN2ZWTW5LbDdpcUgwSzhJR3llc0hER2tJbDR2bU90UHVUZXp3a1hUVGhhOHlzYWFheHROeXpHbXFkUkhlNTNEdEFtQ0M4YUU?oc=5",
-     "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ19oOTJVMmNkSVVpaHlVNWdhTDYwWXB5LURnU3BEdFB5WTZEU3NzdndmUV9aQ1dveU9sSHlhekdYR252R1RsNms2Q2JpS3VyV3h4aVRoQVcxUjVGYm56TEtxNVZaelF0eF80UHUwdm81c1BRTVJ4RmoybjVqYmFBUU9ZaWlGT3pmM0g0VkhnQmJpaklrTVBF?oc=5"
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRmttSGQtQ1NkaVBrRzFSQllxMUpJelJjU3kwVDFrLU9uOUM4RG5MeDlFV0hPXzRyTkVBYkZIZlpISmhaN0VXZTVjNkZnN2RHYWc2endEeGhSTDIxdGlidnZzUjVBdEVqTWR2SGhDbVFlS25STm9xUUgyTUhuaHh2VUlDbjEyaEU3LVh0ZG1Dd3RvWTJKcXFtZmV5a2pCZVNV?oc=5"
     ]
    },
    {
     "categoria": "marca-personal",
     "tipo_seo": "newsjacking",
-    "titulo": "Cuando el creador se apaga: plan de crisis y seguridad para tu marca personal",
-    "angulo": "Un creador que desaparece de redes por amenazas pierde alcance y confianza; tener un protocolo de comunicación, respaldo de comunidad y control de datos personales es parte de la marca personal.",
-    "por_que_hoy": "Julioprofe reveló que no ha vuelto a redes por amenazas contra él y su familia, y otros creadores colombianos han sido víctimas de ataques, lo que dispara búsquedas sobre seguridad de influencers.",
-    "keyword": "marca personal en crisis",
+    "titulo": "Cuando un creador es víctima: protocolo de crisis para proteger tu marca personal",
+    "angulo": "Un plan de respuesta en las primeras horas (comunicado, silencio estratégico, comunidad, equipo de apoyo) que separa la reputación de la exposición mediática.",
+    "por_que_hoy": "Varios influencers colombianos han sido víctimas de robos y ataques esta semana, y el caso de 'El Gómez' dispara la búsqueda de cómo manejar la exposición pública de un creador.",
+    "keyword": "marca personal Colombia",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMWJWV1VBS2VZUUE3WlJOUW5FNFpMQTJHMFZ0bkIyaVROOVRIRUt5TVNpOGJFOEFXRU9uWXhGakxha0F2NDZwbmpYaWo1Nm1hVHU0NjY5YTZLSWliNlAycDJpbjRRQl9sM29pWjd3QnlzMDU4aENWcmM0dGhpRUFFY29YSE5UdkhXOUtDTXVxTTBUWFJsQ0g4NzZOQdIBoAFBVV95cUxObDZsUUZDd0lrSzkzRUhmZHJWcXVFN2hVTVRDZ3hCaEY2REcxNkdaMFlaMk1KZFg5Qy1jbFlEQWhkWlFDbjl6WDdrTmtoOTRHa29nMW5wNGNMdlg4NDBhQ0RwcVAwUmlPTTVEX2p2V3hlVGotNnljSmJGX1lMTXExV2t3b09pb0JlM3BRbTJsMG9hTHpmYmNqX0NZaTVKaGJN?oc=5"
+     "https://news.google.com/rss/articles/CBMigwJBVV95cUxPa3dLM21zc21iUndlMkt2TG9nam5GNTlwMktBZlBlNy1rdGlQZWwyeXc1czJHdm82Q2ZIejBvajVTOV9PekdZVm9oRDFYX1NTYVNFaXVqcnRtVkJmbl9RMDl4QVUyMk9iMElja3FmSkpsTUFUZHNRaGFfNjZrV25mTG1VYVA4dWx0MFRNSFZxU1ZZYjFEM3hja1daVndhYUZ5OXdxZUNvY1ZWdmwyOGYxVDBIckFDWE5MVFkxaVhoOWNrb19XTUM1LTg4YWNyZWxhQmlaMkZNdng5MUNuLWl6STJ3WnVrc3hEWXZTU28tN2NqbktfRnRBSGtleVBISjM1NXFN0gGIAkFVX3lxTE9mQU0wVk1KWlY3R1h2blQ2MVpBQ1dCRGFTbUVubEFaZmFDZ2JfZGNUMzg0ZDZkOE5XajRhcjdLZXQ4YXhWLVFLeThZSTUteHc5cjFWUU5mcU9MMTdDWnVBUVptMEI1Ym5uZVhVa0JhNC1reWlqelhTWmtkcFJmTUpPc2F0UTFaNjZLWXpxMkN3d1dYMWIzaFhzc3BDNDlEU1htc1c1TzFLWjN4c0pTaS03NVV2UnZXMDM2Ry1GMjlXT3p1NFpjeEFZNE52UmplRS0yZnlGUjQxTVFIQ3NXcldvSWZoUEc1WjhjMjV5TGxaa0lZSWpCR3poRmpvQ25fWWVHbThUTXM2cA?oc=5"
     ]
    },
    {
     "categoria": "ia-para-emprendedores",
     "tipo_seo": "evergreen",
-    "titulo": "IA para responder clientes por WhatsApp e Instagram: guía práctica para tu pyme",
-    "angulo": "Un emprendedor puede usar IA para responder preguntas frecuentes, calificar prospectos y pasar a humano las conversaciones delicadas, con reglas claras de tono y un tablero simple para medir tiempo de respuesta y ventas.",
-    "por_que_hoy": "MinTIC anunció capacitaciones para que emprendedores fortalezcan sus negocios con IA y marketing digital, y una pyme colombiana podrá recibir formación gratuita en IA e innovación durante dos días.",
-    "keyword": "inteligencia artificial para emprendedores",
+    "titulo": "Inteligencia artificial para pymes en Colombia: herramientas gratis y cómo elegir una",
+    "angulo": "Criterios para elegir herramientas de IA según el problema del negocio (ventas, atención, contabilidad, contenido), con un método simple para probarlas sin contratar nada grande.",
+    "por_que_hoy": "Medios económicos reportan que la IA puede bajar costos de atención bancaria y que pymes y emprendedores buscan cómo adoptarla sin grandes presupuestos, en plena temporada de ventas de fin de año.",
+    "keyword": "inteligencia artificial para pymes Colombia",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcGROSFFicVZVdkpMUDRtYnoxR3B5YXEtSWVyeDRGUk1NUlNqUnI3a0REMl9sQkQ4emsyT2g1Y2xwM3ZTa1JiYS1uN1dnVkZ3czNRMWk5Y2VLN2EySnhkU0VqcVYwS1B4OTg4bU56OU5JS18zSHEwZlhWRmNRUzlWR3lteFhDOWlXYWhlWFFhWFRXVDdFUXFmZWkxVnkwX3R3ZHJRMVpIY3ZCZzd0TE5HRnBWUEtmX2o1TVFacV81MGNJWFBaeHRZWjlLNnRPLU1DeTB4WTNMOGREaVhnVlRXSmpDcXlta1k0aGNvVFNTdjdzOTJ5VGxkT0Z3U2ZnM2l3YkE?oc=5",
-     "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUVdxWHRYZlBlTTd1ZENRMW1zYnJOdEtNbm84N01LMGNUbWZ5QmE3d3JEVzI0Y0l0bFhzbWRfSndYbUxmSmFNd1RhYk52bW1LRkhaUVQtT1R6elFvYVZwVVZTeVZhcUpNMFJQUHNUOUwybFlDanFsQmVHMlpIYVJrdEN4YWdlSjcyNFVFS2oxLXdpZVhzTzBlcW9PRkRRanZzbHpDZ2lRX19vaFA3d0xoMDNPUjNWS0RSMHBqX1d6U09kR18yd00zMy1lbE5jUkN4aGVwNTJ3?oc=5"
+     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcWszbmdiU0hlbEtUT0VRcjhXSDBjYnNfYVNhRUpwTzNiRTBuMXNSNmI5cU94RmpIeTlObFdJMnJOOWZiam9mamlqZXZ1VVd5bG1WUUt3elRnX2JRLUZqYloydFVSSnBXbWV0RFlGSUhoaHh0Ymk2bWkwaURRUVZpOUtxcTYyWHRZMHdDZFRhTkRZSHNXcDRRZkE5clI4TERMRlM0QUg4VGUxU25RTUhzNThLR19nZHdoeFFrZU9wV0TSAcYBQVVfeXFMTTZ6WERENDU5ZTZqZlF1b3pXS082aldzR3VROVZNaXBjemRPd3BRc1dQb3pkVnlLZjd4NHlOU2JqREQwQkdoZnIzUzNzR19MTWh3QUhSNkVWY1FkUXA1QmNfam9JMFc4dmc2LWdKaU5xWFdHRk4yV3RqWWZTeDhRT1BTTHl1MDUwWlpacmJqNEZzMlFjNDRhZ3dyZWtyZHdFQkVld3VucUVweWNocjEtcGpqbndYYXVFcmlUSUo4RU5PVE5hWDV3?oc=5"
+    ]
+   },
+   {
+    "categoria": "marketing-politico",
+    "tipo_seo": "newsjacking",
+    "titulo": "Feijóo, Plex y el voto joven: por qué los políticos graban con influencers y qué medir",
+    "angulo": "Analizar la estrategia de colaborar con creadores para captar audiencias jóvenes: qué ganan los candidatos, qué riesgos tiene la autenticidad y qué métricas valen más que las vistas.",
+    "por_que_hoy": "Feijóo grabará un video con el youtuber Plex para reforzar su captación de voto joven, mientras Sánchez también se mueve en redes antes del 29-N.",
+    "keyword": "marketing político digital",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS3VOc2dFZ3F2S0dNbkVOWVhwZUIwTldzb3VNNDlHTUVtLUd2TmRzM0ZhdnRFeW9uM3p4UWZEWVhsYzF0bG92SlpzenZCbGwxVmg4NjZNb2VtVVMzUUs4c2kzU3h6dVQ5YVFIOVhibElLUU10LWU4cFRBX1JOTjhGdTBHWQ?oc=5"
     ]
    }
   ],
-  "ts": 1795261094.2942402
+  "ts": 1795347458.6909342
  },
  "pending": null,
  "history": [
@@ -120,6 +117,26 @@
   {
    "tema": "Si tu Instagram no crece, mira envíos y guardados, no likes",
    "fecha": "2026-11-21"
+  },
+  {
+   "tema": "Tola y Maruja ganan premio de periodismo: ¿el humor político es periodismo?",
+   "fecha": "2026-11-22"
+  },
+  {
+   "tema": "Anuel AA aplaza Medellín: qué hacer con tu boleta y si explicaron bien",
+   "fecha": "2026-11-22"
+  },
+  {
+   "tema": "Reversa en el IVA a la comida de mascotas: ¿escuchar o improvisar?",
+   "fecha": "2026-11-22"
+  },
+  {
+   "tema": "TikTok ya revisa videos con IA: tres pasos para proteger tu contenido",
+   "fecha": "2026-11-22"
+  },
+  {
+   "tema": "Reserva el @usuario de tu negocio en WhatsApp Business antes de que te lo ganen",
+   "fecha": "2026-11-22"
   }
  ]
 }

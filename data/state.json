@@ -1,5 +1,5 @@
 {
- "offset": 851881624,
+ "offset": 851881629,
  "proposal": {
   "temas": [
    {
@@ -63,7 +63,22 @@
   ],
   "ts": 1795521093.5109081
  },
- "pending": null,
+ "pending": {
+  "topic": {
+   "categoria": "marketing-politico",
+   "tipo_seo": "newsjacking",
+   "titulo": "Candidatos en pódcast: por qué la conversación larga empieza a desplazar al spot",
+   "angulo": "En la campaña española del 29N los candidatos pasan de la publicidad a la conversación digital. Para el marketing político en Colombia la pregunta es cuándo un pódcast o un formato largo mueve votos y cuándo solo suma ruido.",
+   "por_que_hoy": "A pocos días del 29N la prensa destaca la batalla en pódcast, influencers, memes e IA. Al mismo tiempo se anuncia una Cumbre Mundial de Comunicación Política con las campañas de 2027 en la agenda.",
+   "keyword": "marketing político digital",
+   "fuentes": [
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSkw0bUtiTWtBbWtiTHZpVXYxMEJRUDQ4QV9yRlZub24xMlc4ZWtKQWlzMXg4OHotTzRFbnV3MGoyUXpnQ0dXRjJVNUZsRm9tR0RtRVkxMnhKMm5QSEJFaXdVZDlkX0lyaVRVRXl6Qlh6Z3BBLVhHd1lfUWpFdk04d192dkg4LWk1TmN1ZVFIUTlrWVRTVmlhS2JiMW9CQmJ5UGpDdGNR0gGmAUFVX3lxTE11Y0tkbV9KOWljZWJ2WXA4VGpLS3Nock1pOU5FNHktbFVOUWV5ck54SkxzSjFFWDBLVVJzdHVOa3dndHpRMEMwaTBrQi1fUnE5MXJLM21WU2t1MjdEYjRPX09TcGh1WGZQRm5XbHhMVUx4NWpIS2ZpaUE1Wmtjd05DOVk0LVNib2hNNW9tOUtFQm00dWV6SlJybzMzMUszX2w0d2VSS2c?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaTA3cFNkTmN1YThQaEpSVkpNX2lsYmIyVF9QbHhteTd2VlU3ZjRLWmR4UGMxMGotNV9Ybk1xam8zektrT3NhUVRfTHdLMWlqdEVQemZvbjdaaVNENnplU0JXM1h6aWxZMHNYTVRpX0VxR1FpU0I1YUhuVXM5SFF0SVExOVhZaVJpRHRfSkpzc2dfREVNQXc5ZlN4bUpJd3Jzdm8wLXFNOElrUTNZTFhjSQ?oc=5"
+   ]
+  },
+  "stage": "error",
+  "note": "El podcast desarrolla un arquetipo de marca como el sabio o el gobernante en un formato ya probado que sabemos que funciona, cuando nosotros queremos desarrollar todo ese arquetipo aún que cabe aclarar que los candidatos deben encontrar el formato que se amoldé a ellos y no ellos amoldarse a un formato por que se verían anti natural y eso resta demasiado"
+ },
  "history": [
   "Comunicación política: la gente aprueba al gobierno pero no conoce sus obras",
   "Sin pauta oficial: cómo un gobierno comunica directo en redes sin depender de los medios",
@@ -80,7 +95,7 @@
   "Cuánto cuesta implementar IA en una pyme: presupuesto realista y cómo medir el retorno",
   "Marketing político en el Cesar: cómo armar un plan de campaña para alcaldía, concejo o gobernación 2027"
  ],
- "published": true,
+ "published": false,
  "virales": [
   {
    "tema": "Estafas con GTA 6 que roban tus claves y tus redes",

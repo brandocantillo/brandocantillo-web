@@ -22,6 +22,43 @@ def http(url, data=None, headers=None, timeout=120):
         return r.read()
 
 # ------------------------------------------------------------------ Claude
+
+class _StreamError(Exception):
+    pass
+
+def _claude_stream(body, headers):
+    """Pide la respuesta en streaming: la conexión recibe datos todo el tiempo y no se corta
+    por inactividad mientras el modelo piensa y escribe una columna larga. Devuelve el mismo
+    formato que la respuesta normal: {content, usage, stop_reason}."""
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages",
+                                 data=json.dumps({**body, "stream": True}).encode(), headers=headers)
+    blocks, usage, stop = {}, {}, None
+    with urllib.request.urlopen(req, timeout=300) as r:  # timeout = máx. silencio entre datos
+        for raw in r:
+            line = raw.decode("utf-8", errors="ignore").strip()
+            if not line.startswith("data:"): continue
+            ev = json.loads(line[5:].strip() or "{}")
+            t = ev.get("type")
+            if t == "message_start":
+                usage.update(ev["message"].get("usage") or {})
+            elif t == "content_block_start":
+                b = dict(ev["content_block"])
+                if b.get("type") == "text": b["text"] = b.get("text", "")
+                blocks[ev["index"]] = b
+            elif t == "content_block_delta":
+                d = ev["delta"]
+                if d.get("type") == "text_delta": blocks[ev["index"]]["text"] += d.get("text", "")
+            elif t == "message_delta":
+                stop = (ev.get("delta") or {}).get("stop_reason") or stop
+                for k, v in (ev.get("usage") or {}).items():
+                    if v is not None: usage[k] = v
+            elif t == "error":
+                err = ev.get("error") or {}
+                raise _StreamError(f"{err.get('type')}: {err.get('message')}")
+    if stop is None:
+        raise _StreamError("la respuesta llegó incompleta")
+    return {"content": [blocks[k] for k in sorted(blocks)], "usage": usage, "stop_reason": stop}
+
 COSTO = {"in": 0, "out": 0, "searches": 0}
 
 def claude(prompt, system="", model="rapido", max_tokens=2000, web_search=0, temperature=None, retries=3):
@@ -38,12 +75,17 @@ def claude(prompt, system="", model="rapido", max_tokens=2000, web_search=0, tem
     headers = {"x-api-key": env("ANTHROPIC_API_KEY"), "anthropic-version": "2023-06-01", "content-type": "application/json"}
     for i in range(retries):
         try:
-            res = json.loads(http("https://api.anthropic.com/v1/messages", json.dumps(body).encode(), headers, timeout=600))
+            res = _claude_stream(body, headers)
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="ignore")[:500]
             if e.code in (429, 500, 502, 503, 529) and i < retries - 1:
                 log(f"Claude {e.code}, reintento…"); time.sleep(10 * (i + 1)); continue
             raise RuntimeError(f"Claude API {e.code}: {msg}")
+        except (urllib.error.URLError, ConnectionError, TimeoutError, OSError, _StreamError) as e:
+            # Conexión cortada a mitad de una respuesta larga (p. ej. Errno 104): reintentar
+            if i < retries - 1:
+                log(f"Conexión con Claude interrumpida ({e}), reintento {i + 1}/{retries}…"); time.sleep(10 * (i + 1)); continue
+            raise RuntimeError(f"Se cortó la conexión con Claude {retries} veces seguidas: {e}")
         u = res.get("usage", {})
         COSTO["in"] += u.get("input_tokens", 0); COSTO["out"] += u.get("output_tokens", 0)
         COSTO["searches"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)

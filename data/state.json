@@ -4,64 +4,65 @@
   "temas": [
    {
     "categoria": "marketing-politico",
-    "tipo_seo": "evergreen",
-    "titulo": "Estrategia digital para campañas políticas: de la pantalla a la urna en 2027",
-    "angulo": "Una campaña digital gana votos solo si convierte seguidores en una base organizada que se activa en el territorio: contenido, datos, pauta y calle en un mismo embudo.",
-    "por_que_hoy": "La Registraduría fijó el calendario de las elecciones territoriales de 2027 y los partidos ya definen aspirantes y estrategias regionales. Quien aspira al concejo o la alcaldía busca por dónde empezar.",
+    "tipo_seo": "newsjacking",
+    "titulo": "IA en campañas: dónde termina la automatización y empieza la pérdida de confianza",
+    "angulo": "Automatizar contenido con IA ahorra tiempo, pero la ventaja competitiva está en mantener la credibilidad: los votantes apenas distinguen mensajes de IA y humanos, así que la campaña debe definir qué no delega.",
+    "por_que_hoy": "La Cumbre Mundial de Comunicación Política en CDMX debate los límites de la IA y la pelea por la confianza, y un estudio reciente muestra que las personas apenas distinguen mensajes políticos generados por IA de los escritos por humanos.",
     "keyword": "estrategia digital para campañas políticas",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZUlWYWZxUWh3V3dHT0M0MldzM3ZCRXEzWlBSRjQyUEMxUjhXWjc4WUNhQ3N3UllPaTJldlNvN19kckFLQks2YV94M084ZlZpcm9pOXhySWxlUEZ4eURiSVlmTTR1NWxQWWVwcmxXVEJlYlVmYlAwSUpMSEo4bHIxRlgxc203Y2hTYm9qd29iaTdVTUNZcU40UkN3VE9nMlE1blBNaVlVdUwwT0VOY2c?oc=5",
-     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOXVVYVM2b1lpU21PbWVWS0lpbENMTGNEWDVHajhjOF9HVl9LajlGc0pDLXhWYlNaaHV4RzlEWnoyWkQ4VHpudTFBNHU2dlZhaldWMGhqN2Y0QjhmOFFrWmpwc09FT3dKZU5GeGpta25nTmJNRG9WaURxX0tZaUFtY1YwTVRVR2RkdXZOR3A0eFdFMXNqaEQzMTRDb3N6LXlfeGJWZWd5WUpkc0FEdUJTVDBpb2tXNW8?oc=5"
+     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb09sV1BLZnJ2cnJmSzFGczU0bGQ1Sk1tbm5PRWFzbk0wT3pXVUxCeVlsX3NIc3AwNUJndUZES1VMZEEwQ0NIYjVySzY5X0RPRUNXdmd1amJTdFIyaFJDMTNscTJSWU1sT0VIRmUzTWhLcEp6OHFnLVZYdDByVVJGajhib2NvZXB4a0I3TkRyWEZzeHIzWUdzUTVhbHFFbHpINFE0Z1VHUVlaMS1WNmhDTVRRTEg0YzI1X0QyeVAycmhfWUM0U1J4NkRmV3U5WXd0N1h2Z3gzaHRTbzV5dlRN0gHfAUFVX3lxTE9vT2xXUEtmcnZycmZLMUZzNTRsZDVKTW1ubk9FYXNuTTBPeldVTEJ5WWxfc0hzcDA1Qmd1RkRLVUxkQTBDQ0hiNXJLNjlfRE9FQ1d2Z3VqYlN0UjJoUkMxM2xxMlJZTWxPRUhGZTNNaEtwSno4cWctVlh0MHJVUkZqOGJvY29lcHhrQjdORHJYRnN4cjNZR3NRNWFscUVsekg0UTRnVUdRWVoxLVY2aENNVFFMSDRjMjVfRDJ5UDJyaF9ZQzRTUng2RGZXdTlZd3Q3WHZneDNodFNvNXl2VE0?oc=5",
+     "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2MxNWp5ZjZmeE5tRl9fSzdLYUxaUjFBeU5DNWJhamhYMXJHRzFwZWRlbE9uTDN1aTAwdFlJVlFrOTNJek9salA0czRjSzlKOFQwaTExMjhQWHJBSm1GUW1jM0tENmhqRU1BQkxpRk5CY2l2bnQ4T0Ntc05TMWpIcU16amM4bG0tUVZHblFpOVdXZ1NOTEEtUjZfOHRNT1ZjTGRwQjlPLVMteE5PWkVmZ0hsaWtaSVXSAbcBQVVfeXFMUEdjMTVqeWY2ZnhObUZfX0s3S2FMWlIxQXlOQzViYWpoWDFyR0cxcGVkZWxPbkwzdWkwMHRZSVZRazkzSXpPbGpQNHM0Y0s5SjhUMGkxMTI4UFhyQUptRlFtYzNLRDZoakVNQUJMaUZOQmNpdm50OE9DbXNOUzFqSHFNempjOGxtLVFWR25RaTlXV2dTTkxBLVI2Xzh0TU9WY0xkcEI5Ty1TLXhOT1pFZmdIbGlrWklV?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
-    "tipo_seo": "newsjacking",
-    "titulo": "Candidatos en pódcast: por qué la conversación larga empieza a desplazar al spot",
-    "angulo": "En la campaña española del 29N los candidatos pasan de la publicidad a la conversación digital. Para el marketing político en Colombia la pregunta es cuándo un pódcast o un formato largo mueve votos y cuándo solo suma ruido.",
-    "por_que_hoy": "A pocos días del 29N la prensa destaca la batalla en pódcast, influencers, memes e IA. Al mismo tiempo se anuncia una Cumbre Mundial de Comunicación Política con las campañas de 2027 en la agenda.",
-    "keyword": "marketing político digital",
+    "tipo_seo": "evergreen",
+    "titulo": "Estratega digital y político: qué hace, qué mide y cómo elegir uno para tu campaña",
+    "angulo": "Un buen estratega digital no es quien publica más, sino quien conecta datos, pauta, contenido y territorio para convertir alcance en votos; aquí se explica qué roles cubre y qué preguntas hacer antes de contratar.",
+    "por_que_hoy": "Las búsquedas sobre estratega político en Colombia crecen a medida que los partidos definen estrategias y procesos internos para las elecciones regionales de 2027, y las campañas de México publican guías sobre gestión y estrategia electoral.",
+    "keyword": "estratega digital y político",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSkw0bUtiTWtBbWtiTHZpVXYxMEJRUDQ4QV9yRlZub24xMlc4ZWtKQWlzMXg4OHotTzRFbnV3MGoyUXpnQ0dXRjJVNUZsRm9tR0RtRVkxMnhKMm5QSEJFaXdVZDlkX0lyaVRVRXl6Qlh6Z3BBLVhHd1lfUWpFdk04d192dkg4LWk1TmN1ZVFIUTlrWVRTVmlhS2JiMW9CQmJ5UGpDdGNR0gGmAUFVX3lxTE11Y0tkbV9KOWljZWJ2WXA4VGpLS3Nock1pOU5FNHktbFVOUWV5ck54SkxzSjFFWDBLVVJzdHVOa3dndHpRMEMwaTBrQi1fUnE5MXJLM21WU2t1MjdEYjRPX09TcGh1WGZQRm5XbHhMVUx4NWpIS2ZpaUE1Wmtjd05DOVk0LVNib2hNNW9tOUtFQm00dWV6SlJybzMzMUszX2w0d2VSS2c?oc=5",
-     "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaTA3cFNkTmN1YThQaEpSVkpNX2lsYmIyVF9QbHhteTd2VlU3ZjRLWmR4UGMxMGotNV9Ybk1xam8zektrT3NhUVRfTHdLMWlqdEVQemZvbjdaaVNENnplU0JXM1h6aWxZMHNYTVRpX0VxR1FpU0I1YUhuVXM5SFF0SVExOVhZaVJpRHRfSkpzc2dfREVNQXc5ZlN4bUpJd3Jzdm8wLXFNOElrUTNZTFhjSQ?oc=5"
-    ]
-   },
-   {
-    "categoria": "comunicacion-politica",
-    "tipo_seo": "newsjacking",
-    "titulo": "Aprobación sin conocimiento: el reto de comunicar la gestión cuando nadie ve las obras",
-    "angulo": "Una encuesta muestra que 51,5% aprueba al presidente pero 56,1% desconoce sus obras. La brecha entre hacer y que se sepa es un problema de comunicación política, y las redes y el territorio pueden cerrarla con una narrativa de resultados.",
-    "por_que_hoy": "Infobae publica la encuesta sobre la gestión de Abelardo de la Espriella y la distancia entre aprobación y reconocimiento de obras abre el debate sobre cómo comunicar resultados.",
-    "keyword": "comunicación política",
-    "fuentes": [
-     "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQjhkdFdpRHR4MHhNXzh5NTRFMUM0MGVCUzlUaVVhdXd0SWQ2QjhYdG5CNUxDbVdwYlRLOUVMTEdOTFNNY0I0UjY5UjBQMzZZLUFNTzJZUk4wZE9Xcm5RRDNHa3dFbThMeldPM282bDk2bFZ1NzRuX3pnTU9STmp3UXQ3eUFNenZDcEVfcEM5VjV2SG9uNGpPbHZWWHZ2NVJKeXFheVZ2dEdCazlxMkJuRG1Qc1drWjVFemlycFNPM1gxNzYxNG1EdXhLQVBGaWZkVF9IOWxudTNGamFFdnhYOXRTR3QyaFJBV2J0SEYwbjV1eFBw0gGPAkFVX3lxTE9MSkh5aFhNT2MwYTAxM1Y0X1VrQ0ZGeTdJdl9OcVRQcy1GS3NFM3M5MXFuZlB0TFFHVDhocDRlWmdsbUpKbHk4cDViNFlUSkxDWjktRk1GUmNhdk1UX0NwRjF4ekhFNER6SjBRYUVHd1owalktaV9XRkY4SWF6RzI3akY1TDlWQm1OZFZjMnFHbFpvRDZObnM1UWlfalNSVDhQZmhjR1A1bmxCYzV4S0w4Vjh6ZE1JaW5halpGRXoxNU1FU1AxUlZhaHp0OUh4cTc2a3lqbzlmSmpBM005S01ROTlnUC0tZjBKODFtLVNid1RNY0pQMXlITjUxMkNfUXVCNEUwb3ZBR2RsZ2dlWFk?oc=5"
+     "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0ROMmt5eXIxcTBlbFFndzVlODJyVF9LeEh4Nnhyak5VQjA5OUF0X2pmZ3NoTTN0VE4xNnc2dEFZb25HZlZtb1JrUE9KSDd4UlhQSlc3V0t4QVFoWHJSQ3JJZTJFeHFhdDltSmJfUUxhaVY0OVJMZ1ZkNVdvdzRXZVJxOFo0MDBVMjhWZ2ZsYXk?oc=5",
+     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcW1jZEp2QmpHUXNZc2k4ZDFuTUk2WWpjWE1qTUVtclJRUnVyVFNROTk1QlJ5VFpPLXFpdWNkUVhhSkhBc01hdTU5REx6d3NQSWdyOWZmUHYweldKamJvY05VbnIyWF9oTkhlRV9GaG1UU1hOa1BqeW1XZU1kTkxvSW44eVlfMmhOVUlSVDVEOUU3OXNueFUxMXZONURXZjQ?oc=5"
     ]
    },
    {
     "categoria": "marca-personal",
     "tipo_seo": "newsjacking",
-    "titulo": "Marca personal y seguridad: qué hacer cuando tu exposición en redes pone en riesgo a tu familia",
-    "angulo": "Cuando un creador es víctima de acoso o de un ataque, su marca personal necesita un protocolo de seguridad, de comunicación de crisis y de límites con la comunidad.",
-    "por_que_hoy": "Julioprofe explicó que se ausentó de las redes por amenazas contra su familia, y el influencer 'El Gómez' sufrió un ataque armado en Medellín. Ambos casos reabren el debate sobre la exposición pública.",
-    "keyword": "marca personal",
+    "titulo": "Economía de creadores en 2026: por qué la marca personal vale más que el alcance",
+    "angulo": "Con las tarifas de creadores estancadas y las agencias con márgenes menores, la ventaja ya no está en el número de seguidores sino en una comunidad que confía y compra o vota; la marca personal se vuelve un activo propio, no un canal de alquiler.",
+    "por_que_hoy": "Un informe proyecta que la economía de creadores llegará a 116.000 millones de dólares mientras las marcas aumentan su inversión, y Storyboard18 advierte que las tarifas de los creadores se estancan y los márgenes de las agencias se reducen.",
+    "keyword": "marca personal en redes sociales",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeGY5SU1YWXU2YUMyMEhLWHhZVVU5Yy1jYXNFWTRYakk0ZUw2YzBlVGQtUVhQWWRRdXR1U2VOUVRkUEt5THRkV1d3RkFkV2VJTlB5a19ZNFh0RXgzY1loeHc4aGxJN2pnQ1FpTEtxdktZZTdiVDVkcm1WV1VOQXA1YWtpTVRtR2tlUHV0Y3VsRWN0bXYzN0pjOG1wQ1JqT2lES2Ztck51eHJ1WDNub1BjOXMwYlBBWl9CWDc2VGpnQmtIejYxQkkyVjZUSGtJZXpTSWxwdEZBLWJNMEYxdXIydmtvaWtvX1pQM2pEVFY1U2pFUVpKYkHSAZACQVVfeXFMT0llRGFBNEdoUnFZOVVfMzk3Q3VHbWVPU0ZJVWZjOGhaWG1MQzJZVDBxYmpuR0ZpX3BCX0lKczdLSEpQRERVNU9QbV9iVjhpR0hmVnl4NDhocWQ0QUt0d2hpd084M2Jxa3ZFLVc1bUlMSlJUeUxiSjZEV01YTk5HX09SOXVrbjlJNGNCNU9UWUV2T21LS1RvaGZqekFxS0V6bm8zY056STQ5RkIxY2ZOdnI1Z295WF9xbWhYZ2lkM3FsVG43UkVyNmR1YkNGYVZwaFZoUlpncHYzeGQzSnpXVWU1dEFOWmZkQUFnSEwwRWhCRGdpZGRNd2I5RExjeEQtekxnckltYlktbEVDems0SXQ?oc=5"
+     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcW1jZEp2QmpHUXNZc2k4ZDFuTUk2WWpjWE1qTUVtclJRUnVyVFNROTk1QlJ5VFpPLXFpdWNkUVhhSkhBc01hdTU5REx6d3NQSWdyOWZmUHYweldKamJvY05VbnIyWF9oTkhlRV9GaG1UU1hOa1BqeW1XZU1kTkxvSW44eVlfMmhOVUlSVDVEOUU3OXNueFUxMXZONURXZjQ?oc=5",
+     "https://news.google.com/rss/articles/CBMihAJBVV95cUxQM2NRSDNzLXdyU1luUjk4MHNubHdJdXpqdzBZc1NJbnJLb0FOdlFWSEMwVmNnTkRub182UlIxanh5VFQySkZYa0lPM0VlYnJtXzR2NjBnZG1iRnRoWFZCcVdWTGRIaHhDWWFPWFlXbmVTLVliYWIyRDFtc0poQmpja0FjbnZDT1ptRVBUSkRzRV9sdU1oUDAzSFBvMjdyWFZIZWZ6cWxDTmN0S0NqeFZyQUxaYTJIbVh4UmhOdUE3Mk1UTmVFMnNiMFpQUm5wLV9RN2F0c1NEMTEwM2Z3VEFzd19uMFl6WFV6Q2dvbzZZVDNjd1FSUWVRdkVETm5xNkZ5ZnFCSg?oc=5"
+    ]
+   },
+   {
+    "categoria": "comunicacion-politica",
+    "tipo_seo": "newsjacking",
+    "titulo": "Cuenta oficial o personal: cómo separar la comunicación de gobierno de la de un líder",
+    "angulo": "Cuando la cuenta de un líder se confunde con la del cargo, la estrategia digital se expone a suspensiones, crisis de reputación y pérdida de confianza; separar roles, canales y mensajes protege tanto a la institución como a la persona.",
+    "por_que_hoy": "Un Gobierno pidió a la red social X suspender la cuenta de un expresidente, un caso que pone en primer plano cómo se reparten la comunicación institucional y la personal en redes.",
+    "keyword": "comunicación política",
+    "fuentes": [
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMldZSmFDbkEzSkF3UGJVRHVvOER4d3c3VHpZWVViZ3RCUjMtSUFlckIzaGN2RFJKQzVaa0xFZVJvRlpUQ1puSENJN1haVlVBRkRiN3NaRnpqdnlfUkE3MjNmWXJQTkJ3eWNBNFlwT2p3TmZpVGNXZk05WWp5eURRakg4RHdsbFlyRjZNSEttbVoyQThvRWxMTkl4Y1BMTVAwTUxBcVZrR2RSQ1U4cmNPSWkxbWpQOTRhQXhGci1kVmRWdw?oc=5"
     ]
    },
    {
     "categoria": "ia-para-emprendedores",
     "tipo_seo": "newsjacking",
-    "titulo": "Black Friday 2026 con IA: cómo una pyme colombiana puede vender sin quemar presupuesto",
-    "angulo": "La IA ya toca una quinta parte de las ventas de Cyber Week. Una pyme sin gran presupuesto puede usarla en ofertas, atención al cliente y contenido, midiendo cada peso invertido.",
-    "por_que_hoy": "Black Friday es este viernes 27 de noviembre. Amazon lanza un Black Friday pensado para pymes con herramientas de IA y OpenAI presenta OpenWorks para asesorar a pequeños negocios.",
-    "keyword": "inteligencia artificial para pymes",
+    "titulo": "OpenAI y Coca-Cola forman emprendedores en IA: qué aprender primero si tienes una pyme",
+    "angulo": "Antes de comprar herramientas de IA, el emprendedor necesita priorizar tres usos con retorno medible (atención al cliente, contenido y administración); la formación gratuita que se ofrece hoy permite validarlos sin gran inversión.",
+    "por_que_hoy": "OpenAI lanzó coaching gratuito de IA para pequeños negocios en 20 comunidades de Estados Unidos y Coca-Cola capacitó a 1.100 emprendedores en Costa Rica, con cifras de ahorro de tiempo que despiertan interés en pymes de la región.",
+    "keyword": "inteligencia artificial para emprendedores",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWVd5eGpBdWc4dGNjWnhNRVBjMG1NRlBXblRUUTlnbnVaWUllemtEczB0UFItWm9FQWxrbVZjLTZQWUR6V1doa0pYQ3c0WEdFRW1FeUF3NkxoelRHU05laURUTGo4M2FYUVo0aHJ4S21NWS1NSGR4NkZfdUF0TkdWM1Y1M2dxMnRX?oc=5",
-     "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBwUVNRSFotcWZYaDdRYlZxMGtkNlFYWXdMRDlfWDZlSEdhSVVBT1dOaUZiUDRhLVQ4RHJOU0ZSbVZHUQ?oc=5"
+     "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGZGWGdZdlA2c2Z2M1FEYW8zS0pRSzU4UnBIcUJvNDVBckxjSEVQM2dndkVTakMwbzNLaVpRSFFUbU5RT0lEdzY2ZzQ2d1cxMG5TdzBpVmRzRTlCeElhVGxzZ2dlTmJIZFhUbnRJVGV5UHBZRkFRUWxRSmRIYjFkQWlpVXdDd2RRNllad0taTWE3UGtEaW1oeFRneGVuUmc0VlgzVDh3?oc=5",
+     "https://news.google.com/rss/articles/CBMihAJBVV95cUxQaHkyTERRVV8zMkc2N1ZjQldUWFJ4ekxRdF9nSGZZaVh2cF9SN1drWmplTW5zX1cxSDNxQlAtM2pBVTgyWjNvNVBXRW92cmJNYU94dkdMTkN6VVpQR1RxTDdPaEdzSWxtYVJ2dkZYTXRleTJxeUc5R3hCRGN5U3EtYkg4R1dRQWViZ1R4RWRnYUMtUDhTYWc0UjllMUYyRC1IZW4ySzFDZXBzLUl2Y0lma0FLUGgtYVBpdXFaU2pTRFd5OHh5TkFEWXpIbkR5VjA4S3oxcDRnbWttTlJ3YUlWRlpxekFXUVNZbm01MnBiOTV6d2hDajNXMHpxaTJrTC01TDVrUdIBnwJBVV95cUxPM0hndnRyRll4TVNuaHhJcThmOXFuZUVERWJoc0FvOEpmdUg4Sjk1TmdGR2JUcmpvZUp2U0wxZklRZmt2eV9tcThqRkZRQ3lxNDFoV201TS03WU1oZ1l4a3RHZjU2SjVxMmpwQTdGLUhuQmt3VDBXdlZWcUlQY3ZRNG1ZUFJaNjRqbUJYZFlwV2NCSk9jR0dxbWloR1RKbEtwQ0g0SVRKaGprSGgyVUh0ZGNYS0RyU0JiLW5WMFhlejVPS3YwZ3FKMXdLeDdIY1BFeUctOFJGc2FCZU1CQ2h6cnA0eW5rV2dZZzIxLTREeVVBWUFQYXR6RUxuUEJ3Sl9CM012aEhIb0xvaElHSE5xYWNrWTk1N2VOM041RW9nTQ?oc=5"
     ]
    }
   ],
-  "ts": 1795521093.5109081
+  "ts": 1795607614.32307
  },
  "pending": null,
  "history": [
@@ -182,6 +183,26 @@
   {
    "tema": "Etiqueta tus publicaciones como evento en Instagram: fecha, hora y mapa en 5 minutos",
    "fecha": "2026-11-24"
+  },
+  {
+   "tema": "Tomás Uribe ataca al estratega del presidente en X y luego borra el trino",
+   "fecha": "2026-11-25"
+  },
+  {
+   "tema": "Miss Universo corona a la primera madre: ¿progreso real o limpieza de imagen?",
+   "fecha": "2026-11-25"
+  },
+  {
+   "tema": "Salario mínimo: la mesa suma domésticas y recicladores, ¿inclusión o escena?",
+   "fecha": "2026-11-25"
+  },
+  {
+   "tema": "WhatsApp Business: configura estas 3 cosas antes del Black Friday",
+   "fecha": "2026-11-25"
+  },
+  {
+   "tema": "Instagram: fija 3 publicaciones en tu perfil para que quien entre te compre",
+   "fecha": "2026-11-25"
   }
  ]
 }

@@ -1,68 +1,68 @@
 {
- "offset": 851881642,
+ "offset": 851881645,
  "proposal": {
   "temas": [
    {
     "categoria": "marketing-politico",
-    "tipo_seo": "newsjacking",
-    "titulo": "Qué hace un estratega político en 2027 y por qué hoy lo buscan los candidatos",
-    "angulo": "El estratega que buscan los candidatos ya no solo diseña el discurso: debe dominar datos, redes y pauta, y traducir lo digital en presencia territorial.",
-    "por_que_hoy": "Diario Occidente publica que Carlos Suárez es el estratega más buscado para 2027, y los aspirantes locales arrancan la carrera digital.",
-    "keyword": "estratega digital y político",
+    "tipo_seo": "evergreen",
+    "titulo": "Del clic al voto: cómo llevar tu estrategia digital de campaña a los barrios",
+    "angulo": "Una estrategia digital solo gana elecciones si cada métrica en redes se traduce en una acción concreta en territorio: líderes locales, puntos de contacto y seguimiento de casas visitadas.",
+    "por_que_hoy": "Búsqueda sostenida de 'estrategia digital para campañas políticas' en plena temporada de cierre de campañas y preparación de 2027. Artículo de The Conversation sobre datos de tuits de partidos reabre el debate sobre medir lo digital con impacto real.",
+    "keyword": "estrategia digital para campañas políticas",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUVoeGlZQ3pieWxLc2dTTVBjZE54aTRKZW5VT0VFY0ZtcnNxOEpkTTBiSVVnUWZBSkVkdG93Ti12WURycTlFNHpfSk54MGxmVWVrZV92SnRLUmJSUkh3a0NicEhPWVJuT3NTWjVMLUlNNG1CbGQ0WVFlQUVIVEpBNWRSeVZxZUlZQ3JNVXQxS0RTTUFvdDlsMXZhekk5Z9IBqAFBVV95cUxNUUd3NjFMbW0tM1BOeHpZeVdWeXcyY0VXd0x1SFNIcFJGbDZNWk1IRHlPd2dSc2h3alN3WmRhZzN5S0RkT0JOQW55eC1kNGRsbTdGZFBHQkFQZDQzR2tVT0dQNmxJSldyNjgzeG5PejhTNUV2OTNtMFMyOVh1cnZ4YnpwdUVtLWMxcTF0UXU2X0FUX2hnUjZ1aFdwZGZiTWdPMUFJay0td3M?oc=5"
+     "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdjAxWkJpczVCcXdKYkI2UHJxc2hTNi1KUDRjNEVyTmFfSzkzRVAyc3ZfbkxwLVdzMGIzNXQ1cEtPUWZFTFVVTnlOWWRKckJRUjByYnhERDlYaW5aSDNKbjRCVW5za2Z6ZjdYc0FOWm1zekpsdXVwWVItdlE5M2tjUzhHUEx4ZFhvOWE5cnJ0eS13Q2M?oc=5"
     ]
    },
    {
     "categoria": "marketing-politico",
-    "tipo_seo": "evergreen",
-    "titulo": "Estrategia digital para campañas políticas: los 5 componentes que sí mueven votos",
-    "angulo": "Una campaña digital eficaz se sostiene en cinco piezas (contenido, pauta, comunidad, datos y crisis); si una falla, la estrategia completa pierde tracción en el territorio.",
-    "por_que_hoy": "La cumbre de Ámbito sobre encuestas, gestión de crisis e impacto de la IA en las campañas de 2027 instala la discusión sobre cómo estructurar lo digital.",
-    "keyword": "estrategia digital para campañas políticas",
+    "tipo_seo": "newsjacking",
+    "titulo": "Candidato por firmas, sin partido detrás: el estratega que necesitas en 2027",
+    "angulo": "Cuando un candidato llega por grupo significativo de ciudadanos no tiene maquinaria partidaria, así que su estrategia digital y de comunicación debe construir por sí misma la credibilidad y la red de apoyo.",
+    "por_que_hoy": "La Registraduría reporta aumento de comités y grupos significativos de ciudadanos con miras a 2027. Muchos aspirantes buscan ahora quién les lleve la estrategia digital y política sin partido de respaldo.",
+    "keyword": "estratega político en Colombia",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMiggJBVV95cUxOd0RQa0ZWTzlwYjhtUmFXNWtZa0JpNllWalJMZjNhd2JaNG5sdG5OeFh6YTdCeklxZUdzLUExNVR6Sk41Tk9PNFVTWVRpYU5iOFhPU09yQlA0VTNaRXR1cEowMUtIRnUxeklGS3ItTzlWMkhydDk2eFNhWUI2MG84cklZcHJHRVdrMU9OaDVCa3hjcVV6UktQd3diV0pTcFRWUkQ5TjJTRnE3Q1pjeENGS2V5b0RRb0VHNXBndFNja2pQUjBNU0FScWFyVEtkZEJMbF9BUGtZQ1JaZ0VtN3A3eGJBcXg2eFhWODAycHVkcWdscngyWHJEbU95bU5IZ2hJN2fSAYcCQVVfeXFMTjlELUlzSmp5bi1LY0JoVG5tXzFfZ2hfY2FvekNnQnV1Ym1lakdacE5BeURQbWRVSmxHckxtQnowTEQxMUR3OTc2OXpKRFFTakhCXzIyWFIzdWdIWWg3eV9ndWlPVmd0WWkxd1JCOTJneDhjZHBKUU04VDNZekFmX3huZU5MelpEQUhsUDM3NDJHaHp3S0l4b1o0V2xXMmJDeVFQcThkN1F0ODJsbUpzME1ZLW5CR0RPcmNWX09jelJMdFJ2OTBBSVNzYmJSZ0c1d0xlb0oyVDJnVXluVksxS1dhaFdYZTVucEFOQkUyaFdxVWdRVFRBWk5wbWR6eWNTT2VCbVJmNnc?oc=5"
+     "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMHV4Ti1VX3NxRDJCcUtlUmNsOXU5eEgzNUVNQzczdmxwZW5RZHVHUzhnemxCYVRkY0JqQnRvNFh2Q2pnRlZDWU1SYVBUWjluM3hDY0NOWnNWdWE0cVEzSlZxR0hYMnJNV2ZsWWtoWlhjemxiczVqaTUyVDhmY3FrdkNOX240c1ZoeFNSQXp6YmV0MmUySkh3S2xEWVFKT0Z6bmVjVjJCd1ZjY3VaMUhkNTVFWXlXT3EzbnE3bHh3UTZSdkdfVVVCYi1RMgHeAUFVX3lxTFBVNlNXaERNaUFVUjlObElxXzUwTmNscklvUE9tTm5wSlNKVGhTZGNnUVpMbTJxcFhSN2hZVko1NnE2WFJUM0JwUjUyamxjZnkyQl9waTZGNjJIVXNnZjU5T2VNQ3hFOGJSaVBkbHVpWW9meTdKbTd1bVA3WjhWR01xRjBuR3Eta0t1NkUwVkMxMm1VN2x4SXlmVmpYUDJCS29kNmtNelpPVXVrV0d5TUl0clV4bG1xeDdxS1V3STdqMzhIY1RkT1hYNFFwSW1JdUxGQ2h6XzhrbWNBUTV6Zw?oc=5"
     ]
    },
    {
     "categoria": "comunicacion-politica",
     "tipo_seo": "newsjacking",
-    "titulo": "Debate sin sonido: qué comunican los candidatos cuando callan y cómo lo leen las redes",
-    "angulo": "Los gestos, silencios y encuadres de un debate se convierten en clips que circulan sin audio; el candidato que domina el lenguaje no verbal gana la conversación digital.",
-    "por_que_hoy": "Artículo 14 y los análisis de lenguaje no verbal de IPMARK sobre el último debate a cuatro dominan la conversación sobre comunicación política.",
-    "keyword": "comunicación política",
+    "titulo": "Día de reflexión: qué sí puedes comunicar cuando la ley prohíbe pedir el voto",
+    "angulo": "El silencio electoral no apaga la comunicación política: obliga a trabajar la reputación, la memoria de marca y la escucha, y a distinguir con precisión entre informar, persuadir y propagar.",
+    "por_que_hoy": "Medios colombianos publican hoy qué está permitido y prohibido en la jornada previa a las elecciones del 29 de noviembre. La gente busca el tema justo ahora y los equipos de comunicación necesitan orientación clara.",
+    "keyword": "jornada de reflexión qué se puede hacer",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaThCY1NreVM5NGdkb0VwX3QtZnZQeFdoZUd6MXNtNHJTUldXZ0o4OEdGUEF3aGhGSHd5SEJ4akc1cFA4bDB0U0VrUFpGUkZSS1ZoT3JycHhTeG8tU2VrbFJaWDl5czFSZ1A2RW5pcUpFaWhmVWhIb3I0TWJ3RGlKZWhVWVhDc1dhYWkySXM3cWdyNFhad2s3TUIyaXFtWUNMc21ucjl1RWlQV2FKMWRoaVc4aVFodw?oc=5",
-     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU0NROG55ZHkyeEtCUVpDQ1ZtdWtfT1oxT3FhaHowR1NYMjZNZnp5bllFeUphRXFrUWdCTE43ZHgza0NhYllLb1dOREVlLW9vQlpyNTc3UXl2UXl0OTFmajdBUUVtZHJQc3U4VjI2UlFQcV9DUDZ0cjB6NWNIcGtOdnVYbnlwWnJm?oc=5"
+     "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPekNsNUVnUmpvRS1rdmZZMWhFLUdYSVZONmtVdmJMSzRNOWxwekxpQzVWOUluXzJYQ1FLcXJnaE9Dc29FeWRXX1R2ZkZ4MnlpajFhLVBpbHhFLVlib2NCZk15VjJFMnFZVjhORjNuUmExZUhyTjJYUmgxMDZKNU92NEdPSUZSSEJ2c2JvSlZIbUw4dGxPMlFYcUV3WXVzamRZNWlobjl1QndrWVZFNlpLdGZaSVd4VTUweWV2TDFlMExmak9jUGpJell2cFh0SHJFVFFuRVduZENGc3FORU0taDY0LVUzQ1Q4TU43cjlmSmhxZ9IBjAJBVV95cUxPUXZ3Zks2WUVJcDdXTGhYcVpFLWtiQ21IRlVQT3BZTXc1WUpMR0lOVkRzTmdOUlB5bkJRQUM3WURSaE8tbmg2Um1jSF8zLU9DSWc0QWlBSDdPWmE2b2hra1dPbGlEY0hWQVJPVnNZZzUxYVcxbWVNdTVrZTRBVHBwc2J6VXVmX2Ixa0ZHQ3hvLU5xb3JpWm9CT2U4T19kNXZWdkhFNHRkRzNGMk9kcFFQc1g1ckltTnhUc0tRSmtiZkdteVZRejJzb3ZTOGxQVElvX0NGeDlQa3VhMkRWcHZ4VDVBaGh4ZDNncnZYWXFlMkFoeWwxak1iWlFjTEk0YUpqdm40ZThNWkVyOWZS?oc=5"
     ]
    },
    {
     "categoria": "marca-personal",
     "tipo_seo": "newsjacking",
-    "titulo": "Creadores en crisis: cómo proteger tu reputación digital antes de que llegue el escándalo",
-    "angulo": "La confianza de una comunidad se construye antes de la crisis; un creador necesita protocolos de respuesta, transparencia y límites claros con su audiencia.",
-    "por_que_hoy": "La cobertura de casos de influencers investigados en Colombia y la discusión sobre profesionalizar la industria del creador ponen la reputación digital en el centro.",
-    "keyword": "reputación digital de creadores de contenido Colombia",
+    "titulo": "Profesionalizar tu marca personal como creador: lo que ya exige la industria",
+    "angulo": "La marca personal deja de ser un hobby cuando la industria pide estructura: propuesta de valor clara, métricas verificables, relación con marcas y una comunidad que no dependa de un solo algoritmo.",
+    "por_que_hoy": "CREACODI plantea que la profesionalización de creadores en Colombia 'ya no puede esperar', mientras crece el debate sobre cómo se mueve el dinero publicitario hacia influenciadores.",
+    "keyword": "marca personal en Colombia",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQblFTR3pMU3pDRnN4NzFBLWNSb1g3V05yRVc2b3RUbUZEbDJNQlc3bEIteWVUQlpHNk55MkQ4LXBmOExlTW9sc25YakxXaWZTUllUT1NBVzkxdkhJb3NKZjRDcUFka2dVWmVjdl9YZUdkQmprM2ZXSG9CbE1kMXBHN21TeWZZalFpSFJYNUJORGpGd2tLaFJKd2t2c0x3dFlodU1SUldQWS1YUXk1RG5DenhqaTh6N3JITEUzZlhMa21wOGpkLXFudkl2UzE5cjY5bHhZWkp4M05NNVNqT1Vicm1HTdIB6AFBVV95cUxPeDQzdzNRYWpic1dTVHpJd25abmJpQS1qTzN5VHlpbU1oM0pQOFhpMGRqVVF4cWd4eXRFQ3NQbS1GdmRIVzg0dV9tNGFnbEVqeTlxS2MyMkNRTlpoX0pubWtHcldrY3pYNDBtS3VDLXFBaGtidDNZUkNQa2h5Y3gyazNQY0dDLTJraHB1U3hQdHdoTGU0bU1OdHBIdktPTVZmaXR4MmdLRWtoM3ROMkQ5ZDNkVDE5RHZqZjZzdjN6WUhLc1pDb3NXakxEMjdnVm9VRlc3MkdhRTBkQkFVZDJCa1Z4amc0MTlC?oc=5"
+     "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2hiRjhaVjdkSVI1YVdxSm4zVm1IYzBrNGpWNTFabjF2aHlhUzFzR2JaTEFEb0hCclNfdjJwUU8tcGlwUjlwN25GNDhKVS12VThVY1BjWXpnQ2RiNDhZMDkxUUJvc0t6aUlwS25zeFdmNUdkUlk2QmV4a19lZnVXSUdzVQ?oc=5"
     ]
    },
    {
     "categoria": "ia-para-emprendedores",
-    "tipo_seo": "newsjacking",
-    "titulo": "Borrador de IA en contratación pública: qué debe saber tu pyme antes de vender al Estado",
-    "angulo": "Las reglas que se preparan para usar IA en compras públicas cambiarán los requisitos de documentación y transparencia; la pyme que se adelante gana ventaja en licitaciones.",
-    "por_que_hoy": "Caracol Radio informa que el Gobierno publicó un borrador con reglas para el uso de inteligencia artificial en contratación.",
-    "keyword": "inteligencia artificial contratación pública Colombia",
+    "tipo_seo": "evergreen",
+    "titulo": "Pymes que ya usan IA pero no automatizan: el diagnóstico que haces antes de invertir",
+    "angulo": "Antes de comprar herramientas de IA, una pyme debe mapear sus procesos repetitivos, medir cuánto tiempo y dinero consumen y priorizar uno solo; usar IA no equivale a automatizar.",
+    "por_que_hoy": "Un informe de Semana señala que las pymes de América Latina quieren automatizarse, pero el desconocimiento frena la transformación digital. Búsquedas sobre IA para pymes crecen a fin de año, cuando se planea el presupuesto 2027.",
+    "keyword": "diagnóstico de IA para pymes",
     "fuentes": [
-     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZG1GOVZZTUMzQnJmSHlqTFRNSU1FNE1BQzQ0Nnc5bmcxa183T25raVRkVFYtVm14Tm5ISExiV1RjaFN4Z3EtNVo5WERlV0RDN0JNdEhiR3R2bnJSODRlQ0FnUHBQcGRmVzU3U3RmTGVWcjU2QWJpZHNxSkpPOFItXzE3R2tBeDk3cWhSd0RNa0k5U3YwMWV5ZktGdUczZnNkWGtQTmFub2Y5RXdvdWNQYWJ3Wld3TDlqbnozbl9jT2d1LWtTcXFB0gHbAUFVX3lxTE1WaDV2czhqWEdONlU2a3VPcFlSeWxxVHhCbGFFVjFXVGFzQi1lRE1oRlNfMjhrTGNiYUFOZlZhZ3hHU1RMR29aQ1MzOG03T09TaTFROEwtVXRtaUhPamZjMGJEQ2tnQUdXMlZQMTRJWGw0TmkwYmphUEZGMlJ3OU5jZFh0a0hyMEQ0dV9VM1ZKSGtIWmZWZVZzQWEzSDBmTzR4MW1Qa3QtaFZ5elVSc0ItT3lVQ2ZZblA2cEQzdjQ4WVlTZWNUaEVQeUxjaFBYdEdyQ2tPaW91am40Zw?oc=5"
+     "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPb2lfbk40TlBpdFB4WUtBZzE2QkIteTlfQlZETG9yQ3A4THVoNEZiX3laYmZ1bDI5akQyN2VuaW5GdE5PdU02WlBMYnJqdy1uRWZKN3IyU29HQnEzMXdtSDJYNHB0OHFfUEhIQXY4NmJWVDVJOW8xSTBwd3F6RDlqcC1xOTNCZDlWWExZbVAxdnZQQjEtdmdfNlNhSUJCWEM0dzJtSDFvbm42NGpTMVFtZ1llanc1ZEkwNThSSHNUZnpjSDFRUDlfb2NTS0NMYzltYUMwMVZmTGl0NzhIVUdxR1dQQUZ6eV9rTGMzOG5ZTkpGMTFkRG1F0gH8AUFVX3lxTE9zaXpzNHNDTFRZRmo0cUtJbmNlcEdDQnpHTGNNQk9LdFVjYmk3eXo5ajFETHF6QnY3cEpnZzFhTE5zSkdKSXhvdHpwYjczY0wxbWUwWHNWTnc0OHc1MlJfUW1FN1NOOElJMDFiQXBFNWFNUXpSM1B6TTgyY0FfV0s4eW5WbG9uQzVOck9MaWRBR1AwenR1OXRuQXhaZFAyNGhtbDJiTU5vUWk3bTMxa1k2XzNQRDNWSEF1dFQwaE8wM1hmeW0ySEpTOUtjQlNpSWtfZ2Z0UW5qZzB2MWNXSjc0el9WczFnZXRrTXNYWEFKemh0WmpSaWNwcjlDcg?oc=5"
     ]
    }
   ],
-  "ts": 1795780150.684074
+  "ts": 1795866079.847295
  },
  "pending": null,
  "history": [
+  "Diagnóstico de IA para pymes: por qué usar IA no es lo mismo que automatizar",
   "Qué hace un estratega digital y político en 2027 y por qué lo buscan hoy los candidatos",
   "Seguidores no son votos: cómo medir si tu estrategia digital para campañas políticas funciona",
   "Marca personal en redes sociales: por qué la confianza vale más que el alcance en 2026",
@@ -82,7 +82,7 @@
   "Cuánto cuesta implementar IA en una pyme: presupuesto realista y cómo medir el retorno",
   "Marketing político en el Cesar: cómo armar un plan de campaña para alcaldía, concejo o gobernación 2027"
  ],
- "published": false,
+ "published": true,
  "virales": [
   {
    "tema": "Estafas con GTA 6 que roban tus claves y tus redes",
@@ -243,6 +243,26 @@
   {
    "tema": "Fórmula de 3 frases para convertir la noticia del día en video: caso SOAT",
    "fecha": "2026-11-27"
+  },
+  {
+   "tema": "Salario solidario: ¿buena marca o idea lanzada sin número?",
+   "fecha": "2026-11-28"
+  },
+  {
+   "tema": "Icetex 'congelamos las cuotas': ¿alivio real o titular con letra pequeña?",
+   "fecha": "2026-11-28"
+  },
+  {
+   "tema": "Yani Quintero y la moneda: ¿disculpa pública o defender al jugador?",
+   "fecha": "2026-11-28"
+  },
+  {
+   "tema": "YouTube Shorts: agrupa tus videos en temporadas y episodios",
+   "fecha": "2026-11-28"
+  },
+  {
+   "tema": "Instagram: un caption distinto en cada diapositiva del carrusel",
+   "fecha": "2026-11-28"
   }
  ]
 }
